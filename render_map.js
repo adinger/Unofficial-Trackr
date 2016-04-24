@@ -52,11 +52,10 @@ function initMap() {
 		});
 
 		// Add the circle for this city to the map.
-
-		var circle = getCircle(locmap[place], '#DC143C')
+		var size = locmap[place].number;
+		var circle = getCircle(locmap[place], size, '#DC143C')
 
 		circles.push(circle);
-		console.log('pushed circle in initMap()');
 		//circle.bindTo('center', marker, 'position');
 		bindInfoWindow(circle, map, infowindow);
 		//sleep(50);
@@ -83,12 +82,13 @@ function bindInfoWindow(circle, map, infowindow) {
 // ???
 function addMarkerWithTimeout(position, contentString,timeout) {
 	window.setTimeout(function() {
-		console.log('test');
+		//console.log('test');
 		var infowindow = new google.maps.InfoWindow({
 			content: contentString
 		});
 
-		var local_circle = getCircle(locmap[place], '#DC143C');
+		var size = locmap[place].number;
+		var local_circle = getCircle(locmap[place], size, '#DC143C');
 
 		circles.push(local_circle);
 		bindInfoWindow(local_circle, map, infowindow);
@@ -111,7 +111,7 @@ function drop() {
 	var contentString = "Charge: " + obj.crimes[i]['charge'] + "<br>" + 
 											"Time: " + obj.crimes[i]['time'] + "<br>" + 
 											"School/city person is from: " + obj.crimes[i]['school/city'];
-		console.log(locmap[place]['center']);
+		//console.log(locmap[place]['center']);
 		addMarkerWithTimeout(locmap[place]['center'],contentString, i * 200);
 		i++;
 	}
@@ -119,14 +119,14 @@ function drop() {
 
 // click listener that is attached to the year buttons ('2014' and '2015')
 function refresh(year, txt) {
-	console.log(year)
+	console.log(year);
 	if (year=='2014'){
-		console.log('im in 2014')
+		//console.log('im in 2014')
 		document.getElementById('name').innerHTML = txt;	// hardcodes average age
 		obj = json1;
 	}
 	if (year=='2015'){
-		console.log('im in 2015')
+		//console.log('im in 2015')
 		document.getElementById('name').innerHTML = txt;
 		obj = json2;
 	}
@@ -147,7 +147,6 @@ function refresh_helper(){
 function createCrimeLocationObject(jsonObject) {
 	crimeLocations = {};
 	//console.log(jsonObject);
-
 	for (i = 0; i < jsonObject.crimes.length; i++){
 		var size = 1;
 		jsonObject.crimes[i].time = Number(jsonObject.crimes[i].time);
@@ -159,7 +158,7 @@ function createCrimeLocationObject(jsonObject) {
 		crimeLocations['crime' + i] = { 'center': { 'lat': latitude, 'lng': longitude }};
 
 		// set number of crimes at this same location & time
-		for (j = 0; j < jsonObject.crimes.length; j++){
+		for (j = 0; i != j && j < jsonObject.crimes.length; j++){
 			if (jsonObject.crimes[i].location == jsonObject.crimes[j].location && 
 				jsonObject.crimes[i].time == jsonObject.crimes[j].time){
 				size+=2;
@@ -172,7 +171,10 @@ function createCrimeLocationObject(jsonObject) {
 }
 
 // creates and returns the circle object
-function getCircle(place, fillColor) {
+function getCircle(place, size, fillColor) {
+	// calculate circle's radius based on # of nearby bars
+	var scalingFactor = 1;
+
 	var circle = {
 		path: google.maps.SymbolPath.CIRCLE,
 		//position: locmap[place].center,
@@ -181,15 +183,12 @@ function getCircle(place, fillColor) {
 		strokeWeight: 2,
 		fillColor: fillColor,
 		fillOpacity: 0.35,
-		//map: map,
-		//center: locmap[place].center,
-		scale: 5*place.number
+		scale: scalingFactor*getCircleRadius(place.center)
 	};
 
 	var marker = new google.maps.Marker({
 		position: new google.maps.LatLng(place.center),
 		map: map,
-		//title: cityObj.city,
 		icon: circle
 	});
 
