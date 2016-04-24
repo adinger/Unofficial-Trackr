@@ -23,7 +23,7 @@ function initMap() {
 		json3 = JSON.parse(data2016[2].responseText);
 
 		obj = json1;
-		console.log(obj);
+		//console.log(obj);
 
 		locmap = createCrimeLocationObject(obj);
 
@@ -40,6 +40,7 @@ function initMap() {
 	// Construct the circle for each value in citymap.
 	// Note: We scale the area of the circle based on the population.
 	var i=0;
+	
 	for (var place in locmap) {
 		var contentString = "Charge: " + obj.crimes[i]['charge'] + "<br>" + 
 												"Time: " + obj.crimes[i]['time'] + "<br>" + 
@@ -51,25 +52,17 @@ function initMap() {
 		});
 
 		// Add the circle for this city to the map.
-		var circle = new google.maps.Circle({
-			position: locmap[place].center,
-			strokeColor: '#FFA07A',
-			strokeOpacity: 0,
-			strokeWeight: 2,
-			fillColor: '#DC143C',
-			fillOpacity: 0.35,
-			map: map,
-			center: locmap[place].center,
-			radius: Math.sqrt(locmap[place].number) * 40
-		});
+
+		var circle = getCircle(locmap[place], '#DC143C')
 
 		circles.push(circle);
+		console.log('pushed circle in initMap()');
 		//circle.bindTo('center', marker, 'position');
 		bindInfoWindow(circle, map, infowindow);
 		//sleep(50);
 
 	}
-	console.log("before initializePlacesService");
+
 	placesService = initializePlacesService();
 	map.setOptions({styles: styles});
 }	 // end initMap()
@@ -78,7 +71,7 @@ var previousInfoWindow;
 function bindInfoWindow(circle, map, infowindow) {	
 	circle.addListener('click', function() {
 		if(previousInfoWindow){
-		previousInfoWindow.close();
+			previousInfoWindow.close();
 		}
 
 		infowindow.open(map, this);		
@@ -95,17 +88,7 @@ function addMarkerWithTimeout(position, contentString,timeout) {
 			content: contentString
 		});
 
-		var local_circle = new google.maps.Circle({
-			position: position,
-			strokeColor: '#FFA07A',
-			strokeOpacity: 0,
-			strokeWeight: 2,
-			fillColor: '#DC143C',
-			fillOpacity: 0.35,
-			map: map,
-			center: position,
-			radius: Math.sqrt(locmap[place].number) * 40
-		});
+		var local_circle = getCircle(locmap[place], '#DC143C');
 
 		circles.push(local_circle);
 		bindInfoWindow(local_circle, map, infowindow);
@@ -163,7 +146,7 @@ function refresh_helper(){
 // number of crimes happening at that same location and time
 function createCrimeLocationObject(jsonObject) {
 	crimeLocations = {};
-	console.log(jsonObject);
+	//console.log(jsonObject);
 
 	for (i = 0; i < jsonObject.crimes.length; i++){
 		var size = 1;
@@ -184,6 +167,33 @@ function createCrimeLocationObject(jsonObject) {
 		}		
 		crimeLocations['crime' + i]['number'] = size;	
 	}
-	console.log(crimeLocations);
+	//console.log(crimeLocations);
 	return crimeLocations;
 }
+
+// creates and returns the circle object
+function getCircle(place, fillColor) {
+	var circle = {
+		path: google.maps.SymbolPath.CIRCLE,
+		//position: locmap[place].center,
+		strokeColor: '#FFA07A',
+		strokeOpacity: 0,
+		strokeWeight: 2,
+		fillColor: fillColor,
+		fillOpacity: 0.35,
+		//map: map,
+		//center: locmap[place].center,
+		scale: 5*place.number
+	};
+
+	var marker = new google.maps.Marker({
+		position: new google.maps.LatLng(place.center),
+		map: map,
+		//title: cityObj.city,
+		icon: circle
+	});
+
+	return marker;
+}
+
+
