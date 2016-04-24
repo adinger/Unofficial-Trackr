@@ -6,13 +6,20 @@
     <title>Unofficial crimes</title>
     <link rel="stylesheet" type="text/css" href="assets/css/index.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <style>
+      #map {
+        margin: 20px;
+        padding: 0;
+        height: 500px;
+      }
+    </style>
   </head>
   <body>
     <div id="table">
-      <button class="drop" id="drop" onclick="refresh('2014', '19.3')" value='change text'>2014</button>
-      <button class="drop1" id="drop" onclick="refresh('2015', '20.4')" value='change text'>2015</button>
+      <button class="drop" id="2014button" onclick="refresh('2014', '19.3')" value='change text'>2014</button>
+      <button class="drop1" id="2015button" onclick="refresh('2015', '20.4')" value='change text'>2015</button>
       <br>
-      <button class="drop2" id="drop" onclick="drop()">Animate</button>
+      <button class="drop2" id="animateButton" onclick="drop()">Animate</button>
         <p>Average age: <b id='name'>19.3</b></p>
         <p>Most popular crimes: MIP</p>
         <p>Best agency: CPD</p>

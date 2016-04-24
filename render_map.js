@@ -16,37 +16,18 @@ function initMap() {
 		$.getJSON(dataLocationRoot + dataFileNames[0]),
 		$.getJSON(dataLocationRoot + dataFileNames[1]),
 		$.getJSON(dataLocationRoot + dataFileNames[2])
+
 	).done(function (data2014, data2015, data2016) {
 		json1 = JSON.parse(data2014[2].responseText);
 		json2 = JSON.parse(data2015[2].responseText);
 		json3 = JSON.parse(data2016[2].responseText);
 
-
 		obj = json1;
 		console.log(obj);
 
-		// what does this loop do???
-		for (i = 0; i < obj.crimes.length; i++){	
-			var size=1;
-			obj.crimes[i].time = Number(obj.crimes[i].time);
-			locmap['crime' + i] = {};
-			locmap['crime' + i]['center'] = {}
-			locmap['crime' + i]['center']['lat'] = obj.crimes[i].location.lat;
-			locmap['crime' + i]['center']['lng'] = obj.crimes[i].location.lng;
+		locmap = createCrimeLocationObject(obj);
 
-			for (j=0; j<obj.crimes.length; j++){
-				// what does this if's condition do???
-				if (obj.crimes[i].location==obj.crimes[j].location 
-						&& obj.crimes[i].time==obj.crimes[j].time){	
-					size+=2;
-				}
-			}
-			locmap['crime' + i]['number'] = size;
-		}
-		console.log(locmap);
-
-		(obj.crimes).sort(function(a,b){return a['time']-b['time']});
-		console.log(obj.crimes)
+		(obj.crimes).sort(function(a,b){return a['time']-b['time']});	// how does this sort work???
 	});
 
 	// map's initial configuration
@@ -60,80 +41,81 @@ function initMap() {
 	// Note: We scale the area of the circle based on the population.
 	var i=0;
 	for (var place in locmap) {
-			var contentString = "Charge: " + obj.crimes[i]['charge'] + "<br>" + 
-													"Time: " + obj.crimes[i]['time'] + "<br>" + 
-													"School/city person is from: " + obj.crimes[i]['school/city'];
-			i++;
+		var contentString = "Charge: " + obj.crimes[i]['charge'] + "<br>" + 
+												"Time: " + obj.crimes[i]['time'] + "<br>" + 
+												"School/city person is from: " + obj.crimes[i]['school/city'];
+		i++;
 
-			var infowindow = new google.maps.InfoWindow({
-				content: contentString
-			});
-			// Add the circle for this city to the map.
-			var circle = new google.maps.Circle({
-				position: locmap[place].center,
-				strokeColor: '#FFA07A',
-				strokeOpacity: 0,
-				strokeWeight: 2,
-				fillColor: '#DC143C',
-				fillOpacity: 0.35,
-				map: map,
-				center: locmap[place].center,
-				radius: Math.sqrt(locmap[place].number) * 40
-			});
+		var infowindow = new google.maps.InfoWindow({
+			content: contentString
+		});
 
-			circles.push(circle);
-			//circle.bindTo('center', marker, 'position');
-			bindInfoWindow(circle, map, infowindow);
-			//sleep(50);
-		}
-		map.setOptions({styles: styles});
+		// Add the circle for this city to the map.
+		var circle = new google.maps.Circle({
+			position: locmap[place].center,
+			strokeColor: '#FFA07A',
+			strokeOpacity: 0,
+			strokeWeight: 2,
+			fillColor: '#DC143C',
+			fillOpacity: 0.35,
+			map: map,
+			center: locmap[place].center,
+			radius: Math.sqrt(locmap[place].number) * 40
+		});
+
+		circles.push(circle);
+		//circle.bindTo('center', marker, 'position');
+		bindInfoWindow(circle, map, infowindow);
+		//sleep(50);
+	}
+
+	map.setOptions({styles: styles});
 }	 // end initMap()
 
 var previousInfoWindow;
-function bindInfoWindow(circle, map, infowindow) {
-	
+function bindInfoWindow(circle, map, infowindow) {	
 	circle.addListener('click', function() {
 		if(previousInfoWindow){
 		previousInfoWindow.close();
 		}
 
-		infowindow.open(map, this);
-		
+		infowindow.open(map, this);		
 		previousInfoWindow = infowindow;
 
 	});
+}
 
-	// ???
-	function addMarkerWithTimeout(position, contentString,timeout) {
-		window.setTimeout(function() {
+// ???
+function addMarkerWithTimeout(position, contentString,timeout) {
+	window.setTimeout(function() {
 		console.log('test');
 		var infowindow = new google.maps.InfoWindow({
-				content: contentString
-			});
-		var local_circle =new google.maps.Circle({
-				position: position,
-				strokeColor: '#FFA07A',
-				strokeOpacity: 0,
-				strokeWeight: 2,
-				fillColor: '#DC143C',
-				fillOpacity: 0.35,
-				map: map,
-				center: position,
-				radius: Math.sqrt(locmap[place].number) * 40
-				});
+			content: contentString
+		});
+
+		var local_circle = new google.maps.Circle({
+			position: position,
+			strokeColor: '#FFA07A',
+			strokeOpacity: 0,
+			strokeWeight: 2,
+			fillColor: '#DC143C',
+			fillOpacity: 0.35,
+			map: map,
+			center: position,
+			radius: Math.sqrt(locmap[place].number) * 40
+		});
 
 		circles.push(local_circle);
 		bindInfoWindow(local_circle, map, infowindow);
 
-		}, timeout);
-	}
+	}, timeout);
+}
 
-	function clearMarkers() {
-		for (var i = 0; i < circles.length; i++) {
-			circles[i].setMap(null);
-		}
-		circles = [];
+function clearMarkers() {
+	for (var i = 0; i < circles.length; i++) {
+		circles[i].setMap(null);
 	}
+	circles = [];
 }
 
 // ???
@@ -150,12 +132,12 @@ function drop() {
 	}
 }
 
-// ???
+// click listener that is attached to the year buttons ('2014' and '2015')
 function refresh(year, txt) {
 	console.log(year)
 	if (year=='2014'){
 		console.log('im in 2014')
-		document.getElementById('name').innerHTML = txt;
+		document.getElementById('name').innerHTML = txt;	// hardcodes average age
 		obj = json1;
 	}
 	if (year=='2015'){
@@ -170,25 +152,36 @@ function refresh(year, txt) {
 
 
 function refresh_helper(){
-	locmap = {};
-	console.log(obj);
+	locmap = createCrimeLocationObject(obj);
+	(obj.crimes).sort(function(a,b){return a['time']-b['time']});
+}
 
-	for (i=0; i<obj.crimes.length; i++){
-		var size=1;
-		obj.crimes[i].time = Number(obj.crimes[i].time);
-		locmap['crime' + i] = {};
-		locmap['crime' + i]['center'] = {}
-		locmap['crime' + i]['center']['lat'] = obj.crimes[i].location.lat;
-		locmap['crime' + i]['center']['lng'] = obj.crimes[i].location.lng;
-		for (j=0; j<obj.crimes.length; j++){
-			if (obj.crimes[i].location==obj.crimes[j].location && obj.crimes[i].time==obj.crimes[j].time){
+
+// Creates 'locmap', an object mapping a crime to its coordinates and 
+// number of crimes happening at that same location and time
+function createCrimeLocationObject(jsonObject) {
+	crimeLocations = {};
+	console.log(jsonObject);
+
+	for (i = 0; i < jsonObject.crimes.length; i++){
+		var size = 1;
+		jsonObject.crimes[i].time = Number(jsonObject.crimes[i].time);
+
+		var latitude = obj.crimes[i].location.lat;
+		var longitude = obj.crimes[i].location.lng;
+
+		// add the object for this crime location
+		crimeLocations['crime' + i] = { 'center': { 'lat': latitude, 'lng': longitude }};
+
+		// set number of crimes at this same location & time
+		for (j = 0; j < jsonObject.crimes.length; j++){
+			if (jsonObject.crimes[i].location == jsonObject.crimes[j].location && 
+				jsonObject.crimes[i].time == jsonObject.crimes[j].time){
 				size+=2;
 			}
-		}
-		locmap['crime' + i]['number'] = size;
+		}		
+		crimeLocations['crime' + i]['number'] = size;	
 	}
-	console.log(locmap);
-
-	(obj.crimes).sort(function(a,b){return a['time']-b['time']});
-	console.log(obj.crimes)
+	console.log(crimeLocations);
+	return crimeLocations;
 }
