@@ -67,8 +67,10 @@ function initMap() {
 		//circle.bindTo('center', marker, 'position');
 		bindInfoWindow(circle, map, infowindow);
 		//sleep(50);
-	}
 
+	}
+	console.log("before initializePlacesService");
+	placesService = initializePlacesService();
 	map.setOptions({styles: styles});
 }	 // end initMap()
 
