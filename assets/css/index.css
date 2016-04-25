@@ -9,16 +9,16 @@ html, body {
         height: 100%;
       }
       #table{
-        background-color: #828282;
+        background-color: #d3d3d3;
         z-index: 10;
         position: absolute;
         right: 15px;
-        top:100px;
-        height: 200px;
+        top:50px;
+        height: 320px;
         width: 200px;
-        box-shadow:  5px 5px 3px black;
+        box-shadow:  5px 5px 3px #828282;
         font-family: 'Calibri';
-        color: white;
+        color: black;
         padding-left: 10px;
       }
       .drop{
@@ -33,4 +33,50 @@ html, body {
         margin-left: 65px;
         margin-top: 5px; 
         margin-bottom: 10px;
+      }
+
+
+      /* legend for school colors */
+      .legend {
+        list-style: none;
+        padding-left: 5px;
+      }
+      .legend li {
+        float: left;
+        margin-right: 10px;
+      }
+      .legend span {
+        border: 1px solid #ccc;
+        float: left; width: 12px;
+        height: 12px; margin: 2px;
+      }
+
+      /* colors */
+      .legend .uiuc {
+        background-color: #DC143C;
+        opacity: 0.6;
+      }
+      .legend .illinois-state {
+        background-color: #0000ff;
+        opacity: 0.6;
+      }
+      .legend .champaign {
+        background-color: #00e5ee;
+        opacity: 0.6;
+      }
+      .legend .parkland {
+        background-color: #663300;
+        opacity: 0.6;
+      }
+      .legend .chicago {
+        background-color: #ffa500;
+        opacity: 0.6;
+      }
+      .legend .loyola {
+        background-color: #00ff00;
+        opacity: 0.6;
+      }
+      .legend .other {
+        background-color: #000000;
+        opacity: 0.6;
       }

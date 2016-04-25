@@ -34,7 +34,7 @@ function initMap() {
 	// map's initial configuration
 	map = new google.maps.Map(document.getElementById('map'), {
 		zoom: 14,
-		center: {lat: 40.110588, lng: -88.20727},
+		center: {lat: 40.110588, lng: -88.21},//08},//74},
 		mapTypeId: google.maps.MapTypeId.TERRAIN
 	});
 	addMarkersToMap();
@@ -59,8 +59,30 @@ function addMarkersToMap() {
 
 		// Add the circle for this city to the map.
 		var size = locmap[place].number;
-		var circle = getCircle(locmap[place], size, '#DC143C')
 
+		if (obj.crimes[i]) {
+			if (obj.crimes[i]['school/city']=="UIUC" || obj.crimes[i]['school/city']=="Illinois, Univ of") {
+	            var circle = getCircle(locmap[place], size, '#DC143C');
+	        }
+	        else if (obj.crimes[i]['school/city']=="Illinois State Univ") {
+	        	var circle = getCircle(locmap[place], size, '#0000ff');
+	        }
+	        else if (obj.crimes[i]['school/city']=="Loyola") {
+	        	var circle = getCircle(locmap[place], size, '#00ff00');
+	        }
+	        else if (obj.crimes[i]['school/city']=="Chicago") {
+	        	var circle = getCircle(locmap[place], size, '#ffa500');
+	        }
+	        else if (obj.crimes[i]['school/city']=="Parkland College" || obj.crimes[i]['school/city']=="Parkland CC") {
+	        	var circle = getCircle(locmap[place], size, '#663300');
+	        }
+	        else if (obj.crimes[i]['school/city']=="Champaign") {
+	        	var circle = getCircle(locmap[place], size, '#00e5ee');
+	        }
+	        else {
+	          	var circle = getCircle(locmap[place], size, '#000000');
+	        }
+        }
 		circles.push(circle);
 		bindInfoWindow(circle, map, infowindow);
 	}
@@ -80,7 +102,7 @@ function bindInfoWindow(circle, map, infowindow) {
 }
 
 // ???
-function addMarkerWithTimeout(position, contentString,timeout) {
+function addMarkerWithTimeout(position, contentString, school, timeout) {
 	window.setTimeout(function() {
 		//console.log('test');
 		var infowindow = new google.maps.InfoWindow({
@@ -88,7 +110,28 @@ function addMarkerWithTimeout(position, contentString,timeout) {
 		});
 
 		var size = locmap[place].number;
-		var local_circle = getCircle(locmap[place], size, '#DC143C');
+
+		if (school=="UIUC" || school=="Illinois, Univ of") {
+            var local_circle = getCircle(locmap[place], size, '#DC143C');
+        }
+        else if (school=="Illinois State Univ") {
+        	var local_circle = getCircle(locmap[place], size, '#0000ff');
+        }
+        else if (school=="Loyola") {
+        	var local_circle = getCircle(locmap[place], size, '#00ff00');
+        }
+        else if (school=="Chicago") {
+        	var local_circle = getCircle(locmap[place], size, '#ffa500');
+        }
+        else if (school=="Parkland College" || school=="Parkland CC") {
+        	var local_circle = getCircle(locmap[place], size, '#663300');
+        }
+        else if (school=="Champaign") {
+        	var local_circle = getCircle(locmap[place], size, '#00e5ee');
+        }
+        else {
+          	var local_circle = getCircle(locmap[place], size, '#000000');
+        }
 
 		circles.push(local_circle);
 		bindInfoWindow(local_circle, map, infowindow);
@@ -112,7 +155,10 @@ function drop() {
 						"Time: " + obj.crimes[i]['time'] + "<br>" + 
 						"School/city person is from: " + obj.crimes[i]['school/city'];
 		//console.log(locmap[place]['center']);
-		addMarkerWithTimeout(locmap[place]['center'],contentString, i * 200);
+
+		var school = obj.crimes[i]['school/city'];
+		addMarkerWithTimeout(locmap[place]['center'], contentString, school, i * 200);
+
 		i++;
 	}
 }
@@ -195,5 +241,3 @@ function getCircle(place, size, fillColor) {
 
 	return marker;
 }
-
-
