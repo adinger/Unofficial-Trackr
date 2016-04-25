@@ -7,9 +7,10 @@ var map;
 var circles = [];
 var obj;
 
-
+//var placesService = initializePlacesService();
 // create the map
 function initMap() {
+	console.log('initMap()');
 
 	// retrieve all the data from a public location (github)
 	$.when(
@@ -36,15 +37,20 @@ function initMap() {
 		center: {lat: 40.110588, lng: -88.20727},
 		mapTypeId: google.maps.MapTypeId.TERRAIN
 	});
+	addMarkersToMap();
+	var placesService = initializePlacesService();
+	map.setOptions({styles: styles});
+}	 // end initMap()
 
+function addMarkersToMap() {
 	// Construct the circle for each value in citymap.
 	// Note: We scale the area of the circle based on the population.
 	var i=0;
 	
 	for (var place in locmap) {
 		var contentString = "Charge: " + obj.crimes[i]['charge'] + "<br>" + 
-												"Time: " + obj.crimes[i]['time'] + "<br>" + 
-												"School/city person is from: " + obj.crimes[i]['school/city'];
+							"Time: " + obj.crimes[i]['time'] + "<br>" + 
+							"School/city person is from: " + obj.crimes[i]['school/city'];
 		i++;
 
 		var infowindow = new google.maps.InfoWindow({
@@ -52,20 +58,33 @@ function initMap() {
 		});
 
 		// Add the circle for this city to the map.
-
-		var circle = getCircle(locmap[place], '#DC143C')
+		var size = locmap[place].number;
+		if (obj.crimes[i]['school/city']=="UIUC" || obj.crimes[i]['school/city']=="Illinois, Univ of") {
+            var circle = getCircle(locmap[place], size, '#DC143C');
+        }
+        else if (obj.crimes[i]['school/city']=="Illinois State Univ") {
+        	var circle = getCircle(locmap[place], size, '#0000ff');
+        }
+        else if (obj.crimes[i]['school/city']=="Loyola") {
+        	var circle = getCircle(locmap[place], size, '#00ff00');
+        }
+        else if (obj.crimes[i]['school/city']=="Chicago") {
+        	var circle = getCircle(locmap[place], size, '#ffa500');
+        }
+        else if (obj.crimes[i]['school/city']=="Parkland College" || obj.crimes[i]['school/city']=="Parkland CC") {
+        	var circle = getCircle(locmap[place], size, '#663300');
+        }
+        else if (obj.crimes[i]['school/city']=="Champaign") {
+        	var circle = getCircle(locmap[place], size, '#00e5ee');
+        }
+        else {
+          	var circle = getCircle(locmap[place], size, '#000000');
+        }
 
 		circles.push(circle);
-		console.log('pushed circle in initMap()');
-		//circle.bindTo('center', marker, 'position');
 		bindInfoWindow(circle, map, infowindow);
-		//sleep(50);
-
 	}
-
-	placesService = initializePlacesService();
-	map.setOptions({styles: styles});
-}	 // end initMap()
+}
 
 var previousInfoWindow;
 function bindInfoWindow(circle, map, infowindow) {	
@@ -81,14 +100,35 @@ function bindInfoWindow(circle, map, infowindow) {
 }
 
 // ???
-function addMarkerWithTimeout(position, contentString,timeout) {
+function addMarkerWithTimeout(position, contentString, school, timeout) {
 	window.setTimeout(function() {
-		console.log('test');
+		//console.log('test');
 		var infowindow = new google.maps.InfoWindow({
 			content: contentString
 		});
 
-		var local_circle = getCircle(locmap[place], '#DC143C');
+		var size = locmap[place].number;
+		if (school=="UIUC" || school=="Illinois, Univ of") {
+            var local_circle = getCircle(locmap[place], size, '#DC143C');
+        }
+        else if (school=="Illinois State Univ") {
+        	var local_circle = getCircle(locmap[place], size, '#0000ff');
+        }
+        else if (school=="Loyola") {
+        	var local_circle = getCircle(locmap[place], size, '#00ff00');
+        }
+        else if (school=="Chicago") {
+        	var local_circle = getCircle(locmap[place], size, '#ffa500');
+        }
+        else if (school=="Parkland College" || school=="Parkland CC") {
+        	var local_circle = getCircle(locmap[place], size, '#663300');
+        }
+        else if (school=="Champaign") {
+        	var local_circle = getCircle(locmap[place], size, '#00e5ee');
+        }
+        else {
+          	var local_circle = getCircle(locmap[place], size, '#000000');
+        }
 
 		circles.push(local_circle);
 		bindInfoWindow(local_circle, map, infowindow);
@@ -109,30 +149,32 @@ function drop() {
 	var i=0;
 	for (place in locmap){
 	var contentString = "Charge: " + obj.crimes[i]['charge'] + "<br>" + 
-											"Time: " + obj.crimes[i]['time'] + "<br>" + 
-											"School/city person is from: " + obj.crimes[i]['school/city'];
-		console.log(locmap[place]['center']);
-		addMarkerWithTimeout(locmap[place]['center'],contentString, i * 200);
+						"Time: " + obj.crimes[i]['time'] + "<br>" + 
+						"School/city person is from: " + obj.crimes[i]['school/city'];
+		//console.log(locmap[place]['center']);
+		var school = obj.crimes[i]['school/city'];
+		addMarkerWithTimeout(locmap[place]['center'], contentString, school, i * 200);
 		i++;
 	}
 }
 
 // click listener that is attached to the year buttons ('2014' and '2015')
 function refresh(year, txt) {
-	console.log(year)
+	console.log(year);
 	if (year=='2014'){
-		console.log('im in 2014')
+		//console.log('im in 2014')
 		document.getElementById('name').innerHTML = txt;	// hardcodes average age
 		obj = json1;
 	}
 	if (year=='2015'){
-		console.log('im in 2015')
+		//console.log('im in 2015')
 		document.getElementById('name').innerHTML = txt;
 		obj = json2;
 	}
 
 	refresh_helper();
-	initMap();
+	clearMarkers();
+	addMarkersToMap();
 }
 
 
@@ -147,7 +189,6 @@ function refresh_helper(){
 function createCrimeLocationObject(jsonObject) {
 	crimeLocations = {};
 	//console.log(jsonObject);
-
 	for (i = 0; i < jsonObject.crimes.length; i++){
 		var size = 1;
 		jsonObject.crimes[i].time = Number(jsonObject.crimes[i].time);
@@ -159,7 +200,7 @@ function createCrimeLocationObject(jsonObject) {
 		crimeLocations['crime' + i] = { 'center': { 'lat': latitude, 'lng': longitude }};
 
 		// set number of crimes at this same location & time
-		for (j = 0; j < jsonObject.crimes.length; j++){
+		for (j = 0; i != j && j < jsonObject.crimes.length; j++){
 			if (jsonObject.crimes[i].location == jsonObject.crimes[j].location && 
 				jsonObject.crimes[i].time == jsonObject.crimes[j].time){
 				size+=2;
@@ -172,7 +213,10 @@ function createCrimeLocationObject(jsonObject) {
 }
 
 // creates and returns the circle object
-function getCircle(place, fillColor) {
+function getCircle(place, size, fillColor) {
+	// calculate circle's radius based on # of nearby bars
+	var scalingFactor = 1;
+
 	var circle = {
 		path: google.maps.SymbolPath.CIRCLE,
 		//position: locmap[place].center,
@@ -181,19 +225,14 @@ function getCircle(place, fillColor) {
 		strokeWeight: 2,
 		fillColor: fillColor,
 		fillOpacity: 0.35,
-		//map: map,
-		//center: locmap[place].center,
-		scale: 5*place.number
+		scale: scalingFactor*getCircleRadius(place.center)
 	};
 
 	var marker = new google.maps.Marker({
 		position: new google.maps.LatLng(place.center),
 		map: map,
-		//title: cityObj.city,
 		icon: circle
 	});
 
 	return marker;
 }
-
-
