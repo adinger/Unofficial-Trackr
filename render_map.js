@@ -51,7 +51,6 @@ function addMarkersToMap() {
 		var contentString = "Charge: " + obj.crimes[i]['charge'] + "<br>" + 
 							"Time: " + obj.crimes[i]['time'] + "<br>" + 
 							"School/city person is from: " + obj.crimes[i]['school/city'];
-		i++;
 
 		var infowindow = new google.maps.InfoWindow({
 			content: contentString
@@ -61,6 +60,7 @@ function addMarkersToMap() {
 		var size = locmap[place].number;
 		if (obj.crimes[i]['school/city']=="UIUC" || obj.crimes[i]['school/city']=="Illinois, Univ of") {
             var circle = getCircle(locmap[place], size, '#DC143C');
+            console.log(contentString);
         }
         else if (obj.crimes[i]['school/city']=="Illinois State Univ") {
         	var circle = getCircle(locmap[place], size, '#0000ff');
@@ -80,9 +80,11 @@ function addMarkersToMap() {
         else {
           	var circle = getCircle(locmap[place], size, '#000000');
         }
+        //var circle = getCircle(locmap[place], size, '#DC143C');
 
 		circles.push(circle);
 		bindInfoWindow(circle, map, infowindow);
+		i++;
 	}
 }
 
