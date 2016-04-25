@@ -35,16 +35,16 @@ def decodeAddressToCoordinates( address ):
                         'lng': result['results'][0]['geometry']['location']['lng']
                 }  
 
-with open('2015_unofficial_crimes.json') as data_file:    
+with open('Unofficial2016.json') as data_file:    
     data = json.load(data_file)
 
 
 
 for datum in data["crimes"]:
-        datum["location"] = decodeAddressToCoordinates(format_address(datum["arrest location"]))
+        datum["location"] = decodeAddressToCoordinates(format_address(datum["Arrest Location"]))
         #setattr(datum,"location", decodeAddressToCoordinates(format_address(datum["arrest location"])) )
         print datum["location"]
 
-with open('2015_unofficial_crimes_with_location.json', 'w') as outfile:
+with open('2016_unofficial_crimes_with_location.json', 'w') as outfile:
     json.dump(data, outfile)
 #print decodeAddressToCoordinates(format_address("Fourth and Chamlmers champaign urbana"))
