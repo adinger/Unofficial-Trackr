@@ -60,29 +60,8 @@ function addMarkersToMap() {
 		var size = locmap[place].number;
 
 		if (obj.crimes[i]) {
-			if (obj.crimes[i]['school/city']=="UIUC" || obj.crimes[i]['school/city']=="Illinois, Univ of") {
-	            var circle = getCircle(locmap[place], size, '#DC143C');
-	        }
-	        else if (obj.crimes[i]['school/city']=="Illinois State Univ") {
-	        	var circle = getCircle(locmap[place], size, '#0000ff');
-	        }
-	        else if (obj.crimes[i]['school/city']=="Loyola") {
-	        	var circle = getCircle(locmap[place], size, '#00ff00');
-	        }
-	        else if (obj.crimes[i]['school/city']=="Chicago") {
-	        	var circle = getCircle(locmap[place], size, '#ffa500');
-	        }
-	        else if (obj.crimes[i]['school/city']=="Parkland College" || obj.crimes[i]['school/city']=="Parkland CC") {
-	        	var circle = getCircle(locmap[place], size, '#663300');
-	        }
-	        else if (obj.crimes[i]['school/city']=="Champaign") {
-	        	var circle = getCircle(locmap[place], size, '#00e5ee');
-	        }
-	        else {
-	          	var circle = getCircle(locmap[place], size, '#000000');
-	        }
+			var circle = getColoredCircle(obj.crimes[i]['school/city'], locmap[place]);
         }
-        
 		circles.push(circle);
 		bindInfoWindow(circle, map, infowindow);
 		i++;
@@ -111,29 +90,7 @@ function addMarkerWithTimeout(position, contentString, school, timeout) {
 		});
 
 		var size = locmap[place].number;
-
-		if (school=="UIUC" || school=="Illinois, Univ of") {
-            var local_circle = getCircle(locmap[place], size, '#DC143C');
-        }
-        else if (school=="Illinois State Univ") {
-        	var local_circle = getCircle(locmap[place], size, '#0000ff');
-        }
-        else if (school=="Loyola") {
-        	var local_circle = getCircle(locmap[place], size, '#00ff00');
-        }
-        else if (school=="Chicago") {
-        	var local_circle = getCircle(locmap[place], size, '#ffa500');
-        }
-        else if (school=="Parkland College" || school=="Parkland CC") {
-        	var local_circle = getCircle(locmap[place], size, '#663300');
-        }
-        else if (school=="Champaign") {
-        	var local_circle = getCircle(locmap[place], size, '#00e5ee');
-        }
-        else {
-          	var local_circle = getCircle(locmap[place], size, '#000000');
-        }
-
+		var local_circle = getColoredCircle(school, locmap[place]);
 		circles.push(local_circle);
 		bindInfoWindow(local_circle, map, infowindow);
 
@@ -219,7 +176,7 @@ function createCrimeLocationObject(jsonObject) {
 }
 
 // creates and returns the circle object
-function getCircle(place, size, fillColor) {
+function getCircle(place, fillColor) {
 	// calculate circle's radius based on # of nearby bars
 	var scalingFactor = 1;
 
