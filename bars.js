@@ -1,6 +1,7 @@
 var placesService;
 var barInfoWindow;
 var barMarkers = [];	// list of bar markers
+var barSearchRadius = 0.01; // in units of coordinates
 
 // Initializes the Maps Places Service to find all bars near UIUC. 
 // Call this in initMap(): global var placesService = initializePlacesService();
@@ -30,8 +31,6 @@ function placesServiceCallback(results, status) {
 			var barMarker = createBarMarker(results[i]);
 			barMarkers.push(barMarker);
 		}
-
-		setAllCirclesRadii();
 	}
 }
 
@@ -41,7 +40,8 @@ function createBarMarker(place) {
 	var placeLoc = place.geometry.location;
 	var marker = new google.maps.Marker({
 		map: map,
-		position: place.geometry.location
+		position: place.geometry.location,
+		icon: 'http://1002.nccdn.net/1_5/39b/22a/103/wine-glass.png'
 	});
 
 	google.maps.event.addListener(marker, 'click', function() {
@@ -53,13 +53,9 @@ function createBarMarker(place) {
 
 // Sets the radius of every circle in circles array (defined in render_map.js)
 // based on number of bars that are within a certain search radius
-function setAllCirclesRadii() {
-	for (var c = 0; c < circles.length; c++) {
-		var crimeCoords = circles[c].position;
-		var searchRadius = 5;
-		var numBars = getNearbyBarsCount(crimeCoords, searchRadius);
-		console.log(numBars)
-	}
+function getCircleRadius(location) {
+	var totalBars = getNearbyBarsCount(location, barSearchRadius);
+	return totalBars;
 }
 
 /* 
@@ -72,22 +68,23 @@ return:
 	number of bars within x meters of a location
 */ 
 function getNearbyBarsCount(location, searchRadius) {
-		var cLat = location.lat;
-		var cLng = location.lng;
-
-		var totalBars = 0;
-		// go through all bars and add up the ones in this circle's vicinity
-		for (var b = 0; b < barMarkers.length; b++) {
-			var bLat = barMarkers[b].position.lat;
-			var bLng = barMarkers[b].position.lng;
-			var barCrimeDistance = Math.sqrt(Math.pow(bLat-cLat,2)+Math.pow(bLng-cLng,2))
-
-			if (barCrimeDistance <= searchRadius) {
-				totalBars++;
-			}
+	var cLat = location.lat;
+	var cLng = location.lng;
+	var totalBars = 0;
+	//console.log('crime location: '+cLat+','+cLng);
+	// go through all bars and add up the ones in this circle's vicinity
+	for (var b = 0; b < barMarkers.length; b++) {
+		var position = barMarkers[b].getPosition();
+		var bLat = position.lat();
+		var bLng = position.lng();
+		var barCrimeDistance = Math.sqrt(Math.pow(bLat-cLat,2)+Math.pow(bLng-cLng,2));
+		console.log('barCrimeDistance='+barCrimeDistance);
+		if (barCrimeDistance <= searchRadius) {
+			totalBars++;
 		}
+	}
 
-		return totalBars;
+	return totalBars;
 }
 
 
