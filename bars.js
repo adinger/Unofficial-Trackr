@@ -78,7 +78,7 @@ function getNearbyBarsCount(location, searchRadius) {
 		var bLat = position.lat();
 		var bLng = position.lng();
 		var barCrimeDistance = Math.sqrt(Math.pow(bLat-cLat,2)+Math.pow(bLng-cLng,2));
-		console.log('barCrimeDistance='+barCrimeDistance);
+
 		if (barCrimeDistance <= searchRadius) {
 			totalBars++;
 		}
