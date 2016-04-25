@@ -7,9 +7,10 @@ var map;
 var circles = [];
 var obj;
 
-
+//var placesService = initializePlacesService();
 // create the map
 function initMap() {
+	console.log('initMap()');
 
 	// retrieve all the data from a public location (github)
 	$.when(
@@ -36,15 +37,20 @@ function initMap() {
 		center: {lat: 40.110588, lng: -88.20727},
 		mapTypeId: google.maps.MapTypeId.TERRAIN
 	});
+	addMarkersToMap();
+	var placesService = initializePlacesService();
+	map.setOptions({styles: styles});
+}	 // end initMap()
 
+function addMarkersToMap() {
 	// Construct the circle for each value in citymap.
 	// Note: We scale the area of the circle based on the population.
 	var i=0;
 	
 	for (var place in locmap) {
 		var contentString = "Charge: " + obj.crimes[i]['charge'] + "<br>" + 
-												"Time: " + obj.crimes[i]['time'] + "<br>" + 
-												"School/city person is from: " + obj.crimes[i]['school/city'];
+							"Time: " + obj.crimes[i]['time'] + "<br>" + 
+							"School/city person is from: " + obj.crimes[i]['school/city'];
 		i++;
 
 		var infowindow = new google.maps.InfoWindow({
@@ -56,15 +62,9 @@ function initMap() {
 		var circle = getCircle(locmap[place], size, '#DC143C')
 
 		circles.push(circle);
-		//circle.bindTo('center', marker, 'position');
 		bindInfoWindow(circle, map, infowindow);
-		//sleep(50);
-
 	}
-
-	placesService = initializePlacesService();
-	map.setOptions({styles: styles});
-}	 // end initMap()
+}
 
 var previousInfoWindow;
 function bindInfoWindow(circle, map, infowindow) {	
@@ -109,8 +109,8 @@ function drop() {
 	var i=0;
 	for (place in locmap){
 	var contentString = "Charge: " + obj.crimes[i]['charge'] + "<br>" + 
-											"Time: " + obj.crimes[i]['time'] + "<br>" + 
-											"School/city person is from: " + obj.crimes[i]['school/city'];
+						"Time: " + obj.crimes[i]['time'] + "<br>" + 
+						"School/city person is from: " + obj.crimes[i]['school/city'];
 		//console.log(locmap[place]['center']);
 		addMarkerWithTimeout(locmap[place]['center'],contentString, i * 200);
 		i++;
@@ -132,7 +132,8 @@ function refresh(year, txt) {
 	}
 
 	refresh_helper();
-	initMap();
+	clearMarkers();
+	addMarkersToMap();
 }
 
 
