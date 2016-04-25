@@ -34,7 +34,7 @@ function initMap() {
 	// map's initial configuration
 	map = new google.maps.Map(document.getElementById('map'), {
 		zoom: 14,
-		center: {lat: 40.110588, lng: -88.20727},
+		center: {lat: 40.110588, lng: -88.21},//08},//74},
 		mapTypeId: google.maps.MapTypeId.TERRAIN
 	});
 	addMarkersToMap();
