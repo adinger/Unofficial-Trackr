@@ -51,7 +51,6 @@ function addMarkersToMap() {
 		var contentString = "Charge: " + obj.crimes[i]['charge'] + "<br>" + 
 							"Time: " + obj.crimes[i]['time'] + "<br>" + 
 							"School/city person is from: " + obj.crimes[i]['school/city'];
-		i++;
 
 		var infowindow = new google.maps.InfoWindow({
 			content: contentString
@@ -83,8 +82,10 @@ function addMarkersToMap() {
 	          	var circle = getCircle(locmap[place], size, '#000000');
 	        }
         }
+        
 		circles.push(circle);
 		bindInfoWindow(circle, map, infowindow);
+		i++;
 	}
 }
 
