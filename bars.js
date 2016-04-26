@@ -53,6 +53,7 @@ function createBarMarker(place) {
 
 // Sets the radius of every circle in circles array (defined in render_map.js)
 // based on number of bars that are within a certain search radius
+// location: this is a LatLng object: {'lat': 123, 'lng': 456}
 function getCircleRadius(location) {
 	var totalBars = getNearbyBarsCount(location, barSearchRadius);
 	return totalBars;

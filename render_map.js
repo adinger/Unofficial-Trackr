@@ -7,6 +7,8 @@ var map;
 var circles = [];
 var obj;
 
+var h1 = document.getElementsByTagName('h1')[0];
+
 //var placesService = initializePlacesService();
 // create the map
 function initMap() {
@@ -33,8 +35,8 @@ function initMap() {
 
 	// map's initial configuration
 	map = new google.maps.Map(document.getElementById('map'), {
-		zoom: 14,
-		center: {lat: 40.110588, lng: -88.21},//08},//74},
+		zoom: 15,
+		center: {lat: 40.110588, lng: -88.2355},//08},//74},
 		mapTypeId: google.maps.MapTypeId.TERRAIN
 	});
 	addMarkersToMap();
@@ -64,6 +66,7 @@ function addMarkersToMap() {
         }
 		circles.push(circle);
 		bindInfoWindow(circle, map, infowindow);
+
 		i++;
 	}
 }
@@ -82,15 +85,17 @@ function bindInfoWindow(circle, map, infowindow) {
 }
 
 // ???
-function addMarkerWithTimeout(position, contentString, school, timeout) {
+function addMarkerWithTimeout(position, contentString, school, time1, timeout) {
 	window.setTimeout(function() {
 		//console.log('test');
 		var infowindow = new google.maps.InfoWindow({
 			content: contentString
 		});
-
-		var size = locmap[place].number;
-		var local_circle = getColoredCircle(school, locmap[place]);
+		var time = time1.toString();
+		var sliceLocation = time.length-2;
+		console.log(sliceLocation);
+		h1.textContent = time.slice(0,sliceLocation)+":"+time.slice(sliceLocation,time.length);
+		var local_circle = getColoredCircle(school, position);
 		circles.push(local_circle);
 		bindInfoWindow(local_circle, map, infowindow);
 
@@ -108,14 +113,14 @@ function clearMarkers() {
 function drop() {
 	clearMarkers();
 	var i=0;
-	for (place in locmap){
+	for (var place in locmap){
 	var contentString = "Charge: " + obj.crimes[i]['charge'] + "<br>" + 
 						"Time: " + obj.crimes[i]['time'] + "<br>" + 
 						"School/city person is from: " + obj.crimes[i]['school/city'];
-		//console.log(locmap[place]['center']);
+		console.log(locmap[place]['center']);
 
 		var school = obj.crimes[i]['school/city'];
-		addMarkerWithTimeout(locmap[place]['center'], contentString, school, i * 200);
+		addMarkerWithTimeout(locmap[place], contentString, school, obj.crimes[i]['time'], i * 200);
 
 		i++;
 	}
@@ -188,7 +193,7 @@ function getCircle(place, fillColor) {
 		strokeWeight: 2,
 		fillColor: fillColor,
 		fillOpacity: 0.35,
-		scale: scalingFactor*getCircleRadius(place.center)
+		scale: scalingFactor*getCircleRadius(place.center) // {'lat':123,'lng':345}
 	};
 
 	var marker = new google.maps.Marker({
