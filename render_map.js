@@ -4,9 +4,12 @@ var dataLocationRoot = "https://raw.githubusercontent.com/adinger/Unofficial-Tra
 var json1, json2, json3;
 var locmap = {};
 var map;
+var map1;
+var map2;
 var circles = [];
 var obj;
-
+var slider = 0;
+var end;
 var h1 = document.getElementsByTagName('h1')[0];
 
 //var placesService = initializePlacesService();
@@ -28,17 +31,32 @@ function initMap() {
 		obj = json1;
 		//console.log(obj);
 
-		locmap = createCrimeLocationObject(obj);
+		locmap = createCrimeLocationObject(obj, slider);
 
 		(obj.crimes).sort(function(a,b){return a['time']-b['time']});	// how does this sort work???
 	});
 
 	// map's initial configuration
-	map = new google.maps.Map(document.getElementById('map'), {
+	map = new google.maps.Map(document.getElementById('map'),  {
 		zoom: 15,
 		center: {lat: 40.110588, lng: -88.2355},//08},//74},
 		mapTypeId: google.maps.MapTypeId.TERRAIN
 	});
+
+	map1 = new google.maps.Map(document.getElementById('map1'),  {
+		zoom: 15,
+		center: {lat: 40.110588, lng: -88.2355},//08},//74},
+		mapTypeId: google.maps.MapTypeId.TERRAIN
+	});
+
+	map2 = new google.maps.Map(document.getElementById('map2'),  {
+		zoom: 15,
+		center: {lat: 40.110588, lng: -88.2355},//08},//74},
+		mapTypeId: google.maps.MapTypeId.TERRAIN
+	});
+
+
+
 	addMarkersToMap();
 	var placesService = initializePlacesService();
 	map.setOptions({styles: styles});
@@ -151,30 +169,68 @@ function refresh_helper(){
 	(obj.crimes).sort(function(a,b){return a['time']-b['time']});
 }
 
+//Takes users input and creates a new map.
+function map_slider(val){
+	console.log("got in map_slider");
+
+    if (value > 5) {
+       	end = this.value;
+       	console.log(end);
+       	slider = 1;
+       	console.log(slider);
+       	initMap();
+		refresh();
+   	}
+}
 
 // Creates 'locmap', an object mapping a crime to its coordinates and 
 // number of crimes happening at that same location and time
-function createCrimeLocationObject(jsonObject) {
+function createCrimeLocationObject(jsonObject, slider_val) {
 	crimeLocations = {};
 	//console.log(jsonObject);
-	for (i = 0; i < jsonObject.crimes.length; i++){
-		var size = 1;
-		jsonObject.crimes[i].time = Number(jsonObject.crimes[i].time);
+	for (i = 0; i < jsonObject.crimes.length; i++) {
+		if(slider === 1) {
+			var size = 1;
+			jsonObject.crimes[i].time = Number(jsonObject.crimes[i].time);
 
-		var latitude = obj.crimes[i].location.lat;
-		var longitude = obj.crimes[i].location.lng;
+			if(jsonObject.crimes[i].time <= end) {
 
-		// add the object for this crime location
-		crimeLocations['crime' + i] = { 'center': { 'lat': latitude, 'lng': longitude }};
+				var latitude = obj.crimes[i].location.lat;
+				var longitude = obj.crimes[i].location.lng;
 
-		// set number of crimes at this same location & time
-		for (j = 0; i != j && j < jsonObject.crimes.length; j++){
-			if (jsonObject.crimes[i].location == jsonObject.crimes[j].location && 
-				jsonObject.crimes[i].time == jsonObject.crimes[j].time){
-				size+=2;
+				// add the object for this crime location
+				crimeLocations['crime' + i] = { 'center': { 'lat': latitude, 'lng': longitude }};
 			}
-		}		
-		crimeLocations['crime' + i]['number'] = size;	
+
+			// set number of crimes at this same location & time
+			for (j = 0; i != j && j < jsonObject.crimes.length; j++){
+				if (jsonObject.crimes[i].location == jsonObject.crimes[j].location && 
+					jsonObject.crimes[i].time == jsonObject.crimes[j].time){
+					size+=2;
+				}
+			}		
+			crimeLocations['crime' + i]['number'] = size;
+		}
+
+		else {
+			var size = 1;
+			jsonObject.crimes[i].time = Number(jsonObject.crimes[i].time);
+
+			var latitude = obj.crimes[i].location.lat;
+			var longitude = obj.crimes[i].location.lng;
+
+			// add the object for this crime location
+			crimeLocations['crime' + i] = { 'center': { 'lat': latitude, 'lng': longitude }};
+
+			// set number of crimes at this same location & time
+			for (j = 0; i != j && j < jsonObject.crimes.length; j++){
+				if (jsonObject.crimes[i].location == jsonObject.crimes[j].location && 
+					jsonObject.crimes[i].time == jsonObject.crimes[j].time){
+					size+=2;
+				}
+			}		
+			crimeLocations['crime' + i]['number'] = size;
+		}	
 	}
 	//console.log(crimeLocations);
 	return crimeLocations;
