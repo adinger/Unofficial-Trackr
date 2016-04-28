@@ -11,6 +11,8 @@ var obj;
 var slider = 0;
 var end;
 var h1 = document.getElementsByTagName('h1')[0];
+var year;
+var averageAge;
 
 //var placesService = initializePlacesService();
 // create the map
@@ -145,20 +147,23 @@ function drop() {
 }
 
 // click listener that is attached to the year buttons ('2014' and '2015')
-function refresh(year, txt) {
-	console.log(year);
+function refresh(y, txt) {
+	year = y;
+	averageAge = txt;
+	console.log("REFRESHING YEAR "+year);
 	if (year=='2014'){
-		//console.log('im in 2014')
+		console.log('im in 2014')
 		document.getElementById('name').innerHTML = txt;	// hardcodes average age
 		obj = json1;
 	}
 	if (year=='2015'){
-		//console.log('im in 2015')
+		console.log('im in 2015')
 		document.getElementById('name').innerHTML = txt;
 		obj = json2;
 	}
 
-	refresh_helper();
+	locmap = createCrimeLocationObject(obj);
+	(obj.crimes).sort(function(a,b){return a['time']-b['time']});
 	clearMarkers();
 	addMarkersToMap();
 }
@@ -170,36 +175,40 @@ function refresh_helper(){
 }
 
 //Takes users input and creates a new map.
-function map_slider(val){
+function map_slider(value){
 	console.log("got in map_slider");
 
     if (value > 5) {
-       	end = this.value;
-       	console.log(end);
+       	end = value*100;
+       	console.log('end time: '+end);
        	slider = 1;
-       	console.log(slider);
-       	initMap();
-		refresh();
+       	console.log('slider flag: '+slider);
+       	//initMap();
+       	//clearMarkers();
+       	//addMarkersToMap();
+		refresh(year, averageAge);
    	}
 }
 
 // Creates 'locmap', an object mapping a crime to its coordinates and 
 // number of crimes happening at that same location and time
 function createCrimeLocationObject(jsonObject, slider_val) {
+	console.log("createCrimeLocationObject()");
 	crimeLocations = {};
 	//console.log(jsonObject);
 	for (i = 0; i < jsonObject.crimes.length; i++) {
+		console.log("slider flag="+slider);
 		if(slider === 1) {
 			var size = 1;
 			jsonObject.crimes[i].time = Number(jsonObject.crimes[i].time);
-
-			if(jsonObject.crimes[i].time <= end) {
-
+			if(jsonObject.crimes[i].time <= end) {	// if in time range
+				console.log("time="+jsonObject.crimes[i].time+", end="+end);
 				var latitude = obj.crimes[i].location.lat;
 				var longitude = obj.crimes[i].location.lng;
 
 				// add the object for this crime location
-				crimeLocations['crime' + i] = { 'center': { 'lat': latitude, 'lng': longitude }};
+				crimeLocations['crime' + i] = { 'center': { 'lat': latitude, 'lng': longitude }};		// 
+				crimeLocations['crime' + i]['number'] = size;
 			}
 
 			// set number of crimes at this same location & time
@@ -209,9 +218,7 @@ function createCrimeLocationObject(jsonObject, slider_val) {
 					size+=2;
 				}
 			}		
-			crimeLocations['crime' + i]['number'] = size;
 		}
-
 		else {
 			var size = 1;
 			jsonObject.crimes[i].time = Number(jsonObject.crimes[i].time);
