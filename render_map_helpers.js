@@ -37,13 +37,13 @@ function clearMarkers(map) {
 
 // Takes users input and creates a new map.
 function map_slider(time){
-	if (time > 5) {	// if time > 5 AM
+	//if (time > 5) {	// if time > 5 AM
 		endTime = time*100;
 		var isSlider = 1;
 		refresh('2014', '19.3', isSlider, endTime);
 		refresh('2015', '20.4', isSlider, endTime);
 		refresh('all', '19.5', isSlider, endTime)
- 	}
+ 	//}
 }
 
 
