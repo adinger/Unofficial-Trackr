@@ -1,7 +1,7 @@
 {
   "crimes":[
     {
-      "school/city":"UIUC",
+      "school":"UIUC",
       "arrest location":"100 block of E Armory, C",
       "age":"21",
       "agency":"CPD",
@@ -16,7 +16,7 @@
       "date":"3/7/2014"
     },
     {
-      "school/city":"UIUC",
+      "school":"UIUC",
       "arrest location":"100 block of E Armory, C",
       "age":"22",
       "agency":"CPD",
@@ -31,7 +31,7 @@
       "date":"3/7/2014"
     },
     {
-      "school/city":"UIUC",
+      "school":"UIUC",
       "arrest location":"Locust/Armory, C",
       "age":"22",
       "agency":"CPD",
@@ -46,7 +46,7 @@
       "date":"3/7/2014"
     },
     {
-      "school/city":"UIUC",
+      "school":"UIUC",
       "arrest location":"John/Locust, C",
       "age":"21",
       "agency":"CPD",
@@ -61,7 +61,7 @@
       "date":"3/7/2014"
     },
     {
-      "school/city":"Vanderbilt",
+      "school":"Vanderbilt",
       "arrest location":"White/Sixth, C",
       "age":"21",
       "agency":"CPD",
@@ -76,7 +76,7 @@
       "date":"3/7/2014"
     },
     {
-      "school/city":"UIUC",
+      "school":"UIUC",
       "arrest location":"500 block of block of S Third, C",
       "age":"19",
       "agency":"CPD",
@@ -91,7 +91,7 @@
       "date":"3/7/2014"
     },
     {
-      "school/city":"UIUC",
+      "school":"UIUC",
       "arrest location":"900 block of S Oak, C",
       "age":"22",
       "agency":"CPD",
@@ -106,7 +106,7 @@
       "date":"3/7/2014"
     },
     {
-      "school/city":"Harper College",
+      "school":"Harper College",
       "arrest location":"Third/Armory, C",
       "age":"19",
       "agency":"CPD",
@@ -121,7 +121,7 @@
       "date":"3/7/2014"
     },
     {
-      "school/city":"UIUC",
+      "school":"UIUC",
       "arrest location":"Third/Chalmers, C",
       "age":"20",
       "agency":"CPD",
@@ -136,7 +136,7 @@
       "date":"3/7/2014"
     },
     {
-      "school/city":"UIUC",
+      "school":"UIUC",
       "arrest location":"300 block of E Daniel, C",
       "age":"21",
       "agency":"CPD",
@@ -151,7 +151,7 @@
       "date":"3/7/2014"
     },
     {
-      "school/city":"UIUC",
+      "school":"UIUC",
       "arrest location":"00 block of E John, C",
       "age":"22",
       "agency":"CPD",
@@ -166,7 +166,7 @@
       "date":"3/7/2014"
     },
     {
-      "school/city":"Crystal Lake",
+      "school":"Crystal Lake",
       "arrest location":"800 S First, C",
       "age":"23",
       "agency":"CPD",
@@ -181,7 +181,7 @@
       "date":"3/7/2014"
     },
     {
-      "school/city":"UIUC",
+      "school":"UIUC",
       "arrest location":"100 block of E Daniel, C",
       "age":"19",
       "agency":"CPD",
@@ -196,7 +196,7 @@
       "date":"3/7/2014"
     },
     {
-      "school/city":"UIUC",
+      "school":"UIUC",
       "arrest location":"900 block of S Third, C",
       "age":"19",
       "agency":"CPD",
@@ -211,7 +211,7 @@
       "date":"3/7/2014"
     },
     {
-      "school/city":"UIUC",
+      "school":"UIUC",
       "arrest location":"00 block of E Armory, C",
       "age":"21",
       "agency":"CPD",
@@ -226,7 +226,7 @@
       "date":"3/7/2014"
     },
     {
-      "school/city":"Urbana",
+      "school":"Urbana",
       "arrest location":"Green/Fourth, C",
       "age":"26",
       "agency":"CPD",
@@ -241,7 +241,7 @@
       "date":"3/7/2014"
     },
     {
-      "school/city":"Hawthorn Woods",
+      "school":"Hawthorn Woods",
       "arrest location":"Green/Fourth, C",
       "age":"23",
       "agency":"CPD",
@@ -256,7 +256,7 @@
       "date":"3/7/2014"
     },
     {
-      "school/city":"UIUC",
+      "school":"UIUC",
       "arrest location":"Third/Chalmers, C",
       "age":"21",
       "agency":"CPD",
@@ -271,7 +271,7 @@
       "date":"3/7/2014"
     },
     {
-      "school/city":"UIUC",
+      "school":"UIUC",
       "arrest location":"800 block of S First, C",
       "age":"21",
       "agency":"CPD",
@@ -286,7 +286,7 @@
       "date":"3/7/2014"
     },
     {
-      "school/city":"UIUC",
+      "school":"UIUC",
       "arrest location":"Daniel/Fourth, C",
       "age":"22",
       "agency":"CPD",
@@ -301,7 +301,7 @@
       "date":"3/7/2014"
     },
     {
-      "school/city":"UIUC",
+      "school":"UIUC",
       "arrest location":"900 block of S First, C",
       "age":"23",
       "agency":"CPD",
@@ -316,7 +316,7 @@
       "date":"3/7/2014"
     },
     {
-      "school/city":"Springfield",
+      "school":"Springfield",
       "arrest location":"Daniel/Locust, C",
       "age":"22",
       "agency":"CPD",
@@ -331,7 +331,7 @@
       "date":"3/7/2014"
     },
     {
-      "school/city":"UIUC",
+      "school":"UIUC",
       "arrest location":"100 block of E Springfield, C",
       "age":"23",
       "agency":"CPD",
@@ -346,7 +346,7 @@
       "date":"3/7/2014"
     },
     {
-      "school/city":"Madison",
+      "school":"Madison",
       "arrest location":"700 block of S Locust, C",
       "age":"21",
       "agency":"CPD",
@@ -361,7 +361,7 @@
       "date":"3/7/2014"
     },
     {
-      "school/city":"Warwick College",
+      "school":"Warwick College",
       "arrest location":"700 block of S Locust, C",
       "age":"21",
       "agency":"CPD",
@@ -376,7 +376,7 @@
       "date":"3/7/2014"
     },
     {
-      "school/city":"UIUC",
+      "school":"UIUC",
       "arrest location":"700 block of S Locust, C",
       "age":"23",
       "agency":"CPD",
@@ -391,7 +391,7 @@
       "date":"3/7/2014"
     },
     {
-      "school/city":"UIUC",
+      "school":"UIUC",
       "arrest location":"500 block of S Locust, C",
       "age":"22",
       "agency":"CPD",
@@ -406,7 +406,7 @@
       "date":"3/7/2014"
     },
     {
-      "school/city":"UIUC",
+      "school":"UIUC",
       "arrest location":"500 block of S Locust, C",
       "age":"21",
       "agency":"CPD",
@@ -421,7 +421,7 @@
       "date":"3/7/2014"
     },
     {
-      "school/city":"UIUC",
+      "school":"UIUC",
       "arrest location":"500 block of S Locust, C",
       "age":"22",
       "agency":"CPD",
@@ -436,7 +436,7 @@
       "date":"3/7/2014"
     },
     {
-      "school/city":"North Central College",
+      "school":"North Central College",
       "arrest location":"500 block of S Locust, C",
       "age":"22",
       "agency":"CPD",
@@ -451,7 +451,7 @@
       "date":"3/7/2014"
     },
     {
-      "school/city":"UIUC",
+      "school":"UIUC",
       "arrest location":"900 block of S Oak, C",
       "age":"20",
       "agency":"CPD",
@@ -466,7 +466,7 @@
       "date":"3/7/2014"
     },
     {
-      "school/city":"UIUC",
+      "school":"UIUC",
       "arrest location":"Chalmers/Oak, C",
       "age":"21",
       "agency":"CPD",
@@ -481,7 +481,7 @@
       "date":"3/7/2014"
     },
     {
-      "school/city":"Clarendon Hills",
+      "school":"Clarendon Hills",
       "arrest location":"Green/First, C",
       "age":"22",
       "agency":"CPD",
@@ -496,7 +496,7 @@
       "date":"3/7/2014"
     },
     {
-      "school/city":"UIUC",
+      "school":"UIUC",
       "arrest location":"Locust/John, C",
       "age":"22",
       "agency":"CPD",
@@ -511,7 +511,7 @@
       "date":"3/7/2014"
     },
     {
-      "school/city":"UIUC",
+      "school":"UIUC",
       "arrest location":"00 block of E Daniel, C",
       "age":"23",
       "agency":"CPD",
@@ -526,7 +526,7 @@
       "date":"3/7/2014"
     },
     {
-      "school/city":"UIUC",
+      "school":"UIUC",
       "arrest location":"00 block of E Daniel, C",
       "age":"23",
       "agency":"CPD",
@@ -541,7 +541,7 @@
       "date":"3/7/2014"
     },
     {
-      "school/city":"UIUC",
+      "school":"UIUC",
       "arrest location":"1000 block of S Locust, C",
       "age":"19",
       "agency":"CPD",
@@ -556,7 +556,7 @@
       "date":"3/7/2014"
     },
     {
-      "school/city":"UIUC",
+      "school":"UIUC",
       "arrest location":"1000 block of S Locust, C",
       "age":"20",
       "agency":"CPD",
@@ -571,7 +571,7 @@
       "date":"3/7/2014"
     },
     {
-      "school/city":"UIUC",
+      "school":"UIUC",
       "arrest location":"1000 block of S Locust, C",
       "age":"20",
       "agency":"CPD",
@@ -586,7 +586,7 @@
       "date":"3/7/2014"
     },
     {
-      "school/city":"UIUC",
+      "school":"UIUC",
       "arrest location":"1000 block of S Locust, C",
       "age":"20",
       "agency":"CPD",
@@ -601,7 +601,7 @@
       "date":"3/7/2014"
     },
     {
-      "school/city":"UIUC",
+      "school":"UIUC",
       "arrest location":"600 block of S Third, C",
       "age":"21",
       "agency":"CPD",
@@ -616,7 +616,7 @@
       "date":"3/7/2014"
     },
     {
-      "school/city":"Columbia College",
+      "school":"Columbia College",
       "arrest location":"600 block of S Third, C",
       "age":"20",
       "agency":"CPD",
@@ -631,7 +631,7 @@
       "date":"3/7/2014"
     },
     {
-      "school/city":"Champaign",
+      "school":"Champaign",
       "arrest location":"300 block of E Daniel, C",
       "age":"27",
       "agency":"CPD",
@@ -646,7 +646,7 @@
       "date":"3/7/2014"
     },
     {
-      "school/city":"UIUC",
+      "school":"UIUC",
       "arrest location":"300 block of E Daniel, C",
       "age":"20",
       "agency":"CPD",
@@ -661,7 +661,7 @@
       "date":"3/7/2014"
     },
     {
-      "school/city":"UIUC",
+      "school":"UIUC",
       "arrest location":"300 block of E Daniel, C",
       "age":"19",
       "agency":"CPD",
@@ -676,7 +676,7 @@
       "date":"3/7/2014"
     },
     {
-      "school/city":"UIUC",
+      "school":"UIUC",
       "arrest location":"300 block of E Daniel, C",
       "age":"18",
       "agency":"CPD",
@@ -691,7 +691,7 @@
       "date":"3/7/2014"
     },
     {
-      "school/city":"UIUC",
+      "school":"UIUC",
       "arrest location":"300 block of E Daniel, C",
       "age":"26",
       "agency":"CPD",
@@ -706,7 +706,7 @@
       "date":"3/7/2014"
     },
     {
-      "school/city":"UIUC",
+      "school":"UIUC",
       "arrest location":"300 block of E Daniel, C",
       "age":"20",
       "agency":"CPD",
@@ -721,7 +721,7 @@
       "date":"3/7/2014"
     },
     {
-      "school/city":"Chicago",
+      "school":"Chicago",
       "arrest location":"300 block of E Daniel, C",
       "age":"19",
       "agency":"CPD",
@@ -736,7 +736,7 @@
       "date":"3/7/2014"
     },
     {
-      "school/city":"Chicago",
+      "school":"Chicago",
       "arrest location":"300 block of E Daniel, C",
       "age":"19",
       "agency":"CPD",
@@ -751,7 +751,7 @@
       "date":"3/7/2014"
     },
     {
-      "school/city":"UIUC",
+      "school":"UIUC",
       "arrest location":"300 block of E Daniel, C",
       "age":"20",
       "agency":"CPD",
@@ -766,7 +766,7 @@
       "date":"3/7/2014"
     },
     {
-      "school/city":"UIUC",
+      "school":"UIUC",
       "arrest location":"300 block of E Daniel, C",
       "age":"19",
       "agency":"CPD",
@@ -781,7 +781,7 @@
       "date":"3/7/2014"
     },
     {
-      "school/city":"UIUC",
+      "school":"UIUC",
       "arrest location":"900 block of S Third, C",
       "age":"18",
       "agency":"CPD",
@@ -796,7 +796,7 @@
       "date":"3/7/2014"
     },
     {
-      "school/city":"Harper College",
+      "school":"Harper College",
       "arrest location":"900 block of S Third, C",
       "age":"19",
       "agency":"CPD",
@@ -811,7 +811,7 @@
       "date":"3/7/2014"
     },
     {
-      "school/city":"College of Lake Co",
+      "school":"College of Lake Co",
       "arrest location":"300 block of E Chalmers, C",
       "age":"19",
       "agency":"CPD",
@@ -826,7 +826,7 @@
       "date":"3/7/2014"
     },
     {
-      "school/city":"UIUC",
+      "school":"UIUC",
       "arrest location":"300 block of E Chalmers, C",
       "age":"19",
       "agency":"CPD",
@@ -841,7 +841,7 @@
       "date":"3/7/2014"
     },
     {
-      "school/city":"UIUC",
+      "school":"UIUC",
       "arrest location":"300 block of E Chalmers, C",
       "age":"20",
       "agency":"CPD",
@@ -856,7 +856,7 @@
       "date":"3/7/2014"
     },
     {
-      "school/city":"UIUC",
+      "school":"UIUC",
       "arrest location":"300 block of E Chalmers, C",
       "age":"19",
       "agency":"CPD",
@@ -871,7 +871,7 @@
       "date":"3/7/2014"
     },
     {
-      "school/city":"UIUC",
+      "school":"UIUC",
       "arrest location":"300 block of E Chalmers, C",
       "age":"18",
       "agency":"CPD",
@@ -886,7 +886,7 @@
       "date":"3/7/2014"
     },
     {
-      "school/city":"UIUC",
+      "school":"UIUC",
       "arrest location":"300 block of E Chalmers, C",
       "age":"20",
       "agency":"CPD",
@@ -901,7 +901,7 @@
       "date":"3/7/2014"
     },
     {
-      "school/city":"UIUC",
+      "school":"UIUC",
       "arrest location":"300 block of E Chalmers, C",
       "age":"20",
       "agency":"CPD",
@@ -916,7 +916,7 @@
       "date":"3/7/2014"
     },
     {
-      "school/city":"Hanover Park",
+      "school":"Hanover Park",
       "arrest location":"300 block of E Chalmers, C",
       "age":"19",
       "agency":"CPD",
@@ -931,7 +931,7 @@
       "date":"3/7/2014"
     },
     {
-      "school/city":"UIUC",
+      "school":"UIUC",
       "arrest location":"300 block of E Chalmers, C",
       "age":"19",
       "agency":"CPD",
@@ -946,7 +946,7 @@
       "date":"3/7/2014"
     },
     {
-      "school/city":"UIUC",
+      "school":"UIUC",
       "arrest location":"300 block of E Chalmers, C",
       "age":"19",
       "agency":"CPD",
@@ -961,7 +961,7 @@
       "date":"3/7/2014"
     },
     {
-      "school/city":"UIUC",
+      "school":"UIUC",
       "arrest location":"300 block of E Chalmers, C",
       "age":"20",
       "agency":"CPD",
@@ -976,7 +976,7 @@
       "date":"3/7/2014"
     },
     {
-      "school/city":"UIUC",
+      "school":"UIUC",
       "arrest location":"Third/Chalmers, C",
       "age":"20",
       "agency":"CPD",
@@ -991,7 +991,7 @@
       "date":"3/7/2014"
     },
     {
-      "school/city":"UIUC",
+      "school":"UIUC",
       "arrest location":"300 block of E Green, C",
       "age":"20",
       "agency":"CPD",
@@ -1006,7 +1006,7 @@
       "date":"3/7/2014"
     },
     {
-      "school/city":"Richland CC",
+      "school":"Richland CC",
       "arrest location":"Fourth/John, C",
       "age":"19",
       "agency":"CPD",
@@ -1021,7 +1021,7 @@
       "date":"3/7/2014"
     },
     {
-      "school/city":"UIUC",
+      "school":"UIUC",
       "arrest location":"100 block of E Daniel, C",
       "age":"21",
       "agency":"CPD",
@@ -1036,7 +1036,7 @@
       "date":"3/7/2014"
     },
     {
-      "school/city":"Chicago",
+      "school":"Chicago",
       "arrest location":"Second/Chalmers, C",
       "age":"23",
       "agency":"CPD",
@@ -1051,7 +1051,7 @@
       "date":"3/7/2014"
     },
     {
-      "school/city":"St Rita HS",
+      "school":"St Rita HS",
       "arrest location":"Third/Healey, C",
       "age":"18",
       "agency":"CPD",
@@ -1066,7 +1066,7 @@
       "date":"3/7/2014"
     },
     {
-      "school/city":"St Rita HS",
+      "school":"St Rita HS",
       "arrest location":"Third/Healey, C",
       "age":"18",
       "agency":"CPD",
@@ -1081,7 +1081,7 @@
       "date":"3/7/2014"
     },
     {
-      "school/city":"St Rita HS",
+      "school":"St Rita HS",
       "arrest location":"Third/Healey, C",
       "age":"18",
       "agency":"CPD",
@@ -1096,7 +1096,7 @@
       "date":"3/7/2014"
     },
     {
-      "school/city":"UIC",
+      "school":"UIC",
       "arrest location":"200 block of E Green, C",
       "age":"24",
       "agency":"CPD",
@@ -1111,7 +1111,7 @@
       "date":"3/7/2014"
     },
     {
-      "school/city":"UIC",
+      "school":"UIC",
       "arrest location":"Fourth/Chalmers, C",
       "age":"18",
       "agency":"CPD",
@@ -1126,7 +1126,7 @@
       "date":"3/7/2014"
     },
     {
-      "school/city":"UIC",
+      "school":"UIC",
       "arrest location":"Fourth/Chalmers, C",
       "age":"18",
       "agency":"CPD",
@@ -1141,7 +1141,7 @@
       "date":"3/7/2014"
     },
     {
-      "school/city":"Parkland College",
+      "school":"Parkland College",
       "arrest location":"Third/Chalmers, C",
       "age":"19",
       "agency":"CPD",
@@ -1156,7 +1156,7 @@
       "date":"3/7/2014"
     },
     {
-      "school/city":"Grand Valley St",
+      "school":"Grand Valley St",
       "arrest location":"First/Chalmers, C",
       "age":"21",
       "agency":"CPD",
@@ -1171,7 +1171,7 @@
       "date":"3/7/2014"
     },
     {
-      "school/city":"UIUC",
+      "school":"UIUC",
       "arrest location":"First/Daniel, C",
       "age":"19",
       "agency":"CPD",
@@ -1186,7 +1186,7 @@
       "date":"3/7/2014"
     },
     {
-      "school/city":"UIUC",
+      "school":"UIUC",
       "arrest location":"Armory/Euclid, C",
       "age":"20",
       "agency":"CPD",
@@ -1201,7 +1201,7 @@
       "date":"3/7/2014"
     },
     {
-      "school/city":"UIUC",
+      "school":"UIUC",
       "arrest location":"Locust/Chalmers, C",
       "age":"20",
       "agency":"CPD",
@@ -1216,7 +1216,7 @@
       "date":"3/7/2014"
     },
     {
-      "school/city":"UIUC",
+      "school":"UIUC",
       "arrest location":"900 block of S Oak, C",
       "age":"20",
       "agency":"CPD",
@@ -1231,7 +1231,7 @@
       "date":"3/7/2014"
     },
     {
-      "school/city":"UIUC",
+      "school":"UIUC",
       "arrest location":"900 block of S Oak, C",
       "age":"20",
       "agency":"CPD",
@@ -1246,7 +1246,7 @@
       "date":"3/7/2014"
     },
     {
-      "school/city":"UIUC",
+      "school":"UIUC",
       "arrest location":"500 block of S Fourth, C",
       "age":"21",
       "agency":"CPD",
@@ -1261,7 +1261,7 @@
       "date":"3/7/2014"
     },
     {
-      "school/city":"UIUC",
+      "school":"UIUC",
       "arrest location":"Locust/Daniel, C",
       "age":"23",
       "agency":"CPD",
@@ -1276,7 +1276,7 @@
       "date":"3/7/2014"
     },
     {
-      "school/city":"Kankakee CC",
+      "school":"Kankakee CC",
       "arrest location":"100 block of E Green, C",
       "age":"21",
       "agency":"CPD",
@@ -1291,7 +1291,7 @@
       "date":"3/7/2014"
     },
     {
-      "school/city":"Normal",
+      "school":"Normal",
       "arrest location":"800 block of S Third, C",
       "age":"21",
       "agency":"CPD",
@@ -1306,7 +1306,7 @@
       "date":"3/7/2014"
     },
     {
-      "school/city":"Normal",
+      "school":"Normal",
       "arrest location":"800 block of S Third, C",
       "age":"21",
       "agency":"CPD",
@@ -1321,7 +1321,7 @@
       "date":"3/7/2014"
     },
     {
-      "school/city":"UIUC",
+      "school":"UIUC",
       "arrest location":"900 block of S First, C",
       "age":"22",
       "agency":"CPD",
@@ -1336,7 +1336,7 @@
       "date":"3/7/2014"
     },
     {
-      "school/city":"Ames",
+      "school":"Ames",
       "arrest location":"Locust/John, C",
       "age":"19",
       "agency":"CPD",
@@ -1351,7 +1351,7 @@
       "date":"3/7/2014"
     },
     {
-      "school/city":"Ames",
+      "school":"Ames",
       "arrest location":"Locust/John, C",
       "age":"19",
       "agency":"CPD",
@@ -1366,7 +1366,7 @@
       "date":"3/7/2014"
     },
     {
-      "school/city":"Champaign",
+      "school":"Champaign",
       "arrest location":"Daniel/Second, C",
       "age":"21",
       "agency":"CPD",
@@ -1381,7 +1381,7 @@
       "date":"3/7/2014"
     },
     {
-      "school/city":"UIUC",
+      "school":"UIUC",
       "arrest location":"600 block of E Green, C",
       "age":"20",
       "agency":"CPD",
@@ -1396,7 +1396,7 @@
       "date":"3/7/2014"
     },
     {
-      "school/city":"Champaign",
+      "school":"Champaign",
       "arrest location":"Wright/Green, C",
       "age":"21",
       "agency":"CPD",
@@ -1411,7 +1411,7 @@
       "date":"3/7/2014"
     },
     {
-      "school/city":"UIUC",
+      "school":"UIUC",
       "arrest location":"Fourth/Chalmers, C",
       "age":"22",
       "agency":"CPD",
@@ -1426,7 +1426,7 @@
       "date":"3/7/2014"
     },
     {
-      "school/city":"Bradley",
+      "school":"Bradley",
       "arrest location":"First/Daniel, C",
       "age":"22",
       "agency":"CPD",
@@ -1441,7 +1441,7 @@
       "date":"3/7/2014"
     },
     {
-      "school/city":"Peoria",
+      "school":"Peoria",
       "arrest location":"First/Daniel, C",
       "age":"23",
       "agency":"CPD",
@@ -1456,7 +1456,7 @@
       "date":"3/7/2014"
     },
     {
-      "school/city":"St Anne",
+      "school":"St Anne",
       "arrest location":"Springfield/Neil, C",
       "age":"20",
       "agency":"CPD",
@@ -1471,7 +1471,7 @@
       "date":"3/7/2014"
     },
     {
-      "school/city":"UIUC",
+      "school":"UIUC",
       "arrest location":"300 block of E Chalmers, C",
       "age":"22",
       "agency":"CPD",
@@ -1486,7 +1486,7 @@
       "date":"3/7/2014"
     },
     {
-      "school/city":"UIUC",
+      "school":"UIUC",
       "arrest location":"Chalmers/Oak, C",
       "age":"21",
       "agency":"CPD",
@@ -1501,7 +1501,7 @@
       "date":"3/7/2014"
     },
     {
-      "school/city":"UIUC",
+      "school":"UIUC",
       "arrest location":"Chalmers/Oak, C",
       "age":"22",
       "agency":"CPD",
@@ -1516,7 +1516,7 @@
       "date":"3/7/2014"
     },
     {
-      "school/city":"UIUC",
+      "school":"UIUC",
       "arrest location":"Chalmers/Locust, C",
       "age":"22",
       "agency":"CPD",
@@ -1531,7 +1531,7 @@
       "date":"3/7/2014"
     },
     {
-      "school/city":"Savoy",
+      "school":"Savoy",
       "arrest location":"200 block of W Clark, C",
       "age":"19",
       "agency":"CPD",
@@ -1546,7 +1546,7 @@
       "date":"3/8/2014"
     },
     {
-      "school/city":"Savannah Tech",
+      "school":"Savannah Tech",
       "arrest location":"300 block of E Green, C",
       "age":"20",
       "agency":"CPD",
@@ -1561,7 +1561,7 @@
       "date":"3/7/2014"
     },
     {
-      "school/city":"Champaign",
+      "school":"Champaign",
       "arrest location":"2200 block of W John, C",
       "age":"41",
       "agency":"CPD",
@@ -1576,7 +1576,7 @@
       "date":"3/7/2014"
     },
     {
-      "school/city":"UIUC",
+      "school":"UIUC",
       "arrest location":"00 block of E John, C",
       "age":"22",
       "agency":"UIPD",
@@ -1591,7 +1591,7 @@
       "date":"3/7/2014"
     },
     {
-      "school/city":"Chicago",
+      "school":"Chicago",
       "arrest location":"John/Daniel, C",
       "age":"23",
       "agency":"UIPD",
@@ -1606,7 +1606,7 @@
       "date":"3/7/2014"
     },
     {
-      "school/city":"UIUC",
+      "school":"UIUC",
       "arrest location":"00 block of E John, C",
       "age":"22",
       "agency":"UIPD",
@@ -1621,7 +1621,7 @@
       "date":"3/7/2014"
     },
     {
-      "school/city":"UIUC",
+      "school":"UIUC",
       "arrest location":"800 block of W Illinois, U",
       "age":"20",
       "agency":"UPD",
@@ -1636,7 +1636,7 @@
       "date":"3/7/2014"
     },
     {
-      "school/city":"Parkland College",
+      "school":"Parkland College",
       "arrest location":"800 block of W Iowa, U",
       "age":"18",
       "agency":"UPD",
@@ -1651,7 +1651,7 @@
       "date":"3/7/2014"
     },
     {
-      "school/city":"UIUC",
+      "school":"UIUC",
       "arrest location":"800 block of W Iowa, U",
       "age":"19",
       "agency":"UPD",
@@ -1666,7 +1666,7 @@
       "date":"3/7/2014"
     },
     {
-      "school/city":"UIUC",
+      "school":"UIUC",
       "arrest location":"800 block of W Iowa, U",
       "age":"19",
       "agency":"UPD",
@@ -1681,7 +1681,7 @@
       "date":"3/7/2014"
     },
     {
-      "school/city":"Parkland College",
+      "school":"Parkland College",
       "arrest location":"800 block of W Oregon, U",
       "age":"19",
       "agency":"UPD",
@@ -1696,7 +1696,7 @@
       "date":"3/7/2014"
     },
     {
-      "school/city":"Old Miss",
+      "school":"Old Miss",
       "arrest location":"800 block of W Oregon, U",
       "age":"19",
       "agency":"UPD",

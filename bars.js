@@ -3,8 +3,7 @@ var barInfoWindow;
 var barMarkers = [];	// list of bar markers
 var barSearchRadius = 0.01; // in units of coordinates
 
-// Initializes the Maps Places Service to find all bars near UIUC. 
-// Call this in initMap(): global var placesService = initializePlacesService();
+// Initializes the Maps Places Service to find all bars near UIUC.
 function initializePlacesService(map) {
 	console.log('Initializing Maps Places service');
 	var placesService = new google.maps.places.PlacesService(map);

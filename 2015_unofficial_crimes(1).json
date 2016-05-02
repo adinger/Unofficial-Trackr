@@ -1,7 +1,7 @@
 {
   "crimes":[
     {
-      "school/city":"Lewis College",
+      "school":"Lewis College",
       "arrest location":"First/Daniel, C",
       "age":"22",
       "agency":"CPD",
@@ -15,7 +15,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Chicago, Univ of",
+      "school":"Chicago, Univ of",
       "arrest location":"Oak/Chalmers, C",
       "age":"22",
       "agency":"CPD",
@@ -29,7 +29,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Illinois, Univ of",
+      "school":"Illinois, Univ of",
       "arrest location":"Locust/Chalmers, C",
       "age":"22",
       "agency":"CPD",
@@ -43,7 +43,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Illinois, Univ of",
+      "school":"Illinois, Univ of",
       "arrest location":"1000 Blk S. Oak",
       "age":"22",
       "agency":"CPD",
@@ -57,7 +57,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Waubonsee CC",
+      "school":"Waubonsee CC",
       "arrest location":"Second/Chalmers, C",
       "age":"21",
       "agency":"CPD",
@@ -71,7 +71,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Illinois, Univ of",
+      "school":"Illinois, Univ of",
       "arrest location":"Oak/Daniel, C",
       "age":"21",
       "agency":"CPD",
@@ -85,7 +85,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Butler Univ",
+      "school":"Butler Univ",
       "arrest location":"Oak/Daniel, C",
       "age":"21",
       "agency":"CPD",
@@ -99,7 +99,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Chicago",
+      "school":"Chicago",
       "arrest location":"First/Armory, C",
       "age":"23",
       "agency":"CPD",
@@ -113,7 +113,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Illinois, Univ of",
+      "school":"Illinois, Univ of",
       "arrest location":"600 Blk E. Stoughton",
       "age":"20",
       "agency":"CPD",
@@ -127,7 +127,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Ogelsby",
+      "school":"Ogelsby",
       "arrest location":"50 Blk E. Green",
       "age":"21",
       "agency":"CPD",
@@ -141,7 +141,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Peru",
+      "school":"Peru",
       "arrest location":"50 Blk E. Green",
       "age":"23",
       "agency":"CPD",
@@ -155,7 +155,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Peru",
+      "school":"Peru",
       "arrest location":"First/Green, C",
       "age":"21",
       "agency":"CPD",
@@ -169,7 +169,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Peru",
+      "school":"Peru",
       "arrest location":"First/Green, C",
       "age":"21",
       "agency":"CPD",
@@ -183,7 +183,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Purdue Univ",
+      "school":"Purdue Univ",
       "arrest location":"Locust/Chalmers, C",
       "age":"21",
       "agency":"CPD",
@@ -197,7 +197,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Illinois, Univ of",
+      "school":"Illinois, Univ of",
       "arrest location":"First/Armory, C",
       "age":"20",
       "agency":"CPD",
@@ -211,7 +211,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Illinois, Univ of",
+      "school":"Illinois, Univ of",
       "arrest location":"50 Blk E. Green",
       "age":"22",
       "agency":"CPD",
@@ -225,7 +225,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Illinois, Univ of",
+      "school":"Illinois, Univ of",
       "arrest location":"700 Blk S. Locust, C",
       "age":"22",
       "agency":"CPD",
@@ -239,7 +239,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Illinois State Univ",
+      "school":"Illinois State Univ",
       "arrest location":"100 Blk E. Healey",
       "age":"21",
       "agency":"CPD",
@@ -253,7 +253,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Streator",
+      "school":"Streator",
       "arrest location":"Second/Chalmers, C",
       "age":"22",
       "agency":"CPD",
@@ -267,7 +267,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Plantation",
+      "school":"Plantation",
       "arrest location":"Second/Chalmers, C",
       "age":"22",
       "agency":"CPD",
@@ -281,7 +281,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Aurora",
+      "school":"Aurora",
       "arrest location":"Second/Chalmers, C",
       "age":"22",
       "agency":"CPD",
@@ -295,7 +295,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Elgin",
+      "school":"Elgin",
       "arrest location":"Sixth/White, C",
       "age":"19",
       "agency":"CPD",
@@ -309,7 +309,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Illinois, Univ of",
+      "school":"Illinois, Univ of",
       "arrest location":"900 Blk S. Locust, C",
       "age":"23",
       "agency":"CPD",
@@ -323,7 +323,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Illinois State Univ",
+      "school":"Illinois State Univ",
       "arrest location":"Second/Chalmers, C",
       "age":"20",
       "agency":"CPD",
@@ -337,7 +337,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Champaign",
+      "school":"Champaign",
       "arrest location":"500 Blk S. Third, C",
       "age":"20",
       "agency":"CPD",
@@ -351,7 +351,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Illinois, Univ of",
+      "school":"Illinois, Univ of",
       "arrest location":"500 Blk S. Third, C",
       "age":"22",
       "agency":"CPD",
@@ -365,7 +365,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Illinois State Univ",
+      "school":"Illinois State Univ",
       "arrest location":"500 Blk S. Third, C",
       "age":"22",
       "agency":"CPD",
@@ -379,7 +379,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Delevan",
+      "school":"Delevan",
       "arrest location":"500 Blk S. Third, C",
       "age":"22",
       "agency":"CPD",
@@ -393,7 +393,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Illinois, Univ of",
+      "school":"Illinois, Univ of",
       "arrest location":"70 Blk E. Armory, C.",
       "age":"23",
       "agency":"CPD",
@@ -407,7 +407,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Illinois, Univ of",
+      "school":"Illinois, Univ of",
       "arrest location":"600 Blk E. Stoughton, C.",
       "age":"20",
       "agency":"CPD",
@@ -421,7 +421,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Roosevelt Univ",
+      "school":"Roosevelt Univ",
       "arrest location":"600 Blk E. Stoughton, C.",
       "age":"19",
       "agency":"CPD",
@@ -435,7 +435,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Illinois, Univ of",
+      "school":"Illinois, Univ of",
       "arrest location":"600 Blk E. Stoughton, C.",
       "age":"20",
       "agency":"CPD",
@@ -449,7 +449,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Loyola",
+      "school":"Loyola",
       "arrest location":"600 Blk E. Stoughton, C.",
       "age":"19",
       "agency":"CPD",
@@ -463,7 +463,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Indiana Univ",
+      "school":"Indiana Univ",
       "arrest location":"600 Blk E. Stoughton, C.",
       "age":"19",
       "agency":"CPD",
@@ -477,7 +477,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Illinois, Univ of",
+      "school":"Illinois, Univ of",
       "arrest location":"600 Blk E. Stoughton, C.",
       "age":"19",
       "agency":"CPD",
@@ -491,7 +491,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Illinois, Univ of",
+      "school":"Illinois, Univ of",
       "arrest location":"600 Blk E. Stoughton, C.",
       "age":"20",
       "agency":"CPD",
@@ -505,7 +505,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Roosevelt Univ",
+      "school":"Roosevelt Univ",
       "arrest location":"600 Blk E. Stoughton, C.",
       "age":"19",
       "agency":"CPD",
@@ -519,7 +519,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Loyola",
+      "school":"Loyola",
       "arrest location":"600 Blk E. Stoughton, C.",
       "age":"20",
       "agency":"CPD",
@@ -533,7 +533,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Loyola",
+      "school":"Loyola",
       "arrest location":"600 Blk E. Stoughton, C.",
       "age":"20",
       "agency":"CPD",
@@ -547,7 +547,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Illinois, Univ of",
+      "school":"Illinois, Univ of",
       "arrest location":"600 Blk E. Stoughton, C.",
       "age":"19",
       "agency":"CPD",
@@ -561,7 +561,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Michigan State Univ",
+      "school":"Michigan State Univ",
       "arrest location":"600 Blk E. Stoughton, C.",
       "age":"20",
       "agency":"CPD",
@@ -575,7 +575,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Chicago, Univ of",
+      "school":"Chicago, Univ of",
       "arrest location":"600 Blk E. Stoughton, C.",
       "age":"19",
       "agency":"CPD",
@@ -589,7 +589,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Loyola",
+      "school":"Loyola",
       "arrest location":"600 Blk E. Stoughton, C.",
       "age":"19",
       "agency":"CPD",
@@ -603,7 +603,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Loyola",
+      "school":"Loyola",
       "arrest location":"600 Blk E. Stoughton, C.",
       "age":"20",
       "agency":"CPD",
@@ -617,7 +617,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Illinois-Chicago, Univ of",
+      "school":"Illinois-Chicago, Univ of",
       "arrest location":"600 Blk E. Stoughton, C.",
       "age":"20",
       "agency":"CPD",
@@ -631,7 +631,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Illinois-Chicago, Univ of",
+      "school":"Illinois-Chicago, Univ of",
       "arrest location":"600 Blk E. Stoughton, C.",
       "age":"20",
       "agency":"CPD",
@@ -645,7 +645,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Illinois, Univ of",
+      "school":"Illinois, Univ of",
       "arrest location":"600 Blk E. Stoughton, C.",
       "age":"22",
       "agency":"CPD",
@@ -659,7 +659,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Illinois, Univ of",
+      "school":"Illinois, Univ of",
       "arrest location":"600 Blk E. Stoughton, C.",
       "age":"23",
       "agency":"CPD",
@@ -673,7 +673,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Illinois, Univ of",
+      "school":"Illinois, Univ of",
       "arrest location":"600 Blk E. Stoughton, C.",
       "age":"21",
       "agency":"CPD",
@@ -687,7 +687,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Loyola",
+      "school":"Loyola",
       "arrest location":"600 Blk E. Stoughton, C.",
       "age":"20",
       "agency":"CPD",
@@ -701,7 +701,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Indiana Univ",
+      "school":"Indiana Univ",
       "arrest location":"600 Blk E. Stoughton, C.",
       "age":"20",
       "agency":"CPD",
@@ -715,7 +715,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Parkland CC",
+      "school":"Parkland CC",
       "arrest location":"900 Blk S. Second, C.",
       "age":"18",
       "agency":"CPD",
@@ -729,7 +729,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Illinois, Univ of",
+      "school":"Illinois, Univ of",
       "arrest location":"900 Blk S. Second, C.",
       "age":"19",
       "agency":"CPD",
@@ -743,7 +743,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Illinois, Univ of",
+      "school":"Illinois, Univ of",
       "arrest location":"900 Blk S. Second, C.",
       "age":"19",
       "agency":"CPD",
@@ -757,7 +757,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Illinois, Univ of",
+      "school":"Illinois, Univ of",
       "arrest location":"900 Blk S. Second, C.",
       "age":"19",
       "agency":"CPD",
@@ -771,7 +771,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Illinois, Univ of",
+      "school":"Illinois, Univ of",
       "arrest location":"900 Blk S. Second, C.",
       "age":"19",
       "agency":"CPD",
@@ -785,7 +785,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Illinois, Univ of",
+      "school":"Illinois, Univ of",
       "arrest location":"900 Blk S. Second, C.",
       "age":"19",
       "agency":"CPD",
@@ -799,7 +799,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Parkland CC",
+      "school":"Parkland CC",
       "arrest location":"John Street, C.",
       "age":"19",
       "agency":"CPD",
@@ -813,7 +813,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Illinois, Univ of",
+      "school":"Illinois, Univ of",
       "arrest location":"900 Blk S. Second, C.",
       "age":"19",
       "agency":"CPD",
@@ -827,7 +827,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Illinois, Univ of",
+      "school":"Illinois, Univ of",
       "arrest location":"900 Blk S. Second, C.",
       "age":"19",
       "agency":"CPD",
@@ -841,7 +841,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Illinois, Univ of",
+      "school":"Illinois, Univ of",
       "arrest location":"900 Blk S. Second, C.",
       "age":"19",
       "agency":"CPD",
@@ -855,7 +855,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Illinois, Univ of",
+      "school":"Illinois, Univ of",
       "arrest location":"900 Blk S. Second, C.",
       "age":"19",
       "agency":"CPD",
@@ -869,7 +869,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Illinois, Univ of",
+      "school":"Illinois, Univ of",
       "arrest location":"900 Blk S. Second, C.",
       "age":"19",
       "agency":"CPD",
@@ -883,7 +883,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Illinois, Univ of",
+      "school":"Illinois, Univ of",
       "arrest location":"900 Blk S. Second, C.",
       "age":"20",
       "agency":"CPD",
@@ -897,7 +897,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Illinois State Univ",
+      "school":"Illinois State Univ",
       "arrest location":"900 Blk S. Second, C.",
       "age":"18",
       "agency":"CPD",
@@ -911,7 +911,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Illinois, Univ of",
+      "school":"Illinois, Univ of",
       "arrest location":"900 Blk S. Second, C.",
       "age":"19",
       "agency":"CPD",
@@ -925,7 +925,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Illinois, Univ of",
+      "school":"Illinois, Univ of",
       "arrest location":"900 Blk S. Second, C.",
       "age":"19",
       "agency":"CPD",
@@ -939,7 +939,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Illinois, Univ of",
+      "school":"Illinois, Univ of",
       "arrest location":"900 Blk S. Second, C.",
       "age":"19",
       "agency":"CPD",
@@ -953,7 +953,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Illinois, Univ of",
+      "school":"Illinois, Univ of",
       "arrest location":"900 Blk S. Second, C.",
       "age":"19",
       "agency":"CPD",
@@ -967,7 +967,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Illinois, Univ of",
+      "school":"Illinois, Univ of",
       "arrest location":"900 Blk S. Second, C.",
       "age":"18",
       "agency":"CPD",
@@ -981,7 +981,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Illinois, Univ of",
+      "school":"Illinois, Univ of",
       "arrest location":"900 Blk S. Second, C.",
       "age":"18",
       "agency":"CPD",
@@ -995,7 +995,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Illinois, Univ of",
+      "school":"Illinois, Univ of",
       "arrest location":"900 Blk S. Second, C.",
       "age":"19",
       "agency":"CPD",
@@ -1009,7 +1009,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Illinois, Univ of",
+      "school":"Illinois, Univ of",
       "arrest location":"900 Blk S. Second, C.",
       "age":"18",
       "agency":"CPD",
@@ -1023,7 +1023,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Illinois, Univ of",
+      "school":"Illinois, Univ of",
       "arrest location":"900 Blk S. Second, C.",
       "age":"19",
       "agency":"CPD",
@@ -1037,7 +1037,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Illinois, Univ of",
+      "school":"Illinois, Univ of",
       "arrest location":"900 Blk S. Second, C.",
       "age":"19",
       "agency":"CPD",
@@ -1051,7 +1051,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Illinois State Univ",
+      "school":"Illinois State Univ",
       "arrest location":"900 Blk S. Second, C.",
       "age":"19",
       "agency":"CPD",
@@ -1065,7 +1065,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Illinois, Univ of",
+      "school":"Illinois, Univ of",
       "arrest location":"900 Blk S. Second, C.",
       "age":"18",
       "agency":"CPD",
@@ -1079,7 +1079,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Illinois, Univ of",
+      "school":"Illinois, Univ of",
       "arrest location":"900 Blk S. Second, C.",
       "age":"19",
       "agency":"CPD",
@@ -1093,7 +1093,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Art Inst. Of Chicago",
+      "school":"Art Inst. Of Chicago",
       "arrest location":"900 Blk S. Second, C.",
       "age":"19",
       "agency":"CPD",
@@ -1107,7 +1107,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Illinois, Univ of",
+      "school":"Illinois, Univ of",
       "arrest location":"900 Blk S. Second, C.",
       "age":"20",
       "agency":"CPD",
@@ -1121,7 +1121,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Illinois, Univ of",
+      "school":"Illinois, Univ of",
       "arrest location":"900 Blk S. Second, C.",
       "age":"19",
       "agency":"CPD",
@@ -1135,7 +1135,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Illinois, Univ of",
+      "school":"Illinois, Univ of",
       "arrest location":"900 Blk S. Second, C.",
       "age":"19",
       "agency":"CPD",
@@ -1149,7 +1149,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Illinois, Univ of",
+      "school":"Illinois, Univ of",
       "arrest location":"900 Blk S. Second, C.",
       "age":"18",
       "agency":"CPD",
@@ -1163,7 +1163,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Illinois, Univ of",
+      "school":"Illinois, Univ of",
       "arrest location":"900 Blk S. Second, C.",
       "age":"19",
       "agency":"CPD",
@@ -1177,7 +1177,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Illinois, Univ of",
+      "school":"Illinois, Univ of",
       "arrest location":"900 Blk S. Second, C.",
       "age":"18",
       "agency":"CPD",
@@ -1191,7 +1191,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Illinois, Univ of",
+      "school":"Illinois, Univ of",
       "arrest location":"900 Blk S. Second, C.",
       "age":"18",
       "agency":"CPD",
@@ -1205,7 +1205,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Illinois, Univ of",
+      "school":"Illinois, Univ of",
       "arrest location":"900 Blk S. Second, C.",
       "age":"19",
       "agency":"CPD",
@@ -1219,7 +1219,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Illinois, Univ of",
+      "school":"Illinois, Univ of",
       "arrest location":"900 Blk S. Second, C.",
       "age":"19",
       "agency":"CPD",
@@ -1233,7 +1233,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Illinois, Univ of",
+      "school":"Illinois, Univ of",
       "arrest location":"900 Blk S. Second, C.",
       "age":"19",
       "agency":"CPD",
@@ -1247,7 +1247,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Illinois, Univ of",
+      "school":"Illinois, Univ of",
       "arrest location":"900 Blk S. Second, C.",
       "age":"18",
       "agency":"CPD",
@@ -1261,7 +1261,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Calvin College",
+      "school":"Calvin College",
       "arrest location":"900 Blk S. Second, C.",
       "age":"19",
       "agency":"CPD",
@@ -1275,7 +1275,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Roosevelt Univ",
+      "school":"Roosevelt Univ",
       "arrest location":"Sixth/White, C",
       "age":"23",
       "agency":"CPD",
@@ -1289,7 +1289,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Illinois, Univ of",
+      "school":"Illinois, Univ of",
       "arrest location":"600 Blk E. Daniel, C",
       "age":"22",
       "agency":"CPD",
@@ -1303,7 +1303,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Illinois, Univ of",
+      "school":"Illinois, Univ of",
       "arrest location":"400 Blk E. Green, C",
       "age":"20",
       "agency":"CPD",
@@ -1317,7 +1317,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Illinois Central College",
+      "school":"Illinois Central College",
       "arrest location":"First/Green, C",
       "age":"20",
       "agency":"CPD",
@@ -1331,7 +1331,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Illinois, Univ of",
+      "school":"Illinois, Univ of",
       "arrest location":"400 Blk E. Green, C",
       "age":"20",
       "agency":"CPD",
@@ -1345,7 +1345,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Kankakee CC",
+      "school":"Kankakee CC",
       "arrest location":"500 Blk S. Third, C",
       "age":"19",
       "agency":"CPD",
@@ -1359,7 +1359,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Illinois, Univ of",
+      "school":"Illinois, Univ of",
       "arrest location":"Second/Chalmers, C",
       "age":"23",
       "agency":"CPD",
@@ -1373,7 +1373,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Illinois, Univ of",
+      "school":"Illinois, Univ of",
       "arrest location":"400 Blk E. Green, C",
       "age":"22",
       "agency":"CPD",
@@ -1387,7 +1387,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Rosland Franklin",
+      "school":"Rosland Franklin",
       "arrest location":"Third/John, C",
       "age":"24",
       "agency":"CPD",
@@ -1401,7 +1401,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Illinois, Univ of",
+      "school":"Illinois, Univ of",
       "arrest location":"First/Green, C",
       "age":"20",
       "agency":"CPD",
@@ -1415,7 +1415,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Illinois, Univ of",
+      "school":"Illinois, Univ of",
       "arrest location":"Arbor/Gregory, C",
       "age":"19",
       "agency":"CPD",
@@ -1429,7 +1429,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Illinois, Univ of",
+      "school":"Illinois, Univ of",
       "arrest location":"50 Blk E. John, C.",
       "age":"22",
       "agency":"CPD",
@@ -1443,7 +1443,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Illinois, Univ of",
+      "school":"Illinois, Univ of",
       "arrest location":"600 E. Green, C",
       "age":"24",
       "agency":"CPD",
@@ -1457,7 +1457,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Illinois, Univ of",
+      "school":"Illinois, Univ of",
       "arrest location":"600 E. Green, C",
       "age":"32",
       "agency":"CPD",
@@ -1471,7 +1471,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Illinois, Univ of",
+      "school":"Illinois, Univ of",
       "arrest location":"Second/Gregory, C",
       "age":"21",
       "agency":"CPD",
@@ -1485,7 +1485,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Streator",
+      "school":"Streator",
       "arrest location":"50 Blk. E. Daniel, C.",
       "age":"18",
       "agency":"CPD",
@@ -1499,7 +1499,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Illinois, Univ of",
+      "school":"Illinois, Univ of",
       "arrest location":"50 Blk. E. Daniel, C.",
       "age":"19",
       "agency":"CPD",
@@ -1513,7 +1513,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Eastern IL Univ",
+      "school":"Eastern IL Univ",
       "arrest location":"800 Blk S. Locust, C",
       "age":"21",
       "agency":"CPD",
@@ -1527,7 +1527,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Eastern IL Univ",
+      "school":"Eastern IL Univ",
       "arrest location":"900 Blk S. Locust, C",
       "age":"21",
       "agency":"CPD",
@@ -1541,7 +1541,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Illinois, Univ of",
+      "school":"Illinois, Univ of",
       "arrest location":"Second/Chalmers, C",
       "age":"21",
       "agency":"CPD",
@@ -1555,7 +1555,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Illinois, Univ of",
+      "school":"Illinois, Univ of",
       "arrest location":"300 Blk E. Chalmers",
       "age":"19",
       "agency":"CPD",
@@ -1569,7 +1569,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Northern IL Univ",
+      "school":"Northern IL Univ",
       "arrest location":"Second/John, C",
       "age":"22",
       "agency":"CPD",
@@ -1583,7 +1583,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Joliet Jr College",
+      "school":"Joliet Jr College",
       "arrest location":"Third/Armory, C",
       "age":"22",
       "agency":"CPD",
@@ -1597,7 +1597,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Southlake",
+      "school":"Southlake",
       "arrest location":"Arbor/Armory, C",
       "age":"21",
       "agency":"UIPD",
@@ -1611,7 +1611,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Mahomet",
+      "school":"Mahomet",
       "arrest location":"Arbor/Armory, C",
       "age":"21",
       "agency":"UIPD",
@@ -1625,7 +1625,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Galesburg",
+      "school":"Galesburg",
       "arrest location":"Arbor/Armory, C",
       "age":"24",
       "agency":"UIPD",
@@ -1639,7 +1639,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Illinois, Univ of",
+      "school":"Illinois, Univ of",
       "arrest location":"Third/Healey, C",
       "age":"22",
       "agency":"UIPD",
@@ -1653,7 +1653,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Chicago",
+      "school":"Chicago",
       "arrest location":"Daniel/Locust, C",
       "age":"19",
       "agency":"UIPD",
@@ -1667,7 +1667,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Chicago",
+      "school":"Chicago",
       "arrest location":"Daniel/Locust, C",
       "age":"19",
       "agency":"UIPD",
@@ -1681,7 +1681,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Illinois, Univ of",
+      "school":"Illinois, Univ of",
       "arrest location":"600 Blk E. Armory, C",
       "age":"20",
       "agency":"UIPD",
@@ -1695,7 +1695,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Valparaiso",
+      "school":"Valparaiso",
       "arrest location":"800 Blk W. Green, U",
       "age":"22",
       "agency":"UPD",
@@ -1709,7 +1709,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Illinois, Univ of",
+      "school":"Illinois, Univ of",
       "arrest location":"Busey/Springfield, U",
       "age":"18",
       "agency":"UPD",
@@ -1723,7 +1723,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Illinois, Univ of",
+      "school":"Illinois, Univ of",
       "arrest location":"Busey/Springfield, U",
       "age":"19",
       "agency":"UPD",
@@ -1737,7 +1737,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Illinois, Univ of",
+      "school":"Illinois, Univ of",
       "arrest location":"700 blk Busey, U",
       "age":"19",
       "agency":"UPD",
@@ -1751,7 +1751,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Springfield",
+      "school":"Springfield",
       "arrest location":"Busey/Green, U",
       "age":"21",
       "agency":"UPD",
@@ -1765,7 +1765,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Springfield",
+      "school":"Springfield",
       "arrest location":"Busey/Green, U",
       "age":"24",
       "agency":"UPD",
@@ -1779,7 +1779,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Springfield",
+      "school":"Springfield",
       "arrest location":"Busey/Green, U",
       "age":"22",
       "agency":"UPD",
@@ -1793,7 +1793,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Illinois, Univ of",
+      "school":"Illinois, Univ of",
       "arrest location":"Harvey/Stoughton",
       "age":"20",
       "agency":"UPD",
@@ -1807,7 +1807,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Illinois, Univ of",
+      "school":"Illinois, Univ of",
       "arrest location":"Harvey/Stoughton",
       "age":"19",
       "agency":"UPD",
@@ -1821,7 +1821,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Illinois, Univ of",
+      "school":"Illinois, Univ of",
       "arrest location":"Coler/Oregon",
       "age":"20",
       "agency":"UPD",
@@ -1835,7 +1835,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Illinois, Univ of",
+      "school":"Illinois, Univ of",
       "arrest location":"Stoughton/Busey, U",
       "age":"20",
       "agency":"UPD",
@@ -1849,7 +1849,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Illinois, Univ of",
+      "school":"Illinois, Univ of",
       "arrest location":"Stoughton/Busey, U",
       "age":"20",
       "agency":"UPD",
@@ -1863,7 +1863,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Illinois, Univ of",
+      "school":"Illinois, Univ of",
       "arrest location":"Stoughton/Busey, U",
       "age":"20",
       "agency":"UPD",
@@ -1877,7 +1877,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Champaign",
+      "school":"Champaign",
       "arrest location":"Stoughton/Busey, U",
       "age":"24",
       "agency":"UPD",
@@ -1891,7 +1891,7 @@
       "date":"3/6/2015"
     },
     {
-      "school/city":"Illinois, Univ of",
+      "school":"Illinois, Univ of",
       "arrest location":"Green/Lincoln, U",
       "age":"19",
       "agency":"UPD",
