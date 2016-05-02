@@ -5,14 +5,13 @@ var barSearchRadius = 0.01; // in units of coordinates
 
 // Initializes the Maps Places Service to find all bars near UIUC. 
 // Call this in initMap(): global var placesService = initializePlacesService();
-function initializePlacesService() {
+function initializePlacesService(map) {
 	console.log('Initializing Maps Places service');
 	var placesService = new google.maps.places.PlacesService(map);
 	var uiucCoordinates = {lat: 40.1081958, lng: -88.2297984};
 
 	// initialize popup for when someone clicks on a bar's marker
 	barInfoWindow = new google.maps.InfoWindow();
-
 
 	// search for bars within 1000 coordinate units of UIUC
 	placesService.nearbySearch({
@@ -28,16 +27,20 @@ function initializePlacesService() {
 function placesServiceCallback(results, status) {
 	if (status === google.maps.places.PlacesServiceStatus.OK) {
 		for (var i = 0; i < results.length; i++) {
-			var barMarker = createBarMarker(results[i]);
-			barMarkers.push(barMarker);
+			var barMarker2014 = createBarMarker(results[i], map2014);
+			var barMarker2015 = createBarMarker(results[i], map2015);
+			barMarkers.push(barMarker2014);
+			barMarkers.push(barMarker2015);
 		}
 	}
 }
 
-// creates a marker for a place and returns a Marker object
-function createBarMarker(place) {
+// creates a marker for a place and map and returns a Marker object
+function createBarMarker(place, map) {
 	// todo: custom wine glass marker
 	var placeLoc = place.geometry.location;
+
+	// place marker on 2014 map
 	var marker = new google.maps.Marker({
 		map: map,
 		position: place.geometry.location,
@@ -48,6 +51,7 @@ function createBarMarker(place) {
 		barInfoWindow.setContent(place.name);
 		barInfoWindow.open(map, this);
 	});
+
 	return marker;
 }
 

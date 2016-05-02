@@ -1,216 +1,255 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
-    <meta charset="utf-8">
-    <title>Unofficial crimes</title>
+<head>
+	<meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+	<meta charset="utf-8">
+	<title>Unofficial crimes</title>
 
-    <!--Links for Bootstrap, JS, CSS FILES -->
+	<!--Links for Bootstrap, JS, CSS FILES -->
 
-    <link rel="stylesheet" type="text/css" href="assets/css/index.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/index.css">
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-  
-
-  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-  <!-- Latest compiled JavaScript -->
-  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script> 
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 
 
-  <link href="http://pingendo.github.io/pingendo-bootstrap/themes/default/bootstrap.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<!-- Latest compiled JavaScript -->
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script> 
 
-   <!--SPLIT PANE -->
-   <!--latest CDN for theme file-->
-    <link href="http://cdn.syncfusion.com/js/web/flat-azure/ej.web.all-latest.min.css" rel="stylesheet" type="text/css" />
-    <!--CDN for JQuery script file-->
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js" type="text/javascript"></script>
-    <!--latest cdn for script file-->
-    <script src="http://cdn.syncfusion.com/js/web/ej.web.all-latest.min.js"></script>
 
-  <!--SLIDER STYLESHEETS -->
-  <link rel = "stylesheet" href = "jquery.range.css">
-  <script src = "jquery.range.js"></script>
+	<link href="http://pingendo.github.io/pingendo-bootstrap/themes/default/bootstrap.css" rel="stylesheet" type="text/css">
 
- 
-  
-        
-    </head>
+ <!--SPLIT PANE -->
+ <!--latest CDN for theme file-->
+	<link href="http://cdn.syncfusion.com/js/web/flat-azure/ej.web.all-latest.min.css" rel="stylesheet" type="text/css" />
+	<!--CDN for JQuery script file-->
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js" type="text/javascript"></script>
+	<!--latest cdn for script file-->
+	<script src="http://cdn.syncfusion.com/js/web/ej.web.all-latest.min.js"></script>
+
+	<!--SLIDER STYLESHEETS -->
+	<link rel = "stylesheet" href = "jquery.range.css">
+	<script src = "jquery.range.js"></script>
+
+<style>
+	.map { height: 400px; }
+</style>
+
+			
+</head>
 
 
 <!--Header -->
 
-    <body data-spy="scroll">
-        <div class="cover">
-            <div class="navbar"></div>
-            <div class="background-image-fixed cover-image" style="background-image : url(image.png)"></div>
+<body data-spy="scroll">
+	<div class="cover">
+		<div class="navbar"></div>
+		<div class="background-image-fixed cover-image" style="background-image : url(image.png)"></div>
 
-            <!-- Button trigger modal -->
-<button class="btn btn-lg" data-toggle="modal" data-target="#myModal">
-  What is Unofficial Trackr?
-</button>
+				<!-- Button trigger modal -->
+		<button class="btn btn-lg btn-primary" data-toggle="modal" data-target="#myModal">
+			What is Unofficial Trackr?
+		</button>
 
-<div id="myModal" class="modal fade">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                <h4 class="modal-title" align = "center">A Little Intro</h4>
-            </div>
-            <div class="modal-body">
-                <h2 class ="heading">What is it?</h2>
-                <p class = "info">Unofficial Trackr is a visualization that attempts to display how Unofficial at the U of I 
-            plays out every year. We show you data from 2014-2015 in the hopes that you can find your own patterns.   </p>
+		<div id="myModal" class="modal fade">
+				<div class="modal-dialog">
+						<div class="modal-content">
+								<div class="modal-header">
+										<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+										<h4 class="modal-title" align = "center">About Unofficial Trackr</h4>
+								</div>
+								<div class="modal-body">
+										<h2 class ="heading">What is it?</h2>
+										<p class = "info">Unofficial Trackr is a visualization that attempts to display how Unofficial at the U of I 
+								plays out every year. We show you data from 2014-2015 in the hopes that you can find your own patterns.	 </p>
 
-                <h2 class ="heading">Who is You?</h2>
-                <p class = "info">You can be anyone, ranging from students on and off campus, the police, school officials, 
-                  to even worried parents.</p>
+										<h2 class ="heading">Who are You?</h2>
+										<p class = "info">You can be anyone, ranging from students on and off campus, the police, school officials, 
+											to even worried parents.</p>
 
-                <h2 class ="heading">Some Questions to Get You Thinking</h2>
-                <ol class = "info">
-                  <li>Which area on campus has the most crime?</li>
-                  <li>Which time of day has the most crime?</li>
-                  <li>What is the average age of offenders on Unofficial?</li>
-                </ol>
+										<h2 class ="heading">Some Questions to Get You Thinking</h2>
+										<ol class = "info">
+											<li><p>Which area on campus has the most crime?</p></li>
+											<li><p>Which time of day has the most crime?</p></li>
+											<li><p>What is the average age of offenders on Unofficial?</p></li>
+										</ol>
 
-                <h2 class ="heading">But Most Importantly...</h2>
-                <p class = "info">Go explore, and have fun!</p>
-         
-            </div>
-        </div>
-        <!-- /.modal-content -->
-    </div>
-    <!-- /.modal-dialog -->
-</div>
-<!-- /.modal -->
-        </div>
+										<h2 class ="heading">Data Representation</h2>
+										<ul class = "info">
+											<li><p>The size of each circle represents the number of bars in its vicinity.</p></li>
+											<li><p>We color-coded each circle based on the offender's school.</p></li>
+										</ul>
 
-  <!--MAP/SPLIT VIEW-->
- 
+										<h2 class ="heading">But Most Importantly...</h2>
+										<p class = "info">Go explore, and have fun!</p>
+						 
+								</div>
+						</div>
+						<!-- /.modal-content -->
+				</div>
+				<!-- /.modal-dialog -->
+		</div><!-- /.modal -->
+	</div> <!-- cover -->
 
-  <div id="outterSpliter">
-        <div>
-            <div class="cont">
-              <div id="map">
+	<!--MAP/SPLIT VIEW-->
+	<div class="container">
+		
+		<div id="outterSpliter" class="row">
+			<div class="col-md-12 col-sm-12">
+				<h1>All Years</h1>
+				<div class="map" id="mapAll"></div>
+			</div>
+		</div>
+		
 
-              </div>  
-            </div>
-        </div>
-        <div id="innerSpliter">
-            <div>
-                <div class="cont">
-                  <div id="map1">
-                  </div> 
-              </div>
-            </div>
-            <div>
-                <div class="cont">
-                  <div id="map2">
-                  </div>
-              </div>
-            </div>
-          </div>
-    </div>
+		<div id="innerSpliter" class="row">
+			<div class="col-sm-6">
+						<h1>2014</h1>
+						<div class="map" id="map2014"></div>
+			</div>
 
-    <div id="table">
-      <button class="drop" id="2014button" onclick="refresh('2014', '19.3')" value='change text'>2014</button>
-      <button class="drop1" id="2015button" onclick="refresh('2015', '20.4')" value='change text'>2015</button>
-      <br>
- 
-      <button class="drop2" id="animateButton" onclick="drop()">Animate</button>
-      <h1></h1>
-        <p>Average age: <b id='name'>19.3</b></p>
-        <p>Most popular crimes: MIP</p>
-        <p>Best agency: CPD</p>
-      <ul class="legend">
-        <li><span class="uiuc"></span> UIUC</li><br>
-        <li><span class="illinois-state"></span> Illinois State Univ</li><br>
-        <li><span class="loyola"></span> Loyola</li><br>
-        <li><span class="chicago"></span> Chicago</li><br>
-        <li><span class="champaign"></span> Champaign</li><br>
-        <li><span class="parkland"></span> Parkland College</li><br>
-        <li><span class="other"></span> Other</li>
-      </ul>
+			<div class="col-sm-6">
+						<h1>2015</h1>
+						<div class="map" id="map2015"></div>
+			</div>
+		</div>
 
-      <br>
+		<!--SLIDER -->
+		<div class="row demo-output" id = "slider">
+			<div class="col-sm-12">
+				<h3>TIME</h3>
+				<input class="single-slider" id = "min_slider" type="hidden" value="0.0"/>
+			</div>
+		</div>
 
-      <button id="expand_button" type="button">Expand</button>
-      <button id="collapse_button" type="button">Collapse</button>
-    </div>    
+		<!-- infobox -->
+		<div id="table">
+			<button class="drop" id="2014button" onclick="refresh('2014', '19.3')" value='change text'>2014</button>
+			<button class="drop1" id="2015button" onclick="refresh('2015', '20.4')" value='change text'>2015</button>
+			<br>
 
-    <!--SLIDER -->
+			<button class="drop2" id="animateButton" onclick="drop()">Animate</button>
+			<h1 id="time"></h1>
+			<p>Average age: <b id='name'>19.3</b></p>
+			<p>Most popular crimes: MIP</p>
+			<p>Best agency: CPD</p>
+			<ul class="legend">
+				<li><span class="uiuc"></span> UIUC</li><br>
+				<li><span class="illinois-state"></span> Illinois State Univ</li><br>
+				<li><span class="loyola"></span> Loyola</li><br>
+				<li><span class="chicago"></span> Chicago</li><br>
+				<li><span class="champaign"></span> Champaign</li><br>
+				<li><span class="parkland"></span> Parkland College</li><br>
+				<li><span class="other"></span> Other</li>
+			</ul>
 
-    <div class="demo-output" id = "slider">
-      <input class="single-slider" id = "min_slider" type="hidden" value="0.0"/>
-    </div>
+			<br>
 
-    <br>
-    <br>
-    <script type="text/javascript">
-  $(function () {
-            $("#outterSpliter").ejSplitter({
-                height: "600px", width: "1235px",
-                orientation: ej.Orientation.Vertical,
-                properties: [{ paneSize: "1200px" }],
-                cssClass: "splitter"
-            });
-            $("#innerSpliter").ejSplitter({
-                width: "1250px",
-                orientation: ej.Orientation.Horizontal,
-                properties: [{ paneSize: "600px" }]
-            });
-            //Object for inner splitter will be created like below
-            innerSplitterObj = $("#innerSpliter").data("ejSplitter");
-        });
-        $("#collapse_button").bind("click", function () {
-            //To collapse the split pane use below mentioned code, here we should specify                               
-            //the split pane index number
-            //Index 0 represent Top pane 
-            //Index 1 represents Bottom pane
-            innerSplitterObj.collapse(0);
-        });
-        $("#expand_button").bind("click", function () {
-            innerSplitterObj.expand(0);
-        });
+			<button id="expand_button" type="button">Expand</button>
+			<button id="collapse_button" type="button">Collapse</button>
+		</div> <!-- table -->
 
-  </script>
-   
-  
-    
+	</div> <!-- container -->
+		
 
 
+		<br>
+		<br>
+	
+	<!-- sets properties for the split panes -->
+	<script type="text/javascript">
+		/*
+		$(function () {
+			$("#outterSpliter").ejSplitter({
+					height: "1200px", width: "1235px",
+					orientation: ej.Orientation.Vertical,
+					properties: [{ paneSize: "1200px" }],
+					cssClass: "splitter"
+			});
+			$("#innerSpliter").ejSplitter({
+					width: "1250px",
+					height: "600px",
+					orientation: ej.Orientation.Horizontal,
+					properties: [{ paneSize: "600px" }]
+			});
+			//Object for inner splitter will be created like below
+			innerSplitterObj = $("#innerSpliter").data("ejSplitter");
+		});
+		*/
+		$("#collapse_button").bind("click", function () {
+				//To collapse the split pane use below mentioned code, here we should specify															 
+				//the split pane index number
+				//Index 0 represent Top pane 
+				//Index 1 represents Bottom pane
+				innerSplitterObj.collapse(0);
+		});
+		$("#expand_button").bind("click", function () {
+				innerSplitterObj.expand(0);
+		});
 
-    <script src="render_map.js"></script>
-    <script src="data.js"></script>
-    <script src="map_styles.js"></script>
-    <script src="bars.js"></script>
-    <script src="collegeColors.js"></script>
+	</script>
 
-    <script type="text/javascript">
-      $(document).ready(function(){
-        $('.single-slider').jRange({
-          from: 5.0,
-          to: 24.0,
-          step: 0.5,
-          scale: [5.0, 6.0,7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0, 14.0, 15.0, 16.0, 17.0, 
-                  18.0, 19.0, 20.0, 21.0, 22.0, 23.0, 24.0],
-          format: '%s',
-          width: 1000,
-          showLabels: true,
-          snap: true,
-          onstatechange: function(val){
-            $("#min_slider").val(val);
-            console.log("hello...its me");
-            map_slider(val); //Need to fix
-            }
-          });
-           
-        });
+	<!-- all our JS files -->
+	<script src="render_map.js"></script>
+	<script src="render_map_helpers.js"></script>
+	<script src="map_styles.js"></script>
+	<script src="bars.js"></script>
+	<script src="collegeColors.js"></script>
 
-    </script>
-  
-    
-    <script async defer 
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDhMsGD6G9tfBml3RgABBDIRSQilth7xu0&libraries=places&callback=initMap"></script>
-  </body>
+	<!-- script for the time slider -->
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('.single-slider').jRange({
+				from: 5.0,
+				to: 24.0,
+				step: 0.5,
+				scale: [5.0, 6.0,7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0, 14.0, 15.0, 16.0, 17.0, 
+								18.0, 19.0, 20.0, 21.0, 22.0, 23.0, 24.0],
+				format: '%s',
+				width: 1000,
+				height: 20,
+				showLabels: true,
+				snap: true,
+				onstatechange: function(val){
+					$("#min_slider").val(val);
+					map_slider(val);	// slider's listener
+				}
+			});
+				 
+		});
+	</script>
+	
+		
+	<script async defer 
+	src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDhMsGD6G9tfBml3RgABBDIRSQilth7xu0&libraries=places&callback=initMap"></script>
+</body>
 </html>
+
+
+
+		<!--
+		<div id="outterSpliter">
+			<div>
+					<div class="cont">
+						<div id="map">
+
+						</div>	
+					</div>
+			</div>
+			<div id="innerSpliter">
+					<div>
+							<div class="cont">
+								<div id="map1">
+								</div> 
+						</div>
+					</div>
+					<div>
+							<div class="cont">
+								<div id="map2">
+								</div>
+						</div>
+					</div>
+				</div>
+		</div>
+		-->
