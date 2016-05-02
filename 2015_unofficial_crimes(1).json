@@ -1,0 +1,1908 @@
+{
+  "crimes":[
+    {
+      "school/city":"Lewis College",
+      "arrest location":"First/Daniel, C",
+      "age":"22",
+      "agency":"CPD",
+      "charge":"Carrying Open Liquor out of premises",
+      "state":"IL",
+      "location":{
+        "lat":40.107907,
+        "lng":-88.23869189999999
+      },
+      "time":"1220",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Chicago, Univ of",
+      "arrest location":"Oak/Chalmers, C",
+      "age":"22",
+      "agency":"CPD",
+      "charge":"public possession",
+      "state":"IL",
+      "location":{
+        "lat":40.10651,
+        "lng":-88.2415379
+      },
+      "time":"1113",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Illinois, Univ of",
+      "arrest location":"Locust/Chalmers, C",
+      "age":"22",
+      "agency":"CPD",
+      "charge":"public possession",
+      "state":"IL",
+      "location":{
+        "lat":40.1065199,
+        "lng":-88.2402939
+      },
+      "time":"1220",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Illinois, Univ of",
+      "arrest location":"1000 Blk S. Oak",
+      "age":"22",
+      "agency":"CPD",
+      "charge":"public possession",
+      "state":"IL",
+      "location":{
+        "lat":40.1064987,
+        "lng":-88.241519
+      },
+      "time":"1156",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Waubonsee CC",
+      "arrest location":"Second/Chalmers, C",
+      "age":"21",
+      "agency":"CPD",
+      "charge":"public possession",
+      "state":"IL",
+      "location":{
+        "lat":40.10654600000001,
+        "lng":-88.237011
+      },
+      "time":"1100",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Illinois, Univ of",
+      "arrest location":"Oak/Daniel, C",
+      "age":"21",
+      "agency":"CPD",
+      "charge":"public possession",
+      "state":"IL",
+      "location":{
+        "lat":40.1078938,
+        "lng":-88.24156049999999
+      },
+      "time":"1159",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Butler Univ",
+      "arrest location":"Oak/Daniel, C",
+      "age":"21",
+      "agency":"CPD",
+      "charge":"public possession",
+      "state":"IN",
+      "location":{
+        "lat":40.1078938,
+        "lng":-88.24156049999999
+      },
+      "time":"1159",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Chicago",
+      "arrest location":"First/Armory, C",
+      "age":"23",
+      "agency":"CPD",
+      "charge":"public possession",
+      "state":"IL",
+      "location":{
+        "lat":40.1053881,
+        "lng":-88.2386533
+      },
+      "time":"1110",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Illinois, Univ of",
+      "arrest location":"600 Blk E. Stoughton",
+      "age":"20",
+      "agency":"CPD",
+      "charge":"MIP",
+      "state":"IL",
+      "location":{
+        "lat":40.1130003,
+        "lng":-88.2149146
+      },
+      "time":"1220",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Ogelsby",
+      "arrest location":"50 Blk E. Green",
+      "age":"21",
+      "agency":"CPD",
+      "charge":"public possession",
+      "state":"IL",
+      "location":{
+        "lat":40.110499,
+        "lng":-88.240014
+      },
+      "time":"1235",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Peru",
+      "arrest location":"50 Blk E. Green",
+      "age":"23",
+      "agency":"CPD",
+      "charge":"public possession",
+      "state":"IL",
+      "location":{
+        "lat":40.110499,
+        "lng":-88.240014
+      },
+      "time":"1235",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Peru",
+      "arrest location":"First/Green, C",
+      "age":"21",
+      "agency":"CPD",
+      "charge":"public possession",
+      "state":"IL",
+      "location":{
+        "lat":40.110217,
+        "lng":-88.2386949
+      },
+      "time":"1235",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Peru",
+      "arrest location":"First/Green, C",
+      "age":"21",
+      "agency":"CPD",
+      "charge":"public possession",
+      "state":"IL",
+      "location":{
+        "lat":40.110217,
+        "lng":-88.2386949
+      },
+      "time":"1235",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Purdue Univ",
+      "arrest location":"Locust/Chalmers, C",
+      "age":"21",
+      "agency":"CPD",
+      "charge":"Carrying Open Liquor out of premises",
+      "state":"IN",
+      "location":{
+        "lat":40.1065199,
+        "lng":-88.2402939
+      },
+      "time":"1207",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Illinois, Univ of",
+      "arrest location":"First/Armory, C",
+      "age":"20",
+      "agency":"CPD",
+      "charge":"MIP",
+      "state":"IL",
+      "location":{
+        "lat":40.1053881,
+        "lng":-88.2386533
+      },
+      "time":"1056",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Illinois, Univ of",
+      "arrest location":"50 Blk E. Green",
+      "age":"22",
+      "agency":"CPD",
+      "charge":"public possession",
+      "state":"IL",
+      "location":{
+        "lat":40.110499,
+        "lng":-88.240014
+      },
+      "time":"1219",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Illinois, Univ of",
+      "arrest location":"700 Blk S. Locust, C",
+      "age":"22",
+      "agency":"CPD",
+      "charge":"public possession",
+      "state":"IL",
+      "location":{
+        "lat":40.1101999,
+        "lng":-88.24023969999999
+      },
+      "time":"1339",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Illinois State Univ",
+      "arrest location":"100 Blk E. Healey",
+      "age":"21",
+      "agency":"CPD",
+      "charge":"public possession",
+      "state":"IL",
+      "location":{
+        "lat":40.11166040000001,
+        "lng":-88.2434954
+      },
+      "time":"1153",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Streator",
+      "arrest location":"Second/Chalmers, C",
+      "age":"22",
+      "agency":"CPD",
+      "charge":"public possession",
+      "state":"IL",
+      "location":{
+        "lat":40.10654600000001,
+        "lng":-88.237011
+      },
+      "time":"1300",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Plantation",
+      "arrest location":"Second/Chalmers, C",
+      "age":"22",
+      "agency":"CPD",
+      "charge":"public possession",
+      "state":"FL",
+      "location":{
+        "lat":40.10654600000001,
+        "lng":-88.237011
+      },
+      "time":"1210",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Aurora",
+      "arrest location":"Second/Chalmers, C",
+      "age":"22",
+      "agency":"CPD",
+      "charge":"public possession",
+      "state":"IL",
+      "location":{
+        "lat":40.10654600000001,
+        "lng":-88.237011
+      },
+      "time":"1100",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Elgin",
+      "arrest location":"Sixth/White, C",
+      "age":"19",
+      "agency":"CPD",
+      "charge":"MIP",
+      "state":"IL",
+      "location":{
+        "lat":40.114436,
+        "lng":-88.2304329
+      },
+      "time":"1440",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Illinois, Univ of",
+      "arrest location":"900 Blk S. Locust, C",
+      "age":"23",
+      "agency":"CPD",
+      "charge":"Adult Responsibility",
+      "state":"IL",
+      "location":{
+        "lat":40.1078804,
+        "lng":-88.240293
+      },
+      "time":"1050",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Illinois State Univ",
+      "arrest location":"Second/Chalmers, C",
+      "age":"20",
+      "agency":"CPD",
+      "charge":"MIP",
+      "state":"IL",
+      "location":{
+        "lat":40.10654600000001,
+        "lng":-88.237011
+      },
+      "time":"1445",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Champaign",
+      "arrest location":"500 Blk S. Third, C",
+      "age":"20",
+      "agency":"CPD",
+      "charge":"MIP",
+      "state":"IL",
+      "location":{
+        "lat":40.112643,
+        "lng":-88.23538119999999
+      },
+      "time":"1300",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Illinois, Univ of",
+      "arrest location":"500 Blk S. Third, C",
+      "age":"22",
+      "agency":"CPD",
+      "charge":"MIP",
+      "state":"IL",
+      "location":{
+        "lat":40.112643,
+        "lng":-88.23538119999999
+      },
+      "time":"1300",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Illinois State Univ",
+      "arrest location":"500 Blk S. Third, C",
+      "age":"22",
+      "agency":"CPD",
+      "charge":"Sale/Delivery to Minors",
+      "state":"IL",
+      "location":{
+        "lat":40.112643,
+        "lng":-88.23538119999999
+      },
+      "time":"1300",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Delevan",
+      "arrest location":"500 Blk S. Third, C",
+      "age":"22",
+      "agency":"CPD",
+      "charge":"Sale/Delivery to Minors",
+      "state":"IL",
+      "location":{
+        "lat":40.112643,
+        "lng":-88.23538119999999
+      },
+      "time":"1300",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Illinois, Univ of",
+      "arrest location":"70 Blk E. Armory, C.",
+      "age":"23",
+      "agency":"CPD",
+      "charge":"Sale/Delivery to Minors",
+      "state":"IL",
+      "location":{
+        "lat":40.1053946,
+        "lng":-88.2394621
+      },
+      "time":"1300",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Illinois, Univ of",
+      "arrest location":"600 Blk E. Stoughton, C.",
+      "age":"20",
+      "agency":"CPD",
+      "charge":"MIP",
+      "state":"IL",
+      "location":{
+        "lat":40.1130003,
+        "lng":-88.2149146
+      },
+      "time":"1220",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Roosevelt Univ",
+      "arrest location":"600 Blk E. Stoughton, C.",
+      "age":"19",
+      "agency":"CPD",
+      "charge":"MIP",
+      "state":"IL",
+      "location":{
+        "lat":40.1130003,
+        "lng":-88.2149146
+      },
+      "time":"1238",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Illinois, Univ of",
+      "arrest location":"600 Blk E. Stoughton, C.",
+      "age":"20",
+      "agency":"CPD",
+      "charge":"MIP",
+      "state":"IL",
+      "location":{
+        "lat":40.1130003,
+        "lng":-88.2149146
+      },
+      "time":"1220",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Loyola",
+      "arrest location":"600 Blk E. Stoughton, C.",
+      "age":"19",
+      "agency":"CPD",
+      "charge":"MIP",
+      "state":"IL",
+      "location":{
+        "lat":40.1130003,
+        "lng":-88.2149146
+      },
+      "time":"1220",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Indiana Univ",
+      "arrest location":"600 Blk E. Stoughton, C.",
+      "age":"19",
+      "agency":"CPD",
+      "charge":"MIP",
+      "state":"IN",
+      "location":{
+        "lat":40.1130003,
+        "lng":-88.2149146
+      },
+      "time":"1220",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Illinois, Univ of",
+      "arrest location":"600 Blk E. Stoughton, C.",
+      "age":"19",
+      "agency":"CPD",
+      "charge":"MIP",
+      "state":"IL",
+      "location":{
+        "lat":40.1130003,
+        "lng":-88.2149146
+      },
+      "time":"1220",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Illinois, Univ of",
+      "arrest location":"600 Blk E. Stoughton, C.",
+      "age":"20",
+      "agency":"CPD",
+      "charge":"MIP",
+      "state":"IL",
+      "location":{
+        "lat":40.1130003,
+        "lng":-88.2149146
+      },
+      "time":"1220",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Roosevelt Univ",
+      "arrest location":"600 Blk E. Stoughton, C.",
+      "age":"19",
+      "agency":"CPD",
+      "charge":"MIP",
+      "state":"IL",
+      "location":{
+        "lat":40.1130003,
+        "lng":-88.2149146
+      },
+      "time":"1220",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Loyola",
+      "arrest location":"600 Blk E. Stoughton, C.",
+      "age":"20",
+      "agency":"CPD",
+      "charge":"MIP",
+      "state":"IL",
+      "location":{
+        "lat":40.1130003,
+        "lng":-88.2149146
+      },
+      "time":"1220",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Loyola",
+      "arrest location":"600 Blk E. Stoughton, C.",
+      "age":"20",
+      "agency":"CPD",
+      "charge":"MIP",
+      "state":"IL",
+      "location":{
+        "lat":40.1130003,
+        "lng":-88.2149146
+      },
+      "time":"1220",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Illinois, Univ of",
+      "arrest location":"600 Blk E. Stoughton, C.",
+      "age":"19",
+      "agency":"CPD",
+      "charge":"MIP",
+      "state":"IL",
+      "location":{
+        "lat":40.1130003,
+        "lng":-88.2149146
+      },
+      "time":"1220",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Michigan State Univ",
+      "arrest location":"600 Blk E. Stoughton, C.",
+      "age":"20",
+      "agency":"CPD",
+      "charge":"MIP",
+      "state":"MI",
+      "location":{
+        "lat":40.1130003,
+        "lng":-88.2149146
+      },
+      "time":"1220",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Chicago, Univ of",
+      "arrest location":"600 Blk E. Stoughton, C.",
+      "age":"19",
+      "agency":"CPD",
+      "charge":"MIP",
+      "state":"IL",
+      "location":{
+        "lat":40.1130003,
+        "lng":-88.2149146
+      },
+      "time":"1220",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Loyola",
+      "arrest location":"600 Blk E. Stoughton, C.",
+      "age":"19",
+      "agency":"CPD",
+      "charge":"MIP",
+      "state":"IL",
+      "location":{
+        "lat":40.1130003,
+        "lng":-88.2149146
+      },
+      "time":"1220",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Loyola",
+      "arrest location":"600 Blk E. Stoughton, C.",
+      "age":"20",
+      "agency":"CPD",
+      "charge":"MIP",
+      "state":"IL",
+      "location":{
+        "lat":40.1130003,
+        "lng":-88.2149146
+      },
+      "time":"1220",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Illinois-Chicago, Univ of",
+      "arrest location":"600 Blk E. Stoughton, C.",
+      "age":"20",
+      "agency":"CPD",
+      "charge":"MIP",
+      "state":"IL",
+      "location":{
+        "lat":40.1130003,
+        "lng":-88.2149146
+      },
+      "time":"1220",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Illinois-Chicago, Univ of",
+      "arrest location":"600 Blk E. Stoughton, C.",
+      "age":"20",
+      "agency":"CPD",
+      "charge":"Unlawful use of ID",
+      "state":"IL",
+      "location":{
+        "lat":40.1130003,
+        "lng":-88.2149146
+      },
+      "time":"1220",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Illinois, Univ of",
+      "arrest location":"600 Blk E. Stoughton, C.",
+      "age":"22",
+      "agency":"CPD",
+      "charge":"Adult Responsibility",
+      "state":"IL",
+      "location":{
+        "lat":40.1130003,
+        "lng":-88.2149146
+      },
+      "time":"1220",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Illinois, Univ of",
+      "arrest location":"600 Blk E. Stoughton, C.",
+      "age":"23",
+      "agency":"CPD",
+      "charge":"Adult Responsibility",
+      "state":"IL",
+      "location":{
+        "lat":40.1130003,
+        "lng":-88.2149146
+      },
+      "time":"1220",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Illinois, Univ of",
+      "arrest location":"600 Blk E. Stoughton, C.",
+      "age":"21",
+      "agency":"CPD",
+      "charge":"Adult Responsibility",
+      "state":"IL",
+      "location":{
+        "lat":40.1130003,
+        "lng":-88.2149146
+      },
+      "time":"1220",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Loyola",
+      "arrest location":"600 Blk E. Stoughton, C.",
+      "age":"20",
+      "agency":"CPD",
+      "charge":"MIP",
+      "state":"IL",
+      "location":{
+        "lat":40.1130003,
+        "lng":-88.2149146
+      },
+      "time":"1220",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Indiana Univ",
+      "arrest location":"600 Blk E. Stoughton, C.",
+      "age":"20",
+      "agency":"CPD",
+      "charge":"MIP",
+      "state":"IL",
+      "location":{
+        "lat":40.1130003,
+        "lng":-88.2149146
+      },
+      "time":"1220",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Parkland CC",
+      "arrest location":"900 Blk S. Second, C.",
+      "age":"18",
+      "agency":"CPD",
+      "charge":"MIP",
+      "state":"IL",
+      "location":{
+        "lat":40.1079093,
+        "lng":-88.2370011
+      },
+      "time":"1540",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Illinois, Univ of",
+      "arrest location":"900 Blk S. Second, C.",
+      "age":"19",
+      "agency":"CPD",
+      "charge":"MIP",
+      "state":"IL",
+      "location":{
+        "lat":40.1079093,
+        "lng":-88.2370011
+      },
+      "time":"1540",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Illinois, Univ of",
+      "arrest location":"900 Blk S. Second, C.",
+      "age":"19",
+      "agency":"CPD",
+      "charge":"MIP",
+      "state":"IL",
+      "location":{
+        "lat":40.1079093,
+        "lng":-88.2370011
+      },
+      "time":"1540",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Illinois, Univ of",
+      "arrest location":"900 Blk S. Second, C.",
+      "age":"19",
+      "agency":"CPD",
+      "charge":"MIP",
+      "state":"IL",
+      "location":{
+        "lat":40.1079093,
+        "lng":-88.2370011
+      },
+      "time":"1540",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Illinois, Univ of",
+      "arrest location":"900 Blk S. Second, C.",
+      "age":"19",
+      "agency":"CPD",
+      "charge":"MIP",
+      "state":"IL",
+      "location":{
+        "lat":40.1079093,
+        "lng":-88.2370011
+      },
+      "time":"1540",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Illinois, Univ of",
+      "arrest location":"900 Blk S. Second, C.",
+      "age":"19",
+      "agency":"CPD",
+      "charge":"MIP",
+      "state":"IL",
+      "location":{
+        "lat":40.1079093,
+        "lng":-88.2370011
+      },
+      "time":"1540",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Parkland CC",
+      "arrest location":"John Street, C.",
+      "age":"19",
+      "agency":"CPD",
+      "charge":"MIP",
+      "state":"IL",
+      "location":{
+        "lat":40.10902189999999,
+        "lng":-88.2549214
+      },
+      "time":"1530",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Illinois, Univ of",
+      "arrest location":"900 Blk S. Second, C.",
+      "age":"19",
+      "agency":"CPD",
+      "charge":"Presence of Minor in Liquor Estab",
+      "state":"IL",
+      "location":{
+        "lat":40.1079093,
+        "lng":-88.2370011
+      },
+      "time":"1530",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Illinois, Univ of",
+      "arrest location":"900 Blk S. Second, C.",
+      "age":"19",
+      "agency":"CPD",
+      "charge":"MIP",
+      "state":"IL",
+      "location":{
+        "lat":40.1079093,
+        "lng":-88.2370011
+      },
+      "time":"1530",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Illinois, Univ of",
+      "arrest location":"900 Blk S. Second, C.",
+      "age":"19",
+      "agency":"CPD",
+      "charge":"Presence of Minor in Liquor Estab",
+      "state":"IL",
+      "location":{
+        "lat":40.1079093,
+        "lng":-88.2370011
+      },
+      "time":"1530",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Illinois, Univ of",
+      "arrest location":"900 Blk S. Second, C.",
+      "age":"19",
+      "agency":"CPD",
+      "charge":"MIP",
+      "state":"IL",
+      "location":{
+        "lat":40.1079093,
+        "lng":-88.2370011
+      },
+      "time":"1530",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Illinois, Univ of",
+      "arrest location":"900 Blk S. Second, C.",
+      "age":"19",
+      "agency":"CPD",
+      "charge":"MIP",
+      "state":"IL",
+      "location":{
+        "lat":40.1079093,
+        "lng":-88.2370011
+      },
+      "time":"1530",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Illinois, Univ of",
+      "arrest location":"900 Blk S. Second, C.",
+      "age":"20",
+      "agency":"CPD",
+      "charge":"MIP",
+      "state":"IL",
+      "location":{
+        "lat":40.1079093,
+        "lng":-88.2370011
+      },
+      "time":"1530",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Illinois State Univ",
+      "arrest location":"900 Blk S. Second, C.",
+      "age":"18",
+      "agency":"CPD",
+      "charge":"MIP",
+      "state":"IL",
+      "location":{
+        "lat":40.1079093,
+        "lng":-88.2370011
+      },
+      "time":"1530",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Illinois, Univ of",
+      "arrest location":"900 Blk S. Second, C.",
+      "age":"19",
+      "agency":"CPD",
+      "charge":"MIP",
+      "state":"IL",
+      "location":{
+        "lat":40.1079093,
+        "lng":-88.2370011
+      },
+      "time":"1530",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Illinois, Univ of",
+      "arrest location":"900 Blk S. Second, C.",
+      "age":"19",
+      "agency":"CPD",
+      "charge":"MIP",
+      "state":"IL",
+      "location":{
+        "lat":40.1079093,
+        "lng":-88.2370011
+      },
+      "time":"1543",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Illinois, Univ of",
+      "arrest location":"900 Blk S. Second, C.",
+      "age":"19",
+      "agency":"CPD",
+      "charge":"MIP",
+      "state":"IL",
+      "location":{
+        "lat":40.1079093,
+        "lng":-88.2370011
+      },
+      "time":"1530",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Illinois, Univ of",
+      "arrest location":"900 Blk S. Second, C.",
+      "age":"19",
+      "agency":"CPD",
+      "charge":"MIP",
+      "state":"IL",
+      "location":{
+        "lat":40.1079093,
+        "lng":-88.2370011
+      },
+      "time":"1530",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Illinois, Univ of",
+      "arrest location":"900 Blk S. Second, C.",
+      "age":"18",
+      "agency":"CPD",
+      "charge":"MIP",
+      "state":"IL",
+      "location":{
+        "lat":40.1079093,
+        "lng":-88.2370011
+      },
+      "time":"1530",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Illinois, Univ of",
+      "arrest location":"900 Blk S. Second, C.",
+      "age":"18",
+      "agency":"CPD",
+      "charge":"MIP",
+      "state":"IL",
+      "location":{
+        "lat":40.1079093,
+        "lng":-88.2370011
+      },
+      "time":"1543",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Illinois, Univ of",
+      "arrest location":"900 Blk S. Second, C.",
+      "age":"19",
+      "agency":"CPD",
+      "charge":"MIP",
+      "state":"IL",
+      "location":{
+        "lat":40.1079093,
+        "lng":-88.2370011
+      },
+      "time":"1530",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Illinois, Univ of",
+      "arrest location":"900 Blk S. Second, C.",
+      "age":"18",
+      "agency":"CPD",
+      "charge":"MIP",
+      "state":"IL",
+      "location":{
+        "lat":40.1079093,
+        "lng":-88.2370011
+      },
+      "time":"1530",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Illinois, Univ of",
+      "arrest location":"900 Blk S. Second, C.",
+      "age":"19",
+      "agency":"CPD",
+      "charge":"MIP",
+      "state":"IL",
+      "location":{
+        "lat":40.1079093,
+        "lng":-88.2370011
+      },
+      "time":"1530",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Illinois, Univ of",
+      "arrest location":"900 Blk S. Second, C.",
+      "age":"19",
+      "agency":"CPD",
+      "charge":"MIP",
+      "state":"IL",
+      "location":{
+        "lat":40.1079093,
+        "lng":-88.2370011
+      },
+      "time":"1543",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Illinois State Univ",
+      "arrest location":"900 Blk S. Second, C.",
+      "age":"19",
+      "agency":"CPD",
+      "charge":"MIP",
+      "state":"IL",
+      "location":{
+        "lat":40.1079093,
+        "lng":-88.2370011
+      },
+      "time":"1530",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Illinois, Univ of",
+      "arrest location":"900 Blk S. Second, C.",
+      "age":"18",
+      "agency":"CPD",
+      "charge":"MIP",
+      "state":"IL",
+      "location":{
+        "lat":40.1079093,
+        "lng":-88.2370011
+      },
+      "time":"1532",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Illinois, Univ of",
+      "arrest location":"900 Blk S. Second, C.",
+      "age":"19",
+      "agency":"CPD",
+      "charge":"MIP",
+      "state":"IL",
+      "location":{
+        "lat":40.1079093,
+        "lng":-88.2370011
+      },
+      "time":"1530",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Art Inst. Of Chicago",
+      "arrest location":"900 Blk S. Second, C.",
+      "age":"19",
+      "agency":"CPD",
+      "charge":"MIP",
+      "state":"IL",
+      "location":{
+        "lat":40.1079093,
+        "lng":-88.2370011
+      },
+      "time":"1530",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Illinois, Univ of",
+      "arrest location":"900 Blk S. Second, C.",
+      "age":"20",
+      "agency":"CPD",
+      "charge":"MIP",
+      "state":"IL",
+      "location":{
+        "lat":40.1079093,
+        "lng":-88.2370011
+      },
+      "time":"1530",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Illinois, Univ of",
+      "arrest location":"900 Blk S. Second, C.",
+      "age":"19",
+      "agency":"CPD",
+      "charge":"MIP",
+      "state":"IL",
+      "location":{
+        "lat":40.1079093,
+        "lng":-88.2370011
+      },
+      "time":"1530",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Illinois, Univ of",
+      "arrest location":"900 Blk S. Second, C.",
+      "age":"19",
+      "agency":"CPD",
+      "charge":"MIP",
+      "state":"IL",
+      "location":{
+        "lat":40.1079093,
+        "lng":-88.2370011
+      },
+      "time":"1530",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Illinois, Univ of",
+      "arrest location":"900 Blk S. Second, C.",
+      "age":"18",
+      "agency":"CPD",
+      "charge":"MIP",
+      "state":"IL",
+      "location":{
+        "lat":40.1079093,
+        "lng":-88.2370011
+      },
+      "time":"1530",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Illinois, Univ of",
+      "arrest location":"900 Blk S. Second, C.",
+      "age":"19",
+      "agency":"CPD",
+      "charge":"MIP",
+      "state":"IL",
+      "location":{
+        "lat":40.1079093,
+        "lng":-88.2370011
+      },
+      "time":"1532",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Illinois, Univ of",
+      "arrest location":"900 Blk S. Second, C.",
+      "age":"18",
+      "agency":"CPD",
+      "charge":"MIP",
+      "state":"IL",
+      "location":{
+        "lat":40.1079093,
+        "lng":-88.2370011
+      },
+      "time":"1530",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Illinois, Univ of",
+      "arrest location":"900 Blk S. Second, C.",
+      "age":"18",
+      "agency":"CPD",
+      "charge":"MIP",
+      "state":"IL",
+      "location":{
+        "lat":40.1079093,
+        "lng":-88.2370011
+      },
+      "time":"1530",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Illinois, Univ of",
+      "arrest location":"900 Blk S. Second, C.",
+      "age":"19",
+      "agency":"CPD",
+      "charge":"MIP",
+      "state":"IL",
+      "location":{
+        "lat":40.1079093,
+        "lng":-88.2370011
+      },
+      "time":"1530",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Illinois, Univ of",
+      "arrest location":"900 Blk S. Second, C.",
+      "age":"19",
+      "agency":"CPD",
+      "charge":"MIP",
+      "state":"IL",
+      "location":{
+        "lat":40.1079093,
+        "lng":-88.2370011
+      },
+      "time":"1530",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Illinois, Univ of",
+      "arrest location":"900 Blk S. Second, C.",
+      "age":"19",
+      "agency":"CPD",
+      "charge":"MIP",
+      "state":"IL",
+      "location":{
+        "lat":40.1079093,
+        "lng":-88.2370011
+      },
+      "time":"1530",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Illinois, Univ of",
+      "arrest location":"900 Blk S. Second, C.",
+      "age":"18",
+      "agency":"CPD",
+      "charge":"MIP",
+      "state":"IL",
+      "location":{
+        "lat":40.1079093,
+        "lng":-88.2370011
+      },
+      "time":"1530",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Calvin College",
+      "arrest location":"900 Blk S. Second, C.",
+      "age":"19",
+      "agency":"CPD",
+      "charge":"MIP",
+      "state":"MI",
+      "location":{
+        "lat":40.1079093,
+        "lng":-88.2370011
+      },
+      "time":"1530",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Roosevelt Univ",
+      "arrest location":"Sixth/White, C",
+      "age":"23",
+      "agency":"CPD",
+      "charge":"public possession",
+      "state":"IL",
+      "location":{
+        "lat":40.114436,
+        "lng":-88.2304329
+      },
+      "time":"1440",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Illinois, Univ of",
+      "arrest location":"600 Blk E. Daniel, C",
+      "age":"22",
+      "agency":"CPD",
+      "charge":"Battery",
+      "state":"IL",
+      "location":{
+        "lat":40.1079835,
+        "lng":-88.23033029999999
+      },
+      "time":"1715",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Illinois, Univ of",
+      "arrest location":"400 Blk E. Green, C",
+      "age":"20",
+      "agency":"CPD",
+      "charge":"MIP",
+      "state":"IL",
+      "location":{
+        "lat":40.1101633,
+        "lng":-88.2484425
+      },
+      "time":"1646",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Illinois Central College",
+      "arrest location":"First/Green, C",
+      "age":"20",
+      "agency":"CPD",
+      "charge":"MIP",
+      "state":"IL",
+      "location":{
+        "lat":40.110217,
+        "lng":-88.2386949
+      },
+      "time":"1907",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Illinois, Univ of",
+      "arrest location":"400 Blk E. Green, C",
+      "age":"20",
+      "agency":"CPD",
+      "charge":"Public Urination",
+      "state":"IL",
+      "location":{
+        "lat":40.1101633,
+        "lng":-88.2484425
+      },
+      "time":"1928",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Kankakee CC",
+      "arrest location":"500 Blk S. Third, C",
+      "age":"19",
+      "agency":"CPD",
+      "charge":"MIP",
+      "state":"IL",
+      "location":{
+        "lat":40.112643,
+        "lng":-88.23538119999999
+      },
+      "time":"1810",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Illinois, Univ of",
+      "arrest location":"Second/Chalmers, C",
+      "age":"23",
+      "agency":"CPD",
+      "charge":"public possession",
+      "state":"IL",
+      "location":{
+        "lat":40.10654600000001,
+        "lng":-88.237011
+      },
+      "time":"1803",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Illinois, Univ of",
+      "arrest location":"400 Blk E. Green, C",
+      "age":"22",
+      "agency":"CPD",
+      "charge":"Carrying Open Liquor out of premises",
+      "state":"IL",
+      "location":{
+        "lat":40.1101633,
+        "lng":-88.2484425
+      },
+      "time":"1745",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Rosland Franklin",
+      "arrest location":"Third/John, C",
+      "age":"24",
+      "agency":"CPD",
+      "charge":"public possession",
+      "state":"IL",
+      "location":{
+        "lat":40.109035,
+        "lng":-88.235373
+      },
+      "time":"1930",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Illinois, Univ of",
+      "arrest location":"First/Green, C",
+      "age":"20",
+      "agency":"CPD",
+      "charge":"MIP",
+      "state":"IL",
+      "location":{
+        "lat":40.110217,
+        "lng":-88.2386949
+      },
+      "time":"1952",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Illinois, Univ of",
+      "arrest location":"Arbor/Gregory, C",
+      "age":"19",
+      "agency":"CPD",
+      "charge":"MIP",
+      "state":"IL",
+      "location":{
+        "lat":40.1041,
+        "lng":-88.2365619
+      },
+      "time":"2010",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Illinois, Univ of",
+      "arrest location":"50 Blk E. John, C.",
+      "age":"22",
+      "agency":"CPD",
+      "charge":"Specific Prohibition- Noise",
+      "state":"IL",
+      "location":{
+        "lat":40.1090267,
+        "lng":-88.2387771
+      },
+      "time":"2039",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Illinois, Univ of",
+      "arrest location":"600 E. Green, C",
+      "age":"24",
+      "agency":"CPD",
+      "charge":"Resisting/Obstructing PO",
+      "state":"IL",
+      "location":{
+        "lat":40.1108506,
+        "lng":-88.2013649
+      },
+      "time":"2225",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Illinois, Univ of",
+      "arrest location":"600 E. Green, C",
+      "age":"32",
+      "agency":"CPD",
+      "charge":"Resisting/Obstructing PO",
+      "state":"IL",
+      "location":{
+        "lat":40.1108506,
+        "lng":-88.2013649
+      },
+      "time":"2130",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Illinois, Univ of",
+      "arrest location":"Second/Gregory, C",
+      "age":"21",
+      "agency":"CPD",
+      "charge":"Public Urination",
+      "state":"IL",
+      "location":{
+        "lat":40.10409689999999,
+        "lng":-88.23759
+      },
+      "time":"2137",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Streator",
+      "arrest location":"50 Blk. E. Daniel, C.",
+      "age":"18",
+      "agency":"CPD",
+      "charge":"MIP",
+      "state":"IL",
+      "location":{
+        "lat":40.108081,
+        "lng":-88.239999
+      },
+      "time":"1820",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Illinois, Univ of",
+      "arrest location":"50 Blk. E. Daniel, C.",
+      "age":"19",
+      "agency":"CPD",
+      "charge":"MIP",
+      "state":"IL",
+      "location":{
+        "lat":40.108081,
+        "lng":-88.239999
+      },
+      "time":"1830",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Eastern IL Univ",
+      "arrest location":"800 Blk S. Locust, C",
+      "age":"21",
+      "agency":"CPD",
+      "charge":"public possession",
+      "state":"IL",
+      "location":{
+        "lat":40.10898299999999,
+        "lng":-88.240303
+      },
+      "time":"1840",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Eastern IL Univ",
+      "arrest location":"900 Blk S. Locust, C",
+      "age":"21",
+      "agency":"CPD",
+      "charge":"public possession",
+      "state":"IL",
+      "location":{
+        "lat":40.1078804,
+        "lng":-88.240293
+      },
+      "time":"1845",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Illinois, Univ of",
+      "arrest location":"Second/Chalmers, C",
+      "age":"21",
+      "agency":"CPD",
+      "charge":"public possession",
+      "state":"IL",
+      "location":{
+        "lat":40.10654600000001,
+        "lng":-88.237011
+      },
+      "time":"1915",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Illinois, Univ of",
+      "arrest location":"300 Blk E. Chalmers",
+      "age":"19",
+      "agency":"CPD",
+      "charge":"Public Urination",
+      "state":"IL",
+      "location":{
+        "lat":40.10657339999999,
+        "lng":-88.2353461
+      },
+      "time":"2230",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Northern IL Univ",
+      "arrest location":"Second/John, C",
+      "age":"22",
+      "agency":"CPD",
+      "charge":"public possession",
+      "state":"IL",
+      "location":{
+        "lat":40.10902189999999,
+        "lng":-88.237027
+      },
+      "time":"2036",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Joliet Jr College",
+      "arrest location":"Third/Armory, C",
+      "age":"22",
+      "agency":"CPD",
+      "charge":"public possession",
+      "state":"IL",
+      "location":{
+        "lat":40.105405,
+        "lng":-88.235344
+      },
+      "time":"2340",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Southlake",
+      "arrest location":"Arbor/Armory, C",
+      "age":"21",
+      "agency":"UIPD",
+      "charge":"public possession",
+      "state":"TX",
+      "location":{
+        "lat":40.105396,
+        "lng":-88.2365739
+      },
+      "time":"1400",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Mahomet",
+      "arrest location":"Arbor/Armory, C",
+      "age":"21",
+      "agency":"UIPD",
+      "charge":"public possession",
+      "state":"IL",
+      "location":{
+        "lat":40.105396,
+        "lng":-88.2365739
+      },
+      "time":"1400",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Galesburg",
+      "arrest location":"Arbor/Armory, C",
+      "age":"24",
+      "agency":"UIPD",
+      "charge":"public possession",
+      "state":"IL",
+      "location":{
+        "lat":40.105396,
+        "lng":-88.2365739
+      },
+      "time":"1215",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Illinois, Univ of",
+      "arrest location":"Third/Healey, C",
+      "age":"22",
+      "agency":"UIPD",
+      "charge":"public possession",
+      "state":"IL",
+      "location":{
+        "lat":40.1114559,
+        "lng":-88.2353919
+      },
+      "time":"1120",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Chicago",
+      "arrest location":"Daniel/Locust, C",
+      "age":"19",
+      "agency":"UIPD",
+      "charge":"MIP",
+      "state":"IL",
+      "location":{
+        "lat":40.107894,
+        "lng":-88.240312
+      },
+      "time":"1017",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Chicago",
+      "arrest location":"Daniel/Locust, C",
+      "age":"19",
+      "agency":"UIPD",
+      "charge":"MIP",
+      "state":"IL",
+      "location":{
+        "lat":40.107894,
+        "lng":-88.240312
+      },
+      "time":"1017",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Illinois, Univ of",
+      "arrest location":"600 Blk E. Armory, C",
+      "age":"20",
+      "agency":"UIPD",
+      "charge":"MIP",
+      "state":"IL",
+      "location":{
+        "lat":40.105434,
+        "lng":-88.2302835
+      },
+      "time":"1658",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Valparaiso",
+      "arrest location":"800 Blk W. Green, U",
+      "age":"22",
+      "agency":"UPD",
+      "charge":"public possession",
+      "state":"IN",
+      "location":{
+        "lat":40.1101414,
+        "lng":-88.2558869
+      },
+      "time":"1425",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Illinois, Univ of",
+      "arrest location":"Busey/Springfield, U",
+      "age":"18",
+      "agency":"UPD",
+      "charge":"MIP",
+      "state":"IL",
+      "location":{
+        "lat":40.1127905,
+        "lng":-88.2177533
+      },
+      "time":"1455",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Illinois, Univ of",
+      "arrest location":"Busey/Springfield, U",
+      "age":"19",
+      "agency":"UPD",
+      "charge":"MIP",
+      "state":"IL",
+      "location":{
+        "lat":40.1127905,
+        "lng":-88.2177533
+      },
+      "time":"1455",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Illinois, Univ of",
+      "arrest location":"700 blk Busey, U",
+      "age":"19",
+      "agency":"UPD",
+      "charge":"legal Consumption",
+      "state":"IL",
+      "location":{
+        "lat":40.107435,
+        "lng":-88.2176757
+      },
+      "time":"1453",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Springfield",
+      "arrest location":"Busey/Green, U",
+      "age":"21",
+      "agency":"UPD",
+      "charge":"public possession",
+      "state":"IL",
+      "location":{
+        "lat":40.1106019,
+        "lng":-88.2177203
+      },
+      "time":"1547",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Springfield",
+      "arrest location":"Busey/Green, U",
+      "age":"24",
+      "agency":"UPD",
+      "charge":"public possession",
+      "state":"IL",
+      "location":{
+        "lat":40.1106019,
+        "lng":-88.2177203
+      },
+      "time":"1547",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Springfield",
+      "arrest location":"Busey/Green, U",
+      "age":"22",
+      "agency":"UPD",
+      "charge":"public possession",
+      "state":"IL",
+      "location":{
+        "lat":40.1106019,
+        "lng":-88.2177203
+      },
+      "time":"1547",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Illinois, Univ of",
+      "arrest location":"Harvey/Stoughton",
+      "age":"20",
+      "agency":"UPD",
+      "charge":"MIP",
+      "state":"IL",
+      "location":{
+        "lat":40.1135436,
+        "lng":-88.2223255
+      },
+      "time":"1710",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Illinois, Univ of",
+      "arrest location":"Harvey/Stoughton",
+      "age":"19",
+      "agency":"UPD",
+      "charge":"MIP",
+      "state":"IL",
+      "location":{
+        "lat":40.1135436,
+        "lng":-88.2223255
+      },
+      "time":"1710",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Illinois, Univ of",
+      "arrest location":"Coler/Oregon",
+      "age":"20",
+      "agency":"UPD",
+      "charge":"MIP",
+      "state":"IL",
+      "location":{
+        "lat":40.1074476,
+        "lng":-88.21598829999999
+      },
+      "time":"1753",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Illinois, Univ of",
+      "arrest location":"Stoughton/Busey, U",
+      "age":"20",
+      "agency":"UPD",
+      "charge":"MIP",
+      "state":"IL",
+      "location":{
+        "lat":40.1133781,
+        "lng":-88.2176879
+      },
+      "time":"2050",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Illinois, Univ of",
+      "arrest location":"Stoughton/Busey, U",
+      "age":"20",
+      "agency":"UPD",
+      "charge":"public possession",
+      "state":"IL",
+      "location":{
+        "lat":40.1133781,
+        "lng":-88.2176879
+      },
+      "time":"2050",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Illinois, Univ of",
+      "arrest location":"Stoughton/Busey, U",
+      "age":"20",
+      "agency":"UPD",
+      "charge":"MIP",
+      "state":"IL",
+      "location":{
+        "lat":40.1133781,
+        "lng":-88.2176879
+      },
+      "time":"2050",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Champaign",
+      "arrest location":"Stoughton/Busey, U",
+      "age":"24",
+      "agency":"UPD",
+      "charge":"public possession",
+      "state":"IL",
+      "location":{
+        "lat":40.1133781,
+        "lng":-88.2176879
+      },
+      "time":"2055",
+      "date":"3/6/2015"
+    },
+    {
+      "school/city":"Illinois, Univ of",
+      "arrest location":"Green/Lincoln, U",
+      "age":"19",
+      "agency":"UPD",
+      "charge":"Public Urination",
+      "state":"IL",
+      "location":{
+        "lat":40.1106229,
+        "lng":-88.21930479999999
+      },
+      "time":"2349",
+      "date":"3/6/2015"
+    }
+  ]
+}

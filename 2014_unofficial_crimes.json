@@ -1,0 +1,1714 @@
+{
+  "crimes":[
+    {
+      "school/city":"UIUC",
+      "arrest location":"100 block of E Armory, C",
+      "age":"21",
+      "agency":"CPD",
+      "charge":"Public Possession",
+      "report":"C14-1683",
+      "state":"IL",
+      "location":{
+        "lat":40.1054025,
+        "lng":-88.23865339999999
+      },
+      "time":"1152",
+      "date":"3/7/2014"
+    },
+    {
+      "school/city":"UIUC",
+      "arrest location":"100 block of E Armory, C",
+      "age":"22",
+      "agency":"CPD",
+      "charge":"Public Possession",
+      "report":"C14-1683",
+      "state":"IL",
+      "location":{
+        "lat":40.1054025,
+        "lng":-88.23865339999999
+      },
+      "time":"1155",
+      "date":"3/7/2014"
+    },
+    {
+      "school/city":"UIUC",
+      "arrest location":"Locust/Armory, C",
+      "age":"22",
+      "agency":"CPD",
+      "charge":"Public Possession",
+      "report":"C14-1683",
+      "state":"IL",
+      "location":{
+        "lat":40.105373,
+        "lng":-88.2402819
+      },
+      "time":"1056",
+      "date":"3/7/2014"
+    },
+    {
+      "school/city":"UIUC",
+      "arrest location":"John/Locust, C",
+      "age":"21",
+      "agency":"CPD",
+      "charge":"Public Possession",
+      "report":"C14-1683",
+      "state":"IL",
+      "location":{
+        "lat":40.10899390000001,
+        "lng":-88.2403219
+      },
+      "time":"1230",
+      "date":"3/7/2014"
+    },
+    {
+      "school/city":"Vanderbilt",
+      "arrest location":"White/Sixth, C",
+      "age":"21",
+      "agency":"CPD",
+      "charge":"Public Possession",
+      "report":"C14-1682",
+      "state":"TN",
+      "location":{
+        "lat":40.114436,
+        "lng":-88.2304329
+      },
+      "time":"1031",
+      "date":"3/7/2014"
+    },
+    {
+      "school/city":"UIUC",
+      "arrest location":"500 block of block of S Third, C",
+      "age":"19",
+      "agency":"CPD",
+      "charge":"MIP",
+      "report":"C14-1683",
+      "state":"IL",
+      "location":{
+        "lat":40.112643,
+        "lng":-88.23538119999999
+      },
+      "time":"1211",
+      "date":"3/7/2014"
+    },
+    {
+      "school/city":"UIUC",
+      "arrest location":"900 block of S Oak, C",
+      "age":"22",
+      "agency":"CPD",
+      "charge":"Public Possession",
+      "report":"C14-1682",
+      "state":"IL",
+      "location":{
+        "lat":40.1078801,
+        "lng":-88.2415415
+      },
+      "time":"1005",
+      "date":"3/7/2014"
+    },
+    {
+      "school/city":"Harper College",
+      "arrest location":"Third/Armory, C",
+      "age":"19",
+      "agency":"CPD",
+      "charge":"Public Urination",
+      "report":"C14-1682",
+      "state":"IL",
+      "location":{
+        "lat":40.105405,
+        "lng":-88.235344
+      },
+      "time":"1030",
+      "date":"3/7/2014"
+    },
+    {
+      "school/city":"UIUC",
+      "arrest location":"Third/Chalmers, C",
+      "age":"20",
+      "agency":"CPD",
+      "charge":"MIP",
+      "report":"C14-1682",
+      "state":"IL",
+      "location":{
+        "lat":40.106559,
+        "lng":-88.2353529
+      },
+      "time":"1145",
+      "date":"3/7/2014"
+    },
+    {
+      "school/city":"UIUC",
+      "arrest location":"300 block of E Daniel, C",
+      "age":"21",
+      "agency":"CPD",
+      "charge":"Public Possession",
+      "report":"C14-1683",
+      "state":"IL",
+      "location":{
+        "lat":40.1079549,
+        "lng":-88.23458339999999
+      },
+      "time":"1020",
+      "date":"3/7/2014"
+    },
+    {
+      "school/city":"UIUC",
+      "arrest location":"00 block of E John, C",
+      "age":"22",
+      "agency":"CPD",
+      "charge":"Adult Responsibility",
+      "report":"C14-1683",
+      "state":"IL",
+      "location":{
+        "lat":40.1089993,
+        "lng":-88.2415869
+      },
+      "time":"1045",
+      "date":"3/7/2014"
+    },
+    {
+      "school/city":"Crystal Lake",
+      "arrest location":"800 S First, C",
+      "age":"23",
+      "agency":"CPD",
+      "charge":"Public Possession",
+      "report":"C14-1683",
+      "state":"IL",
+      "location":{
+        "lat":40.1090022,
+        "lng":-88.2386763
+      },
+      "time":"1150",
+      "date":"3/7/2014"
+    },
+    {
+      "school/city":"UIUC",
+      "arrest location":"100 block of E Daniel, C",
+      "age":"19",
+      "agency":"CPD",
+      "charge":"MIP",
+      "report":"C14-1893",
+      "state":"IL",
+      "location":{
+        "lat":40.1079215,
+        "lng":-88.23867539999999
+      },
+      "time":"1148",
+      "date":"3/7/2014"
+    },
+    {
+      "school/city":"UIUC",
+      "arrest location":"900 block of S Third, C",
+      "age":"19",
+      "agency":"CPD",
+      "charge":"MIP",
+      "report":"C14-1895",
+      "state":"IL",
+      "location":{
+        "lat":40.1079243,
+        "lng":-88.235345
+      },
+      "time":"1203",
+      "date":"3/7/2014"
+    },
+    {
+      "school/city":"UIUC",
+      "arrest location":"00 block of E Armory, C",
+      "age":"21",
+      "agency":"CPD",
+      "charge":"Public Possession",
+      "report":"C14-1683",
+      "state":"IL",
+      "location":{
+        "lat":40.1053707,
+        "lng":-88.2425954
+      },
+      "time":"1125",
+      "date":"3/7/2014"
+    },
+    {
+      "school/city":"Urbana",
+      "arrest location":"Green/Fourth, C",
+      "age":"26",
+      "agency":"CPD",
+      "charge":"Public Possession",
+      "report":"C14-1683",
+      "state":"IL",
+      "location":{
+        "lat":40.1102662,
+        "lng":-88.2335352
+      },
+      "time":"1600",
+      "date":"3/7/2014"
+    },
+    {
+      "school/city":"Hawthorn Woods",
+      "arrest location":"Green/Fourth, C",
+      "age":"23",
+      "agency":"CPD",
+      "charge":"Public Possession",
+      "report":"C14-1683",
+      "state":"IL",
+      "location":{
+        "lat":40.1102662,
+        "lng":-88.2335352
+      },
+      "time":"1600",
+      "date":"3/7/2014"
+    },
+    {
+      "school/city":"UIUC",
+      "arrest location":"Third/Chalmers, C",
+      "age":"21",
+      "agency":"CPD",
+      "charge":"Public Possession",
+      "report":"C14-1683",
+      "state":"IL",
+      "location":{
+        "lat":40.106559,
+        "lng":-88.2353529
+      },
+      "time":"1518",
+      "date":"3/7/2014"
+    },
+    {
+      "school/city":"UIUC",
+      "arrest location":"800 block of S First, C",
+      "age":"21",
+      "agency":"CPD",
+      "charge":"Public Possession",
+      "report":"C14-1683",
+      "state":"IL",
+      "location":{
+        "lat":40.1090022,
+        "lng":-88.2386763
+      },
+      "time":"1530",
+      "date":"3/7/2014"
+    },
+    {
+      "school/city":"UIUC",
+      "arrest location":"Daniel/Fourth, C",
+      "age":"22",
+      "agency":"CPD",
+      "charge":"Public Possession",
+      "report":"C14-1683",
+      "state":"IL",
+      "location":{
+        "lat":40.1079499,
+        "lng":-88.23349999999999
+      },
+      "time":"1555",
+      "date":"3/7/2014"
+    },
+    {
+      "school/city":"UIUC",
+      "arrest location":"900 block of S First, C",
+      "age":"23",
+      "agency":"CPD",
+      "charge":"Public Possession",
+      "report":"C14-1682",
+      "state":"IL",
+      "location":{
+        "lat":40.1078933,
+        "lng":-88.23867299999999
+      },
+      "time":"1058",
+      "date":"3/7/2014"
+    },
+    {
+      "school/city":"Springfield",
+      "arrest location":"Daniel/Locust, C",
+      "age":"22",
+      "agency":"CPD",
+      "charge":"Public Possession",
+      "report":"C14-1682",
+      "state":"IL",
+      "location":{
+        "lat":40.107894,
+        "lng":-88.240312
+      },
+      "time":"1130",
+      "date":"3/7/2014"
+    },
+    {
+      "school/city":"UIUC",
+      "arrest location":"100 block of E Springfield, C",
+      "age":"23",
+      "agency":"CPD",
+      "charge":"Public Possession",
+      "report":"C14-1682",
+      "state":"IL",
+      "location":{
+        "lat":40.1126436,
+        "lng":-88.23864019999999
+      },
+      "time":"1225",
+      "date":"3/7/2014"
+    },
+    {
+      "school/city":"Madison",
+      "arrest location":"700 block of S Locust, C",
+      "age":"21",
+      "agency":"CPD",
+      "charge":"Public Possession",
+      "report":"C14-1683",
+      "state":"WI",
+      "location":{
+        "lat":40.1101999,
+        "lng":-88.24023969999999
+      },
+      "time":"1340",
+      "date":"3/7/2014"
+    },
+    {
+      "school/city":"Warwick College",
+      "arrest location":"700 block of S Locust, C",
+      "age":"21",
+      "agency":"CPD",
+      "charge":"Public Possession",
+      "report":"C14-1683",
+      "state":"UK",
+      "location":{
+        "lat":40.1101999,
+        "lng":-88.24023969999999
+      },
+      "time":"1340",
+      "date":"3/7/2014"
+    },
+    {
+      "school/city":"UIUC",
+      "arrest location":"700 block of S Locust, C",
+      "age":"23",
+      "agency":"CPD",
+      "charge":"Public Possession",
+      "report":"C14-1683",
+      "state":"IL",
+      "location":{
+        "lat":40.1101999,
+        "lng":-88.24023969999999
+      },
+      "time":"1340",
+      "date":"3/7/2014"
+    },
+    {
+      "school/city":"UIUC",
+      "arrest location":"500 block of S Locust, C",
+      "age":"22",
+      "agency":"CPD",
+      "charge":"Adult Responsibility",
+      "report":"C14-1897",
+      "state":"IL",
+      "location":{
+        "lat":40.112613,
+        "lng":-88.2401004
+      },
+      "time":"1250",
+      "date":"3/7/2014"
+    },
+    {
+      "school/city":"UIUC",
+      "arrest location":"500 block of S Locust, C",
+      "age":"21",
+      "agency":"CPD",
+      "charge":"Adult Responsibility",
+      "report":"C14-1897",
+      "state":"IL",
+      "location":{
+        "lat":40.112613,
+        "lng":-88.2401004
+      },
+      "time":"1254",
+      "date":"3/7/2014"
+    },
+    {
+      "school/city":"UIUC",
+      "arrest location":"500 block of S Locust, C",
+      "age":"22",
+      "agency":"CPD",
+      "charge":"Adult Responsibility",
+      "report":"C14-1897",
+      "state":"IL",
+      "location":{
+        "lat":40.112613,
+        "lng":-88.2401004
+      },
+      "time":"1254",
+      "date":"3/7/2014"
+    },
+    {
+      "school/city":"North Central College",
+      "arrest location":"500 block of S Locust, C",
+      "age":"22",
+      "agency":"CPD",
+      "charge":"Public Possession",
+      "report":"C14-1897",
+      "state":"IL",
+      "location":{
+        "lat":40.112613,
+        "lng":-88.2401004
+      },
+      "time":"1254",
+      "date":"3/7/2014"
+    },
+    {
+      "school/city":"UIUC",
+      "arrest location":"900 block of S Oak, C",
+      "age":"20",
+      "agency":"CPD",
+      "charge":"MIP",
+      "report":"C14-1683",
+      "state":"IL",
+      "location":{
+        "lat":40.1078801,
+        "lng":-88.2415415
+      },
+      "time":"1114",
+      "date":"3/7/2014"
+    },
+    {
+      "school/city":"UIUC",
+      "arrest location":"Chalmers/Oak, C",
+      "age":"21",
+      "agency":"CPD",
+      "charge":"Public Possession",
+      "report":"C14-1683",
+      "state":"IL",
+      "location":{
+        "lat":40.10651,
+        "lng":-88.2415379
+      },
+      "time":"1157",
+      "date":"3/7/2014"
+    },
+    {
+      "school/city":"Clarendon Hills",
+      "arrest location":"Green/First, C",
+      "age":"22",
+      "agency":"CPD",
+      "charge":"Public Possession",
+      "report":"C14-1683",
+      "state":"IL",
+      "location":{
+        "lat":40.110217,
+        "lng":-88.2386949
+      },
+      "time":"1226",
+      "date":"3/7/2014"
+    },
+    {
+      "school/city":"UIUC",
+      "arrest location":"Locust/John, C",
+      "age":"22",
+      "agency":"CPD",
+      "charge":"Public Possession",
+      "report":"C14-1683",
+      "state":"IL",
+      "location":{
+        "lat":40.10899390000001,
+        "lng":-88.2403219
+      },
+      "time":"1620",
+      "date":"3/7/2014"
+    },
+    {
+      "school/city":"UIUC",
+      "arrest location":"00 block of E Daniel, C",
+      "age":"23",
+      "agency":"CPD",
+      "charge":"Adult Responsibility",
+      "report":"C14-1891",
+      "state":"IL",
+      "location":{
+        "lat":40.1078959,
+        "lng":-88.2421488
+      },
+      "time":"1130",
+      "date":"3/7/2014"
+    },
+    {
+      "school/city":"UIUC",
+      "arrest location":"00 block of E Daniel, C",
+      "age":"23",
+      "agency":"CPD",
+      "charge":"Adult Responsibility",
+      "report":"C14-1891",
+      "state":"IL",
+      "location":{
+        "lat":40.1078959,
+        "lng":-88.2421488
+      },
+      "time":"1130",
+      "date":"3/7/2014"
+    },
+    {
+      "school/city":"UIUC",
+      "arrest location":"1000 block of S Locust, C",
+      "age":"19",
+      "agency":"CPD",
+      "charge":"MIP",
+      "report":"C14-1904",
+      "state":"IL",
+      "location":{
+        "lat":40.1065085,
+        "lng":-88.240275
+      },
+      "time":"1423",
+      "date":"3/7/2014"
+    },
+    {
+      "school/city":"UIUC",
+      "arrest location":"1000 block of S Locust, C",
+      "age":"20",
+      "agency":"CPD",
+      "charge":"MIP",
+      "report":"C14-1904",
+      "state":"IL",
+      "location":{
+        "lat":40.1065085,
+        "lng":-88.240275
+      },
+      "time":"1428",
+      "date":"3/7/2014"
+    },
+    {
+      "school/city":"UIUC",
+      "arrest location":"1000 block of S Locust, C",
+      "age":"20",
+      "agency":"CPD",
+      "charge":"MIP",
+      "report":"C14-1904",
+      "state":"IL",
+      "location":{
+        "lat":40.1065085,
+        "lng":-88.240275
+      },
+      "time":"1430",
+      "date":"3/7/2014"
+    },
+    {
+      "school/city":"UIUC",
+      "arrest location":"1000 block of S Locust, C",
+      "age":"20",
+      "agency":"CPD",
+      "charge":"MIP",
+      "report":"C14-1904",
+      "state":"IL",
+      "location":{
+        "lat":40.1065085,
+        "lng":-88.240275
+      },
+      "time":"1423",
+      "date":"3/7/2014"
+    },
+    {
+      "school/city":"UIUC",
+      "arrest location":"600 block of S Third, C",
+      "age":"21",
+      "agency":"CPD",
+      "charge":"Public Possession",
+      "report":"C14-1682",
+      "state":"IL",
+      "location":{
+        "lat":40.1114507,
+        "lng":-88.23537309999999
+      },
+      "time":"1324",
+      "date":"3/7/2014"
+    },
+    {
+      "school/city":"Columbia College",
+      "arrest location":"600 block of S Third, C",
+      "age":"20",
+      "agency":"CPD",
+      "charge":"MIP",
+      "report":"C14-1682",
+      "state":"IL",
+      "location":{
+        "lat":40.1114507,
+        "lng":-88.23537309999999
+      },
+      "time":"1324",
+      "date":"3/7/2014"
+    },
+    {
+      "school/city":"Champaign",
+      "arrest location":"300 block of E Daniel, C",
+      "age":"27",
+      "agency":"CPD",
+      "charge":"Adult Responsibility",
+      "report":"C14-1903",
+      "state":"IL",
+      "location":{
+        "lat":40.1079549,
+        "lng":-88.23458339999999
+      },
+      "time":"1412",
+      "date":"3/7/2014"
+    },
+    {
+      "school/city":"UIUC",
+      "arrest location":"300 block of E Daniel, C",
+      "age":"20",
+      "agency":"CPD",
+      "charge":"MIP",
+      "report":"C14-1903",
+      "state":"IL",
+      "location":{
+        "lat":40.1079549,
+        "lng":-88.23458339999999
+      },
+      "time":"1412",
+      "date":"3/7/2014"
+    },
+    {
+      "school/city":"UIUC",
+      "arrest location":"300 block of E Daniel, C",
+      "age":"19",
+      "agency":"CPD",
+      "charge":"MIP",
+      "report":"C14-1903",
+      "state":"IL",
+      "location":{
+        "lat":40.1079549,
+        "lng":-88.23458339999999
+      },
+      "time":"1412",
+      "date":"3/7/2014"
+    },
+    {
+      "school/city":"UIUC",
+      "arrest location":"300 block of E Daniel, C",
+      "age":"18",
+      "agency":"CPD",
+      "charge":"MIP",
+      "report":"C14-1903",
+      "state":"IL",
+      "location":{
+        "lat":40.1079549,
+        "lng":-88.23458339999999
+      },
+      "time":"1412",
+      "date":"3/7/2014"
+    },
+    {
+      "school/city":"UIUC",
+      "arrest location":"300 block of E Daniel, C",
+      "age":"26",
+      "agency":"CPD",
+      "charge":"Adult Responsibility",
+      "report":"C14-1903",
+      "state":"IL",
+      "location":{
+        "lat":40.1079549,
+        "lng":-88.23458339999999
+      },
+      "time":"1412",
+      "date":"3/7/2014"
+    },
+    {
+      "school/city":"UIUC",
+      "arrest location":"300 block of E Daniel, C",
+      "age":"20",
+      "agency":"CPD",
+      "charge":"MIP",
+      "report":"C14-1903",
+      "state":"IL",
+      "location":{
+        "lat":40.1079549,
+        "lng":-88.23458339999999
+      },
+      "time":"1430",
+      "date":"3/7/2014"
+    },
+    {
+      "school/city":"Chicago",
+      "arrest location":"300 block of E Daniel, C",
+      "age":"19",
+      "agency":"CPD",
+      "charge":"MIP",
+      "report":"C14-1903",
+      "state":"IL",
+      "location":{
+        "lat":40.1079549,
+        "lng":-88.23458339999999
+      },
+      "time":"1425",
+      "date":"3/7/2014"
+    },
+    {
+      "school/city":"Chicago",
+      "arrest location":"300 block of E Daniel, C",
+      "age":"19",
+      "agency":"CPD",
+      "charge":"Unlawful Use of Identification",
+      "report":"C14-1903",
+      "state":"IL",
+      "location":{
+        "lat":40.1079549,
+        "lng":-88.23458339999999
+      },
+      "time":"1425",
+      "date":"3/7/2014"
+    },
+    {
+      "school/city":"UIUC",
+      "arrest location":"300 block of E Daniel, C",
+      "age":"20",
+      "agency":"CPD",
+      "charge":"MIP",
+      "report":"C14-1903",
+      "state":"IL",
+      "location":{
+        "lat":40.1079549,
+        "lng":-88.23458339999999
+      },
+      "time":"1425",
+      "date":"3/7/2014"
+    },
+    {
+      "school/city":"UIUC",
+      "arrest location":"300 block of E Daniel, C",
+      "age":"19",
+      "agency":"CPD",
+      "charge":"MIP",
+      "report":"C14-1903",
+      "state":"IL",
+      "location":{
+        "lat":40.1079549,
+        "lng":-88.23458339999999
+      },
+      "time":"1425",
+      "date":"3/7/2014"
+    },
+    {
+      "school/city":"UIUC",
+      "arrest location":"900 block of S Third, C",
+      "age":"18",
+      "agency":"CPD",
+      "charge":"MIP",
+      "report":"C14-1895",
+      "state":"IL",
+      "location":{
+        "lat":40.1079243,
+        "lng":-88.235345
+      },
+      "time":"1205",
+      "date":"3/7/2014"
+    },
+    {
+      "school/city":"Harper College",
+      "arrest location":"900 block of S Third, C",
+      "age":"19",
+      "agency":"CPD",
+      "charge":"MIP",
+      "report":"C14-1895",
+      "state":"IL",
+      "location":{
+        "lat":40.1079243,
+        "lng":-88.235345
+      },
+      "time":"1205",
+      "date":"3/7/2014"
+    },
+    {
+      "school/city":"College of Lake Co",
+      "arrest location":"300 block of E Chalmers, C",
+      "age":"19",
+      "agency":"CPD",
+      "charge":"MIP",
+      "report":"C14-1913",
+      "state":"IL",
+      "location":{
+        "lat":40.10657339999999,
+        "lng":-88.2353461
+      },
+      "time":"1715",
+      "date":"3/7/2014"
+    },
+    {
+      "school/city":"UIUC",
+      "arrest location":"300 block of E Chalmers, C",
+      "age":"19",
+      "agency":"CPD",
+      "charge":"MIP",
+      "report":"C14-1913",
+      "state":"IL",
+      "location":{
+        "lat":40.10657339999999,
+        "lng":-88.2353461
+      },
+      "time":"1715",
+      "date":"3/7/2014"
+    },
+    {
+      "school/city":"UIUC",
+      "arrest location":"300 block of E Chalmers, C",
+      "age":"20",
+      "agency":"CPD",
+      "charge":"Adult Responsibility",
+      "report":"C14-1913",
+      "state":"IL",
+      "location":{
+        "lat":40.10657339999999,
+        "lng":-88.2353461
+      },
+      "time":"1715",
+      "date":"3/7/2014"
+    },
+    {
+      "school/city":"UIUC",
+      "arrest location":"300 block of E Chalmers, C",
+      "age":"19",
+      "agency":"CPD",
+      "charge":"Adult Responsibility",
+      "report":"C14-1913",
+      "state":"IL",
+      "location":{
+        "lat":40.10657339999999,
+        "lng":-88.2353461
+      },
+      "time":"1710",
+      "date":"3/7/2014"
+    },
+    {
+      "school/city":"UIUC",
+      "arrest location":"300 block of E Chalmers, C",
+      "age":"18",
+      "agency":"CPD",
+      "charge":"MIP",
+      "report":"C14-1913",
+      "state":"IL",
+      "location":{
+        "lat":40.10657339999999,
+        "lng":-88.2353461
+      },
+      "time":"1710",
+      "date":"3/7/2014"
+    },
+    {
+      "school/city":"UIUC",
+      "arrest location":"300 block of E Chalmers, C",
+      "age":"20",
+      "agency":"CPD",
+      "charge":"MIP",
+      "report":"C14-1913",
+      "state":"IL",
+      "location":{
+        "lat":40.10657339999999,
+        "lng":-88.2353461
+      },
+      "time":"1710",
+      "date":"3/7/2014"
+    },
+    {
+      "school/city":"UIUC",
+      "arrest location":"300 block of E Chalmers, C",
+      "age":"20",
+      "agency":"CPD",
+      "charge":"MIP",
+      "report":"C14-1913",
+      "state":"IL",
+      "location":{
+        "lat":40.10657339999999,
+        "lng":-88.2353461
+      },
+      "time":"1710",
+      "date":"3/7/2014"
+    },
+    {
+      "school/city":"Hanover Park",
+      "arrest location":"300 block of E Chalmers, C",
+      "age":"19",
+      "agency":"CPD",
+      "charge":"MIP",
+      "report":"C14-1913",
+      "state":"IL",
+      "location":{
+        "lat":40.10657339999999,
+        "lng":-88.2353461
+      },
+      "time":"1710",
+      "date":"3/7/2014"
+    },
+    {
+      "school/city":"UIUC",
+      "arrest location":"300 block of E Chalmers, C",
+      "age":"19",
+      "agency":"CPD",
+      "charge":"MIP",
+      "report":"C14-1684",
+      "state":"IL",
+      "location":{
+        "lat":40.10657339999999,
+        "lng":-88.2353461
+      },
+      "time":"1655",
+      "date":"3/7/2014"
+    },
+    {
+      "school/city":"UIUC",
+      "arrest location":"300 block of E Chalmers, C",
+      "age":"19",
+      "agency":"CPD",
+      "charge":"MIP",
+      "report":"C14-1913",
+      "state":"IL",
+      "location":{
+        "lat":40.10657339999999,
+        "lng":-88.2353461
+      },
+      "time":"1741",
+      "date":"3/7/2014"
+    },
+    {
+      "school/city":"UIUC",
+      "arrest location":"300 block of E Chalmers, C",
+      "age":"20",
+      "agency":"CPD",
+      "charge":"MIP",
+      "report":"C14-1913",
+      "state":"IL",
+      "location":{
+        "lat":40.10657339999999,
+        "lng":-88.2353461
+      },
+      "time":"1700",
+      "date":"3/7/2014"
+    },
+    {
+      "school/city":"UIUC",
+      "arrest location":"Third/Chalmers, C",
+      "age":"20",
+      "agency":"CPD",
+      "charge":"Public Urination",
+      "report":"C14-1685",
+      "state":"IL",
+      "location":{
+        "lat":40.106559,
+        "lng":-88.2353529
+      },
+      "time":"1925",
+      "date":"3/7/2014"
+    },
+    {
+      "school/city":"UIUC",
+      "arrest location":"300 block of E Green, C",
+      "age":"20",
+      "agency":"CPD",
+      "charge":"MIP",
+      "report":"C14-1922",
+      "state":"IL",
+      "location":{
+        "lat":40.1102594,
+        "lng":-88.2353852
+      },
+      "time":"2120",
+      "date":"3/7/2014"
+    },
+    {
+      "school/city":"Richland CC",
+      "arrest location":"Fourth/John, C",
+      "age":"19",
+      "agency":"CPD",
+      "charge":"MIP",
+      "report":"C14-1685",
+      "state":"IL",
+      "location":{
+        "lat":40.1090499,
+        "lng":-88.23352
+      },
+      "time":"2100",
+      "date":"3/7/2014"
+    },
+    {
+      "school/city":"UIUC",
+      "arrest location":"100 block of E Daniel, C",
+      "age":"21",
+      "agency":"CPD",
+      "charge":"Public Possession",
+      "report":"C14-1685",
+      "state":"IL",
+      "location":{
+        "lat":40.1079215,
+        "lng":-88.23867539999999
+      },
+      "time":"1900",
+      "date":"3/7/2014"
+    },
+    {
+      "school/city":"Chicago",
+      "arrest location":"Second/Chalmers, C",
+      "age":"23",
+      "agency":"CPD",
+      "charge":"Carrying Open Liquor out of premise",
+      "report":"C14-1685",
+      "state":"IL",
+      "location":{
+        "lat":40.10654600000001,
+        "lng":-88.237011
+      },
+      "time":"1928",
+      "date":"3/7/2014"
+    },
+    {
+      "school/city":"St Rita HS",
+      "arrest location":"Third/Healey, C",
+      "age":"18",
+      "agency":"CPD",
+      "charge":"MIP",
+      "report":"C14-1684",
+      "state":"IL",
+      "location":{
+        "lat":40.1114559,
+        "lng":-88.2353919
+      },
+      "time":"2041",
+      "date":"3/7/2014"
+    },
+    {
+      "school/city":"St Rita HS",
+      "arrest location":"Third/Healey, C",
+      "age":"18",
+      "agency":"CPD",
+      "charge":"Unlawful Use of Identification",
+      "report":"C14-1684",
+      "state":"IL",
+      "location":{
+        "lat":40.1114559,
+        "lng":-88.2353919
+      },
+      "time":"2041",
+      "date":"3/7/2014"
+    },
+    {
+      "school/city":"St Rita HS",
+      "arrest location":"Third/Healey, C",
+      "age":"18",
+      "agency":"CPD",
+      "charge":"Public Possession",
+      "report":"C14-1684",
+      "state":"IL",
+      "location":{
+        "lat":40.1114559,
+        "lng":-88.2353919
+      },
+      "time":"2041",
+      "date":"3/7/2014"
+    },
+    {
+      "school/city":"UIC",
+      "arrest location":"200 block of E Green, C",
+      "age":"24",
+      "agency":"CPD",
+      "charge":"Public Possession",
+      "report":"C14-1683",
+      "state":"IL",
+      "location":{
+        "lat":40.1109099,
+        "lng":-88.245954
+      },
+      "time":"2100",
+      "date":"3/7/2014"
+    },
+    {
+      "school/city":"UIC",
+      "arrest location":"Fourth/Chalmers, C",
+      "age":"18",
+      "agency":"CPD",
+      "charge":"MIP",
+      "report":"C14-1684",
+      "state":"IL",
+      "location":{
+        "lat":40.106815,
+        "lng":-88.233475
+      },
+      "time":"1847",
+      "date":"3/7/2014"
+    },
+    {
+      "school/city":"UIC",
+      "arrest location":"Fourth/Chalmers, C",
+      "age":"18",
+      "agency":"CPD",
+      "charge":"Public Possession",
+      "report":"C14-1684",
+      "state":"IL",
+      "location":{
+        "lat":40.106815,
+        "lng":-88.233475
+      },
+      "time":"1847",
+      "date":"3/7/2014"
+    },
+    {
+      "school/city":"Parkland College",
+      "arrest location":"Third/Chalmers, C",
+      "age":"19",
+      "agency":"CPD",
+      "charge":"MIP",
+      "report":"C14-1684",
+      "state":"IL",
+      "location":{
+        "lat":40.106559,
+        "lng":-88.2353529
+      },
+      "time":"2034",
+      "date":"3/7/2014"
+    },
+    {
+      "school/city":"Grand Valley St",
+      "arrest location":"First/Chalmers, C",
+      "age":"21",
+      "agency":"CPD",
+      "charge":"Public Possession",
+      "report":"C14-1684",
+      "state":"MI",
+      "location":{
+        "lat":40.106532,
+        "lng":-88.23868399999999
+      },
+      "time":"2053",
+      "date":"3/7/2014"
+    },
+    {
+      "school/city":"UIUC",
+      "arrest location":"First/Daniel, C",
+      "age":"19",
+      "agency":"CPD",
+      "charge":"MIP",
+      "report":"C14-1684",
+      "state":"IL",
+      "location":{
+        "lat":40.107907,
+        "lng":-88.23869189999999
+      },
+      "time":"2119",
+      "date":"3/7/2014"
+    },
+    {
+      "school/city":"UIUC",
+      "arrest location":"Armory/Euclid, C",
+      "age":"20",
+      "agency":"CPD",
+      "charge":"MIP",
+      "report":"C14-1684",
+      "state":"IL",
+      "location":{
+        "lat":40.1054059,
+        "lng":-88.234499
+      },
+      "time":"1701",
+      "date":"3/7/2014"
+    },
+    {
+      "school/city":"UIUC",
+      "arrest location":"Locust/Chalmers, C",
+      "age":"20",
+      "agency":"CPD",
+      "charge":"MIP",
+      "report":"C14-1684",
+      "state":"IL",
+      "location":{
+        "lat":40.1065199,
+        "lng":-88.2402939
+      },
+      "time":"1625",
+      "date":"3/7/2014"
+    },
+    {
+      "school/city":"UIUC",
+      "arrest location":"900 block of S Oak, C",
+      "age":"20",
+      "agency":"CPD",
+      "charge":"MIP",
+      "report":"C14-1918",
+      "state":"IL",
+      "location":{
+        "lat":40.1078801,
+        "lng":-88.2415415
+      },
+      "time":"1941",
+      "date":"3/7/2014"
+    },
+    {
+      "school/city":"UIUC",
+      "arrest location":"900 block of S Oak, C",
+      "age":"20",
+      "agency":"CPD",
+      "charge":"Damaging Property",
+      "report":"C14-1918",
+      "state":"IL",
+      "location":{
+        "lat":40.1078801,
+        "lng":-88.2415415
+      },
+      "time":"1941",
+      "date":"3/7/2014"
+    },
+    {
+      "school/city":"UIUC",
+      "arrest location":"500 block of S Fourth, C",
+      "age":"21",
+      "agency":"CPD",
+      "charge":"Carrying Open Liquor out of premise",
+      "report":"C14-1684",
+      "state":"IL",
+      "location":{
+        "lat":40.1126762,
+        "lng":-88.2335732
+      },
+      "time":"1830",
+      "date":"3/7/2014"
+    },
+    {
+      "school/city":"UIUC",
+      "arrest location":"Locust/Daniel, C",
+      "age":"23",
+      "agency":"CPD",
+      "charge":"Public Possession",
+      "report":"C14-1685",
+      "state":"IL",
+      "location":{
+        "lat":40.107894,
+        "lng":-88.240312
+      },
+      "time":"2140",
+      "date":"3/7/2014"
+    },
+    {
+      "school/city":"Kankakee CC",
+      "arrest location":"100 block of E Green, C",
+      "age":"21",
+      "agency":"CPD",
+      "charge":"Public Possession",
+      "report":"C14-1684",
+      "state":"IL",
+      "location":{
+        "lat":40.1102315,
+        "lng":-88.2386786
+      },
+      "time":"1645",
+      "date":"3/7/2014"
+    },
+    {
+      "school/city":"Normal",
+      "arrest location":"800 block of S Third, C",
+      "age":"21",
+      "agency":"CPD",
+      "charge":"Public Possession",
+      "report":"C14-1682",
+      "state":"IL",
+      "location":{
+        "lat":40.1090307,
+        "lng":-88.23535419999999
+      },
+      "time":"1705",
+      "date":"3/7/2014"
+    },
+    {
+      "school/city":"Normal",
+      "arrest location":"800 block of S Third, C",
+      "age":"21",
+      "agency":"CPD",
+      "charge":"Litter on Public Ways",
+      "report":"C14-1682",
+      "state":"IL",
+      "location":{
+        "lat":40.1090307,
+        "lng":-88.23535419999999
+      },
+      "time":"1705",
+      "date":"3/7/2014"
+    },
+    {
+      "school/city":"UIUC",
+      "arrest location":"900 block of S First, C",
+      "age":"22",
+      "agency":"CPD",
+      "charge":"Public Possession",
+      "report":"C14-1682",
+      "state":"IL",
+      "location":{
+        "lat":40.1078933,
+        "lng":-88.23867299999999
+      },
+      "time":"1440",
+      "date":"3/7/2014"
+    },
+    {
+      "school/city":"Ames",
+      "arrest location":"Locust/John, C",
+      "age":"19",
+      "agency":"CPD",
+      "charge":"MIP",
+      "report":"C14-1682",
+      "state":"IA",
+      "location":{
+        "lat":40.10899390000001,
+        "lng":-88.2403219
+      },
+      "time":"1942",
+      "date":"3/7/2014"
+    },
+    {
+      "school/city":"Ames",
+      "arrest location":"Locust/John, C",
+      "age":"19",
+      "agency":"CPD",
+      "charge":"Public Possession",
+      "report":"C14-1682",
+      "state":"IA",
+      "location":{
+        "lat":40.10899390000001,
+        "lng":-88.2403219
+      },
+      "time":"1942",
+      "date":"3/7/2014"
+    },
+    {
+      "school/city":"Champaign",
+      "arrest location":"Daniel/Second, C",
+      "age":"21",
+      "agency":"CPD",
+      "charge":"Public Possession",
+      "report":"C14-1682",
+      "state":"IL",
+      "location":{
+        "lat":40.107923,
+        "lng":-88.23702
+      },
+      "time":"1415",
+      "date":"3/7/2014"
+    },
+    {
+      "school/city":"UIUC",
+      "arrest location":"600 block of E Green, C",
+      "age":"20",
+      "agency":"CPD",
+      "charge":"MIP",
+      "report":"C14-1682",
+      "state":"IL",
+      "location":{
+        "lat":40.1108506,
+        "lng":-88.2013649
+      },
+      "time":"1300",
+      "date":"3/7/2014"
+    },
+    {
+      "school/city":"Champaign",
+      "arrest location":"Wright/Green, C",
+      "age":"21",
+      "agency":"CPD",
+      "charge":"Public Possession",
+      "report":"C14-1682",
+      "state":"IL",
+      "location":{
+        "lat":40.11030239999999,
+        "lng":-88.2288748
+      },
+      "time":"1330",
+      "date":"3/7/2014"
+    },
+    {
+      "school/city":"UIUC",
+      "arrest location":"Fourth/Chalmers, C",
+      "age":"22",
+      "agency":"CPD",
+      "charge":"Litter on Public Ways",
+      "report":"C14-1682",
+      "state":"IL",
+      "location":{
+        "lat":40.106815,
+        "lng":-88.233475
+      },
+      "time":"1312",
+      "date":"3/7/2014"
+    },
+    {
+      "school/city":"Bradley",
+      "arrest location":"First/Daniel, C",
+      "age":"22",
+      "agency":"CPD",
+      "charge":"Public Possession",
+      "report":"C14-1685",
+      "state":"IL",
+      "location":{
+        "lat":40.107907,
+        "lng":-88.23869189999999
+      },
+      "time":"2110",
+      "date":"3/7/2014"
+    },
+    {
+      "school/city":"Peoria",
+      "arrest location":"First/Daniel, C",
+      "age":"23",
+      "agency":"CPD",
+      "charge":"Public Possession",
+      "report":"C14-1685",
+      "state":"IL",
+      "location":{
+        "lat":40.107907,
+        "lng":-88.23869189999999
+      },
+      "time":"2115",
+      "date":"3/7/2014"
+    },
+    {
+      "school/city":"St Anne",
+      "arrest location":"Springfield/Neil, C",
+      "age":"20",
+      "agency":"CPD",
+      "charge":"MIP",
+      "report":"C14-1685",
+      "state":"IL",
+      "location":{
+        "lat":40.1125701,
+        "lng":-88.2434931
+      },
+      "time":"2145",
+      "date":"3/7/2014"
+    },
+    {
+      "school/city":"UIUC",
+      "arrest location":"300 block of E Chalmers, C",
+      "age":"22",
+      "agency":"CPD",
+      "charge":"Resisting/Obstructing Officer",
+      "report":"C14-1913",
+      "state":"IL",
+      "location":{
+        "lat":40.10657339999999,
+        "lng":-88.2353461
+      },
+      "time":"1700",
+      "date":"3/7/2014"
+    },
+    {
+      "school/city":"UIUC",
+      "arrest location":"Chalmers/Oak, C",
+      "age":"21",
+      "agency":"CPD",
+      "charge":"Public Possession",
+      "report":"C14-1682",
+      "state":"IL",
+      "location":{
+        "lat":40.10651,
+        "lng":-88.2415379
+      },
+      "time":"1020",
+      "date":"3/7/2014"
+    },
+    {
+      "school/city":"UIUC",
+      "arrest location":"Chalmers/Oak, C",
+      "age":"22",
+      "agency":"CPD",
+      "charge":"Public Possession",
+      "report":"C14-1682",
+      "state":"IL",
+      "location":{
+        "lat":40.10651,
+        "lng":-88.2415379
+      },
+      "time":"1020",
+      "date":"3/7/2014"
+    },
+    {
+      "school/city":"UIUC",
+      "arrest location":"Chalmers/Locust, C",
+      "age":"22",
+      "agency":"CPD",
+      "charge":"Public Possession",
+      "report":"C14-1682",
+      "state":"IL",
+      "location":{
+        "lat":40.1065199,
+        "lng":-88.2402939
+      },
+      "time":"1105",
+      "date":"3/7/2014"
+    },
+    {
+      "school/city":"Savoy",
+      "arrest location":"200 block of W Clark, C",
+      "age":"19",
+      "agency":"CPD",
+      "charge":"MIP",
+      "report":"C14-1932",
+      "state":"IL",
+      "location":{
+        "lat":40.1153342,
+        "lng":-88.2451755
+      },
+      "time":"2031",
+      "date":"3/8/2014"
+    },
+    {
+      "school/city":"Savannah Tech",
+      "arrest location":"300 block of E Green, C",
+      "age":"20",
+      "agency":"CPD",
+      "charge":"MIP",
+      "report":"C14-1684",
+      "state":"GA",
+      "location":{
+        "lat":40.1102594,
+        "lng":-88.2353852
+      },
+      "time":"2347",
+      "date":"3/7/2014"
+    },
+    {
+      "school/city":"Champaign",
+      "arrest location":"2200 block of W John, C",
+      "age":"41",
+      "agency":"CPD",
+      "charge":"Sale/Delivery of Alcohol to Minors",
+      "report":"C14-1682",
+      "state":"IL",
+      "location":{
+        "lat":40.1089744,
+        "lng":-88.2660863
+      },
+      "time":"1115",
+      "date":"3/7/2014"
+    },
+    {
+      "school/city":"UIUC",
+      "arrest location":"00 block of E John, C",
+      "age":"22",
+      "agency":"UIPD",
+      "charge":"Public Possession",
+      "report":"I14-426",
+      "state":"IL",
+      "location":{
+        "lat":40.1089993,
+        "lng":-88.2415869
+      },
+      "time":"1005",
+      "date":"3/7/2014"
+    },
+    {
+      "school/city":"Chicago",
+      "arrest location":"John/Daniel, C",
+      "age":"23",
+      "agency":"UIPD",
+      "charge":"Public Possession",
+      "report":"I14-427",
+      "state":"IL",
+      "location":{
+        "lat":40.1105875,
+        "lng":-88.2072697
+      },
+      "time":"1114",
+      "date":"3/7/2014"
+    },
+    {
+      "school/city":"UIUC",
+      "arrest location":"00 block of E John, C",
+      "age":"22",
+      "agency":"UIPD",
+      "charge":"Public Possession",
+      "report":"I14-433",
+      "state":"IL",
+      "location":{
+        "lat":40.1089993,
+        "lng":-88.2415869
+      },
+      "time":"1519",
+      "date":"3/7/2014"
+    },
+    {
+      "school/city":"UIUC",
+      "arrest location":"800 block of W Illinois, U",
+      "age":"20",
+      "agency":"UPD",
+      "charge":"MIP",
+      "report":"U14-1208",
+      "state":"IL",
+      "location":{
+        "lat":40.1091142,
+        "lng":-88.21773569999999
+      },
+      "time":"1358",
+      "date":"3/7/2014"
+    },
+    {
+      "school/city":"Parkland College",
+      "arrest location":"800 block of W Iowa, U",
+      "age":"18",
+      "agency":"UPD",
+      "charge":"MIP",
+      "report":"U14-1209",
+      "state":"IL",
+      "location":{
+        "lat":40.1046221,
+        "lng":-88.21766769999999
+      },
+      "time":"2015",
+      "date":"3/7/2014"
+    },
+    {
+      "school/city":"UIUC",
+      "arrest location":"800 block of W Iowa, U",
+      "age":"19",
+      "agency":"UPD",
+      "charge":"MIP",
+      "report":"U14-1209",
+      "state":"IL",
+      "location":{
+        "lat":40.1046221,
+        "lng":-88.21766769999999
+      },
+      "time":"2015",
+      "date":"3/7/2014"
+    },
+    {
+      "school/city":"UIUC",
+      "arrest location":"800 block of W Iowa, U",
+      "age":"19",
+      "agency":"UPD",
+      "charge":"Public Urination",
+      "report":"U14-1209",
+      "state":"IL",
+      "location":{
+        "lat":40.1046221,
+        "lng":-88.21766769999999
+      },
+      "time":"2015",
+      "date":"3/7/2014"
+    },
+    {
+      "school/city":"Parkland College",
+      "arrest location":"800 block of W Oregon, U",
+      "age":"19",
+      "agency":"UPD",
+      "charge":"MIP",
+      "report":"U14-1209",
+      "state":"IL",
+      "location":{
+        "lat":40.1074588,
+        "lng":-88.2176952
+      },
+      "time":"2108",
+      "date":"3/7/2014"
+    },
+    {
+      "school/city":"Old Miss",
+      "arrest location":"800 block of W Oregon, U",
+      "age":"19",
+      "agency":"UPD",
+      "charge":"MIP",
+      "report":"U14-1209",
+      "state":"MI",
+      "location":{
+        "lat":40.1074588,
+        "lng":-88.2176952
+      },
+      "time":"2100",
+      "date":"3/7/2014"
+    }
+  ]
+}
